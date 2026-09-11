@@ -14,7 +14,7 @@ function wire(){
   const detailImage=document.querySelector('.bottle img');
   const candidates=[];
   if(detailImage){const s=detailImage.currentSrc||detailImage.getAttribute('src');if(s)candidates.push(s)}
-  ['jpeg','jpg','png','webp'].forEach(ext=>candidates.push('Weinbilder/'+id+'.'+ext));
+  ['jpeg','jpg','png','webp'].forEach(ext=>candidates.push('Weinbilder/'+encodeURIComponent(id)+'.'+ext));
   let i=0;
   const tryNext=()=>{
     if(preview.dataset.userPhoto==='1')return;
@@ -38,4 +38,47 @@ if(!wire()){
   observer.observe(document.body,{childList:true,subtree:true});
   setTimeout(()=>observer.disconnect(),10000);
 }
+})();
+
+/* WINEFUNDAY_GLOBAL_WINE_IMAGE_FALLBACK_V1 — protected global bottle image resolver */
+(()=>{'use strict';
+const EXT=['jpeg','jpg','png','webp'];
+function idForImage(img){
+  const card=img.closest('.card');
+  if(card){
+    try{return new URL(card.getAttribute('href')||'',location.href).searchParams.get('id')||''}catch(e){}
+  }
+  if(img.closest('.bottle'))return new URLSearchParams(location.search).get('id')||'';
+  return '';
+}
+function wireImage(img){
+  if(!img||img.dataset.wfGlobalImage==='1')return;
+  const id=idForImage(img);if(!id)return;
+  img.dataset.wfGlobalImage='1';
+  const box=img.parentElement;
+  const original=(img.getAttribute('src')||'').trim();
+  const candidates=[];
+  if(original&&original!==location.href)candidates.push(original);
+  EXT.forEach(ext=>candidates.push('Weinbilder/'+encodeURIComponent(id)+'.'+ext));
+  const unique=[...new Set(candidates)];
+  let i=0;
+  const next=()=>{
+    if(i>=unique.length){
+      img.onerror=null;
+      img.style.display='none';
+      if(box)box.classList.add('missing');
+      return;
+    }
+    if(box)box.classList.remove('missing');
+    img.style.display='block';
+    img.src=unique[i++];
+  };
+  img.onerror=next;
+  if(!original){next();return;}
+  if(img.complete&&img.naturalWidth===0)next();
+}
+function scan(root=document){root.querySelectorAll('.pic img,.bottle img').forEach(wireImage)}
+scan();
+const observer=new MutationObserver(mutations=>{for(const m of mutations){for(const n of m.addedNodes){if(n.nodeType!==1)continue;if(n.matches&&n.matches('.pic img,.bottle img'))wireImage(n);if(n.querySelectorAll)scan(n)}}});
+observer.observe(document.body,{childList:true,subtree:true});
 })();
