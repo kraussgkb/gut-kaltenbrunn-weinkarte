@@ -37,4 +37,4 @@ if(!enhance()){const observer=new MutationObserver(()=>{if(enhance())observer.di
 })();
 /* WF_INSIGHT_SINGLE_SOURCE_V1 */
 /* WINEFUNDAY_CARD_ALIGNMENT_V1 — keeps producer, flag, divider, vintage and price aligned at card bottom */
-(()=>{if(document.getElementById('winefunday-card-alignment'))return;const s=document.createElement('style');s.id='winefunday-card-alignment';s.textContent='.card .txt{display:flex!important;flex-direction:column!important;min-width:0}.card .producer-line{margin-top:auto!important;flex:0 0 auto}.card .quick{flex:0 0 auto;width:100%}';document.head.appendChild(s)})();
+(()=>{if(document.getElementById('winefunday-card-alignment'))return;const s=document.createElement('style');s.id='winefunday-card-alignment';s.textContent='.card .txt{display:grid!important;grid-template-rows:auto 38px 18px auto!important;align-content:start!important;min-width:0}.card .tag{align-self:start}.card h2{margin:4px 0!important;height:38px!important;min-height:38px!important}.card .producer-line{margin:0!important;min-height:18px!important}.card .quick{width:100%;margin-top:6px!important;padding-top:7px!important}';document.head.appendChild(s)})();
