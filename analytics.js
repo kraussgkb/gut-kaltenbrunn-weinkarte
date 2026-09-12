@@ -100,3 +100,39 @@ s.id='winefunday-social-sharpness-fix';
 s.textContent='.winefunday-social-preview{background:#fff!important}.winefunday-social-preview img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;background:#fff!important;padding:8px!important;image-rendering:auto!important;filter:none!important}.winefunday-social-polaroid{transform:rotate(.8deg)!important}';
 document.head.appendChild(s);
 })();
+
+/* WINEFUNDAY_TYPOGRAPHY_POLISH_V1 — isolated, reversible visual polish only */
+(()=>{'use strict';
+const s=document.createElement('style');
+s.id='winefunday-typography-polish-v1';
+s.textContent=`
+body{font-size:16px;line-height:1.48}
+.card h2{font-size:26px;line-height:1.14;letter-spacing:-.01em;margin:14px 0 10px}
+.producer{font-size:14.5px;line-height:1.3}
+.quick span{font-size:13px}
+.quick strong{font-size:19px;line-height:1.15}
+.content h1{font-size:clamp(36px,4vw,50px);line-height:1.04;letter-spacing:-.012em}
+.lead{font-size:16px;line-height:1.5}
+.sections{font-size:15.5px}
+.sections section{line-height:1.62}
+.sections h3{font-size:20px;line-height:1.25;margin-bottom:9px}
+.estate-story p{font-size:14px;line-height:1.58}
+.profile-item small{font-size:10px;line-height:1.25}
+.profile-item b{font-size:13.5px;line-height:1.45}
+.fact{line-height:1.35}
+.fact small{font-size:10.5px;line-height:1.25}
+.rating-meta,.rating-help,.rating-message{font-size:12.5px;line-height:1.4}
+@media(max-width:580px){
+  .card h2{font-size:20px;line-height:1.12;margin:8px 0 7px}
+  .producer{font-size:13.5px}
+  .quick span{font-size:12px}
+  .quick strong{font-size:17px}
+  .content h1{font-size:clamp(32px,10vw,42px);line-height:1.02}
+  .lead{font-size:15.5px}
+  .sections{font-size:15px}
+  .sections h3{font-size:19px}
+  .profile-item b{font-size:13px}
+}
+`;
+document.head.appendChild(s);
+})();
