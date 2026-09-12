@@ -1,39 +1,64 @@
 (()=>{const U='https://ohyrmkopbjgevgzucila.supabase.co',K='sb_publishable_5ZDgYMpPlhXaJVoMr3b-eg_bFFRh3sA',H={apikey:K,Authorization:'Bearer '+K,'Content-Type':'application/json',Prefer:'return=minimal'},S='wine_session_id';let sid=sessionStorage.getItem(S);if(!sid){sid=(crypto.randomUUID?crypto.randomUUID():Date.now()+'-'+Math.random().toString(36).slice(2));sessionStorage.setItem(S,sid)}const clean=(v,n=160)=>String(v??'').trim().slice(0,n),send=(event_type,p={})=>fetch(U+'/rest/v1/page_events',{method:'POST',headers:H,keepalive:true,body:JSON.stringify({session_id:sid,event_type,page_path:location.pathname+location.search,...p})}).catch(()=>{});document.addEventListener('DOMContentLoaded',()=>{const id=new URLSearchParams(location.search).get('id');send('page_view',{wine_id:id||null});if(id)send('wine_open',{wine_id:clean(id,60)});let timer;document.addEventListener('input',e=>{if(e.target.id!=='q')return;clearTimeout(timer);timer=setTimeout(()=>{const v=clean(e.target.value);if(v.length>1)send('search',{search_term:v})},900)});document.addEventListener('change',e=>{if(!['category','country','region','producer','grapes'].includes(e.target.id))return;const v=clean(e.target.value);if(v)send('filter',{filter_name:e.target.id,filter_value:v})});document.addEventListener('click',e=>{const b=e.target.closest('[data-group],[data-pick]');if(!b)return;const n=b.dataset.group!==undefined?'category':'recommendation',v=clean(b.dataset.group??b.dataset.pick);if(v)send('filter',{filter_name:n,filter_value:v})})});const style=document.createElement('style');style.textContent='@media(max-width:580px){.card{grid-template-columns:112px 1fr!important}.card .pic{height:140px!important;margin:5px!important;padding:4px!important}.card .pic img{width:100%!important;max-width:100%!important;height:100%!important;max-height:132px!important;object-fit:contain!important}.card .txt{padding-left:14px!important}}';document.head.appendChild(style)})();
 
-/* WINEFUNDAY_REQUEST_STORM_FIX_V1 — protected; exact image manifest avoids 404 probing */
+/* WINEFUNDAY_REQUEST_STORM_FIX_V1 — protected; exact manifest + DOM resolver, no extension probing */
 (()=>{'use strict';
 const IMAGE_MANIFEST={
-'CH801-0-NV':'Weinbilder/CH801-0-NV.jpg','CH801-1-NV':'Weinbilder/CH801-1-NV.jpg','CH801-2-NV':'Weinbilder/CH801-2-NV.jpg','CH801-3-NV':'Weinbilder/CH801-3-NV.jpg','CH801-4-NV':'Weinbilder/CH801-4-NV.jpg','CH802-1-NV':'Weinbilder/CH802-1-NV.jpg','CH803-1-NV':'Weinbilder/CH803-1-NV.png','CH805-1-NV':'Weinbilder/CH805-1-NV.jpg','CH805-2-NV':'Weinbilder/CH805-2-NV.jpg','CH805-3-NV':'Weinbilder/CH805-3-NV.jpg','RI132-1-22':'Weinbilder/RI132-1-22.jpeg','WÖ401-1-22':'Weinbilder/W%C3%96401-1-22.png'};
+'CH801-0-NV':'Weinbilder/CH801-0-NV.jpg',
+'CH801-1-NV':'Weinbilder/CH801-1-NV.jpg',
+'CH801-2-NV':'Weinbilder/CH801-2-NV.jpg',
+'CH801-3-NV':'Weinbilder/CH801-3-NV.jpg',
+'CH801-4-NV':'Weinbilder/CH801-4-NV.jpg',
+'CH802-1-NV':'Weinbilder/CH802-1-NV.jpg',
+'CH803-1-NV':'Weinbilder/CH803-1-NV.png',
+'CH805-1-NV':'Weinbilder/CH805-1-NV.jpg',
+'CH805-2-NV':'Weinbilder/CH805-2-NV.jpg',
+'CH805-3-NV':'Weinbilder/CH805-3-NV.jpg',
+'RI132-1-22':'Weinbilder/RI132-1-22.jpeg',
+'WÖ401-1-22':'Weinbilder/W%C3%96401-1-22.png'
+};
 const preferredSrc=w=>{const explicit=String((w&&w.image)||'').trim();if(explicit)return explicit;return IMAGE_MANIFEST[String((w&&w.id)||'')]||''};
 function protectRenderers(){
   if(typeof window.card==='function'&&!window.card.__wfRequestFix){
     const originalCard=window.card;
     const wrapped=function(w){
-      let html=originalCard(w);
+      const html=originalCard(w),src=preferredSrc(w);
       if(String((w&&w.image)||'').trim())return html;
-      const src=preferredSrc(w);
       if(!src)return html.replace(/<div class="pic"><img src=""[^>]*><\/div>/,'<div class="pic missing"></div>');
       return html.replace(/<div class="pic"><img src=""[^>]*><\/div>/,'<div class="pic"><img src="'+src+'" alt="" loading="lazy" onerror="this.onerror=null;this.style.display=\'none\';this.parentElement.classList.add(\'missing\')"></div>');
     };
-    wrapped.__wfRequestFix=true;
-    window.card=wrapped;
+    wrapped.__wfRequestFix=true;window.card=wrapped;
   }
   if(typeof window.detail==='function'&&!window.detail.__wfRequestFix){
     const originalDetail=window.detail;
     const wrapped=function(w){
-      let html=originalDetail(w);
+      const html=originalDetail(w),src=preferredSrc(w);
       if(String((w&&w.image)||'').trim())return html;
-      const src=preferredSrc(w);
       if(!src)return html.replace(/<div class="bottle"><img src=""[^>]*><\/div>/,'<div class="bottle missing"></div>');
       return html.replace(/<div class="bottle"><img src=""[^>]*><\/div>/,'<div class="bottle"><img src="'+src+'" alt="Flaschenbild zum aktuellen Wein" onerror="this.onerror=null;this.style.display=\'none\';this.parentElement.classList.add(\'missing\')"></div>');
     };
-    wrapped.__wfRequestFix=true;
-    window.detail=wrapped;
+    wrapped.__wfRequestFix=true;window.detail=wrapped;
   }
 }
-protectRenderers();
-const timer=setInterval(()=>{protectRenderers();if(document.getElementById('app')&&document.getElementById('app').children.length)clearInterval(timer)},25);
+function setExactImage(box,id,alt){
+  const src=IMAGE_MANIFEST[id];if(!box)return;
+  let img=box.querySelector('img');
+  if(!src){if(img&&!img.getAttribute('src'))img.remove();if(!box.querySelector('img'))box.classList.add('missing');return}
+  box.classList.remove('missing');
+  if(!img){img=document.createElement('img');box.appendChild(img)}
+  img.style.display='';img.alt=alt||'';img.loading='lazy';
+  img.onerror=function(){this.onerror=null;this.style.display='none';box.classList.add('missing')};
+  const target=new URL(src,location.href).href;
+  if(img.src!==target)img.src=src;
+}
+function resolveRenderedImages(root=document){
+  root.querySelectorAll('.card').forEach(card=>{try{const href=card.getAttribute('href')||'',u=new URL(href,location.href),id=u.searchParams.get('id');if(id)setExactImage(card.querySelector('.pic'),id,'')}catch(e){}});
+  const detailId=new URLSearchParams(location.search).get('id');if(detailId)setExactImage(root.querySelector('.detail .bottle'),detailId,'Flaschenbild zum aktuellen Wein');
+}
+protectRenderers();resolveRenderedImages();
+const timer=setInterval(()=>{protectRenderers();resolveRenderedImages();if(document.getElementById('app')&&document.getElementById('app').children.length)clearInterval(timer)},25);
 setTimeout(()=>clearInterval(timer),3000);
+const observer=new MutationObserver(m=>{if(m.some(x=>x.addedNodes&&x.addedNodes.length))resolveRenderedImages()});
+observer.observe(document.documentElement,{childList:true,subtree:true});
 })();
 
 /* WINEFUNDAY_SOCIAL_IMAGE_FIX_V1 — protected helper; reuses the already loaded detail bottle and never probes multiple extensions */
