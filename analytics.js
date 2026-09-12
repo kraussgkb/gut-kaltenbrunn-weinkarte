@@ -103,3 +103,11 @@ s.id='winefunday-social-frame-fix';
 s.textContent='\n.winefunday-social-block{margin:38px 8px 14px!important;padding:34px 30px 26px!important;border:1px solid #d8d0c2!important;border-radius:18px!important;background:#fbf7ef!important;box-shadow:0 10px 28px rgba(38,51,47,.06)!important;overflow:visible!important}\n.winefunday-social-layout{gap:34px!important}\n.winefunday-social-polaroid{margin:6px 8px 8px!important}\n.winefunday-social-actions{margin-top:32px!important}\n@media(max-width:620px){.winefunday-social-block{margin:32px 6px 14px!important;padding:28px 20px 22px!important;border-radius:16px!important}.winefunday-social-layout{gap:28px!important}.winefunday-social-polaroid{width:min(205px,68vw)!important;margin:4px auto 10px!important}.winefunday-social-actions{margin-top:28px!important;gap:12px!important}.winefunday-social-closing{margin-top:22px!important}.winefunday-social-privacy{margin-top:8px!important;padding:0 4px!important}}\n';
 document.head.appendChild(s);
 })();
+
+/* WINEFUNDAY_SOCIAL_SHARPNESS_FIX_V1 — protected; preserves original bottle proportions and reduces transform blur */
+(()=>{'use strict';
+const s=document.createElement('style');
+s.id='winefunday-social-sharpness-fix';
+s.textContent='.winefunday-social-preview{background:#fff!important}.winefunday-social-preview img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;background:#fff!important;padding:8px!important;image-rendering:auto!important;filter:none!important}.winefunday-social-polaroid{transform:rotate(.8deg)!important}';
+document.head.appendChild(s);
+})();
