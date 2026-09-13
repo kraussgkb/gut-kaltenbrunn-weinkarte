@@ -136,3 +136,36 @@ body{font-size:16px;line-height:1.48}
 `;
 document.head.appendChild(s);
 })();
+
+/* WINEFUNDAY_LAYOUT_POLISH_V2 — isolated, reversible alignment polish only */
+(()=>{'use strict';
+const s=document.createElement('style');
+s.id='winefunday-layout-polish-v2';
+s.textContent=`
+.search{font-size:16px;line-height:1.35}
+.selects select{font-size:14px;line-height:1.25}
+.tag{font-size:10px;line-height:1;letter-spacing:.13em}
+.resultbar b{font-size:14px;line-height:1.35}
+.reset{font-size:12.5px;line-height:1.3}
+.back{font-size:14px;line-height:1.35;text-underline-offset:3px}
+.core{line-height:1.35}
+.core strong{font-size:21px;line-height:1.15}
+.fact{padding:11px 12px}
+.profile-box{padding:20px}
+.tasting-note{padding:20px!important}
+@media(max-width:580px){
+  .detail{padding-top:28px}
+  .back{margin-bottom:18px}
+  .bottle{margin-left:22px!important;margin-right:22px!important}
+  .content{padding-left:22px!important;padding-right:22px!important}
+  .sections{padding-left:22px!important;padding-right:22px!important}
+  .sections section{padding-top:18px;padding-bottom:18px}
+  .facts{gap:8px}
+  .profile-box{padding:18px}
+  .tasting-note{padding:18px!important}
+  .filter-card{padding:14px}
+  .resultbar{padding-top:21px}
+}
+`;
+document.head.appendChild(s);
+})();
