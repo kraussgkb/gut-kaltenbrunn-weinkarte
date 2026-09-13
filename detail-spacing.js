@@ -1,4 +1,4 @@
-/* WINEFUNDAY_DETAIL_SPACING_V1 — spacing/width only; no typography, colors or content changes */
+/* WINEFUNDAY_DETAIL_SPACING_V2 — spacing/width plus compact mobile Insights CTA */
 (()=>{'use strict';
 const s=document.createElement('style');
 s.id='winefunday-detail-spacing-v1';
@@ -61,6 +61,20 @@ s.textContent=`
   }
   .detail .sections .tasting-note{
     margin-bottom:22px!important;
+  }
+
+  /* Compact Insights button: keep label on one line */
+  .detail .wf-cta{
+    min-height:0!important;
+    padding-top:15px!important;
+    padding-bottom:15px!important;
+  }
+  .detail .wf-cta-title,
+  .detail .wf-cta strong,
+  .detail .wf-cta b{
+    font-size:clamp(17px,4.8vw,21px)!important;
+    line-height:1!important;
+    white-space:nowrap!important;
   }
 }
 `;
