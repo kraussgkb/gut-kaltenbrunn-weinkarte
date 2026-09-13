@@ -1,4 +1,4 @@
-/* WINEFUNDAY_INSIGHT_LOADER_V2 — deterministic load order for insights and pairing icons */
+/* WINEFUNDAY_INSIGHT_LOADER_V3 — deterministic load order for insights, pairing icons and spacing */
 (()=>{'use strict';
 const s=document.createElement('style');
 s.id='winefunday-mobile-card-restore-v1';
@@ -9,10 +9,14 @@ base.src='insight-base.js?v=20260913-0938';
 base.async=false;
 base.onload=()=>{
   const icons=document.createElement('script');
-  icons.src='pairing-icons.js?v=20260913-0938';
+  icons.src='pairing-icons.js?v=20260913-1119';
   icons.async=false;
   icons.onload=()=>{if(window.WinefundayPairingIconsApply)window.WinefundayPairingIconsApply()};
   document.head.appendChild(icons);
+  const spacing=document.createElement('script');
+  spacing.src='detail-spacing.js?v=20260913-1119';
+  spacing.async=false;
+  document.head.appendChild(spacing);
 };
 document.head.appendChild(base);
 })();
