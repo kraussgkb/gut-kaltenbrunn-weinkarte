@@ -1,81 +1,27 @@
-/* WINEFUNDAY_DETAIL_SPACING_V2 — spacing/width plus compact mobile Insights CTA */
+/* WINEFUNDAY_DETAIL_SPACING_V3 — normalized detail spacing + corrected compact Insights CTA */
 (()=>{'use strict';
 const s=document.createElement('style');
 s.id='winefunday-detail-spacing-v1';
 s.textContent=`
-/* One horizontal grid for all major detail blocks */
-.detail .bottle,
-.detail .sections{
-  --wf-detail-gutter:clamp(26px,4vw,48px);
-}
-.detail .bottle{
-  margin:22px var(--wf-detail-gutter) 0!important;
-}
-.detail .sections{
-  padding-left:var(--wf-detail-gutter)!important;
-  padding-right:var(--wf-detail-gutter)!important;
-}
-
-/* One vertical rhythm between bordered/card-like blocks */
-.detail .sections>.profile-box,
-.detail .sections>section.profile-box{
-  margin-top:24px!important;
-}
-.detail .sections .rating-box{
-  margin-top:24px!important;
-}
-.detail .sections .tasting-note{
-  margin-top:0!important;
-  margin-bottom:24px!important;
-}
-
-/* Dynamically inserted Winefunday modules: same width, no accidental side inset */
-.detail .sections>.wf-cta,
-.detail .sections>.wf-pairing,
-.detail .sections>.wf-eye,
-.detail .sections>[class*="wf-social"],
-.detail .sections>[class*="wf-rating"]{
-  width:100%!important;
-  max-width:none!important;
-  margin-left:0!important;
-  margin-right:0!important;
-}
-
+.detail .bottle,.detail .sections{--wf-detail-gutter:clamp(26px,4vw,48px)}
+.detail .bottle{margin:22px var(--wf-detail-gutter) 0!important}
+.detail .sections{padding-left:var(--wf-detail-gutter)!important;padding-right:var(--wf-detail-gutter)!important}
+.detail .sections>.profile-box,.detail .sections>section.profile-box{margin-top:24px!important}
+.detail .sections .rating-box{margin-top:24px!important}
+.detail .sections .tasting-note{margin-top:0!important;margin-bottom:24px!important}
+.detail .sections>.wf-cta,.detail .sections>.wf-pairing,.detail .sections>.wf-eye,.detail .sections>[class*="wf-social"],.detail .sections>[class*="wf-rating"]{width:100%!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
 @media(max-width:580px){
-  .detail .bottle,
-  .detail .sections{
-    --wf-detail-gutter:22px;
-  }
-  .detail .bottle{
-    margin-left:var(--wf-detail-gutter)!important;
-    margin-right:var(--wf-detail-gutter)!important;
-  }
-  .detail .sections{
-    padding-left:var(--wf-detail-gutter)!important;
-    padding-right:var(--wf-detail-gutter)!important;
-  }
-  .detail .sections>.profile-box,
-  .detail .sections>section.profile-box,
-  .detail .sections .rating-box{
-    margin-top:22px!important;
-  }
-  .detail .sections .tasting-note{
-    margin-bottom:22px!important;
-  }
-
-  /* Compact Insights button: keep label on one line */
-  .detail .wf-cta{
-    min-height:0!important;
-    padding-top:15px!important;
-    padding-bottom:15px!important;
-  }
-  .detail .wf-cta-title,
-  .detail .wf-cta strong,
-  .detail .wf-cta b{
-    font-size:clamp(17px,4.8vw,21px)!important;
-    line-height:1!important;
-    white-space:nowrap!important;
-  }
+.detail .bottle,.detail .sections{--wf-detail-gutter:22px}
+.detail .bottle{margin-left:var(--wf-detail-gutter)!important;margin-right:var(--wf-detail-gutter)!important}
+.detail .sections{padding-left:var(--wf-detail-gutter)!important;padding-right:var(--wf-detail-gutter)!important}
+.detail .sections>.profile-box,.detail .sections>section.profile-box,.detail .sections .rating-box{margin-top:22px!important}
+.detail .sections .tasting-note{margin-bottom:22px!important}
+.detail .wf-cta{grid-template-columns:38px minmax(0,1fr) 18px!important;gap:10px!important;padding:13px 14px!important;min-height:64px!important;overflow:hidden!important}
+.detail .wf-ci{width:34px!important;height:34px!important}
+.detail .wf-ci svg{width:18px!important}
+.detail .wf-cc{min-width:0!important}
+.detail .wf-cc strong{font-size:15px!important;line-height:1!important;letter-spacing:.035em!important;white-space:nowrap!important}
+.detail .wf-ca{font-size:20px!important;line-height:1!important}
 }
 `;
 document.head.appendChild(s);
