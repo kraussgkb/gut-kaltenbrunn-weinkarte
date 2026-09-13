@@ -169,3 +169,67 @@ s.textContent=`
 `;
 document.head.appendChild(s);
 })();
+
+/* WINEFUNDAY_PAIRING_ICON_FIX_V1 — exact, readable food icons for "Passt besonders zu" */
+(()=>{'use strict';
+const ICONS={
+  schnitzel:'<path d="M4 12c1-4 4-6 8-6s7 2 8 6c-1 4-4 6-8 6s-7-2-8-6Z"/><path d="M7 10c3-1 7-1 10 0M8 14c2 1 6 1 8 0"/>',
+  beef:'<path d="M5 8c3-3 11-3 14 1 2 3 0 8-4 9-4 2-10 0-11-4-1-2 0-4 1-6Z"/><circle cx="10" cy="12" r="2.2"/>',
+  veal:'<path d="M6 9c2-3 10-4 13 0 2 3 0 7-3 8-4 2-9 1-11-2-1-2 0-4 1-6Z"/><path d="M9 12h6"/>',
+  lamb:'<path d="M7 9c0-3 2-5 5-5s5 2 5 5v5c-1 3-3 5-5 5s-4-2-5-5V9Z"/><path d="M7 8 4 5M17 8l3-3M9 13h.1M15 13h.1M10 16h4"/>',
+  game:'<path d="M8 9c0-3 1-5 4-5s4 2 4 5v5c0 3-2 5-4 5s-4-2-4-5V9Z"/><path d="M8 7 5 3M16 7l3-4M6 5 4 2M18 5l2-3M10 13h.1M14 13h.1"/>',
+  pork:'<path d="M5 10c1-4 4-6 8-6 5 0 8 3 8 7 0 4-4 7-9 7-4 0-7-2-7-5v-3Z"/><circle cx="17" cy="10" r="1"/><path d="M8 17v3M15 17v3"/>',
+  poultry:'<path d="M8 7c3-2 7 0 8 3 1 4-2 8-6 8-3 0-5-2-5-5 0-3 1-5 3-6Z"/><path d="M16 10l4-2-2 4M8 18l-1 3M13 17l2 4"/>',
+  fish:'<path d="M3 12c4-5 9-5 14 0-5 5-10 5-14 0Z"/><path d="m17 12 4-4v8l-4-4Z"/><circle cx="8" cy="11" r=".8"/>',
+  shellfish:'<path d="M5 15c1-6 13-6 14 0-2 4-5 5-7 5s-5-1-7-5Z"/><path d="M7 14c2-3 8-3 10 0M9 11l-2-3M15 11l2-3"/>',
+  lobster:'<path d="M10 7c0-3 4-3 4 0v10h-4V7Z"/><path d="M10 10 6 7 3 9m11 1 4-3 3 2M10 14l-5 4m9-4 5 4M12 5V2"/>',
+  pasta:'<path d="M5 8h14l-2 10H7L5 8Z"/><path d="M7 11c3-2 7 2 10 0M8 14c3-2 5 2 8 0"/>',
+  risotto:'<path d="M4 10h16c-1 6-4 9-8 9s-7-3-8-9Z"/><path d="M6 10c2-4 10-4 12 0"/><circle cx="9" cy="13" r=".6"/><circle cx="13" cy="14" r=".6"/><circle cx="16" cy="12" r=".6"/>',
+  pizza:'<path d="m12 3 8 17H4L12 3Z"/><path d="M7 15h10"/><circle cx="10" cy="11" r="1"/><circle cx="14" cy="14" r="1"/>',
+  cheese:'<path d="m4 9 8-5 8 5v10H4V9Z"/><path d="M4 9h16"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="16" r="1"/>',
+  asparagus:'<path d="M8 21V8l2-5 2 5v13M14 21V10l2-4 2 4v11M6 11h6M14 13h6"/>',
+  mushroom:'<path d="M4 11c1-6 15-6 16 0H4Z"/><path d="M10 11v8h4v-8"/>',
+  vegetable:'<path d="M12 21c-1-6-5-7-7-9 2-5 6-7 7-9 1 2 5 4 7 9-2 2-6 3-7 9Z"/><path d="M8 13c3 0 5-2 7-5"/>',
+  salad:'<path d="M4 11h16c-1 6-4 9-8 9s-7-3-8-9Z"/><path d="M7 9c0-3 3-4 5-1 2-3 5-2 5 1M12 8V4"/>',
+  dessert:'<path d="M6 9h12l-1 10H7L6 9Z"/><path d="M8 9c0-4 8-4 8 0M10 6c0-2 2-3 2 0m0 0c0-2 2-2 2 0"/>',
+  plate:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.5"/><path d="M3 5v14M21 5v14M19 5v5M23 5v5"/>'
+};
+const RULES=[
+  [/(schnitzel)/,'schnitzel'],
+  [/(kalb|veal|kalbs)/,'veal'],
+  [/(rind|beef|steak|filet|entrec[oô]te|roastbeef|ochse)/,'beef'],
+  [/(lamm|lamb|karree)/,'lamb'],
+  [/(wild|reh|hirsch|venison|ente? wild)/,'game'],
+  [/(schwein|pork|spanferkel|speck)/,'pork'],
+  [/(ente|gans|huhn|hähn|haehn|geflügel|poularde|poulet|backhendl|brathendl|hendl)/,'poultry'],
+  [/(hummer|lobster|languste|langostino|garnele|shrimp|scampi|krebs)/,'lobster'],
+  [/(auster|muschel|coquille|jakobsmuschel|meeresfrüchte|seafood)/,'shellfish'],
+  [/(zander|saibling|forelle|fisch|lachs|thunfisch|seezunge|steinbutt|kabeljau|dorade|wolfsbarsch)/,'fish'],
+  [/(pasta|nudel|spaghetti|tagliatelle|ravioli|gnocchi)/,'pasta'],
+  [/(risotto|reis)/,'risotto'],
+  [/(pizza)/,'pizza'],
+  [/(käse|kaese|parmesan|pecorino|comté|comte|gouda)/,'cheese'],
+  [/(spargel)/,'asparagus'],
+  [/(pilz|steinpilz|trüffel|truffel)/,'mushroom'],
+  [/(salat)/,'salad'],
+  [/(dessert|schokolade|torte|kuchen|sorbet|eis|crème|creme brulee)/,'dessert'],
+  [/(gemüse|gemuese|vegetar|aubergine|zucchini|kürbis|kuerbis)/,'vegetable']
+];
+function iconType(label){const t=(label||'').toLowerCase();for(const [re,type] of RULES)if(re.test(t))return type;return'plate'}
+function fixPairingIcons(root=document){
+  root.querySelectorAll('.wf-pair').forEach(pair=>{
+    const label=(pair.querySelector('.wf-pl')?.textContent||'').trim();
+    const svg=pair.querySelector('.wf-pi svg');
+    if(!svg||!label)return;
+    const type=iconType(label);
+    if(svg.dataset.wfPairType===type)return;
+    svg.innerHTML=ICONS[type]||ICONS.plate;
+    svg.dataset.wfPairType=type;
+    svg.setAttribute('aria-label',label);
+  });
+}
+fixPairingIcons();
+const mo=new MutationObserver(()=>fixPairingIcons());
+mo.observe(document.documentElement,{childList:true,subtree:true});
+setTimeout(()=>mo.disconnect(),8000);
+})();
