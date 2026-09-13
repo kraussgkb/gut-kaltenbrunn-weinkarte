@@ -1,8 +1,6 @@
-/* WINEFUNDAY_DETAIL_SPACING_V4 — normalized widths and mobile vertical rhythm */
+/* WINEFUNDAY_DETAIL_SPACING_V5 — normalized widths/rhythm + rating moved below social card */
 (()=>{'use strict';
-const s=document.createElement('style');
-s.id='winefunday-detail-spacing-v1';
-s.textContent=`
+const s=document.createElement('style');s.id='winefunday-detail-spacing-v1';s.textContent=`
 .detail .bottle,.detail .sections{--wf-detail-gutter:clamp(26px,4vw,48px)}
 .detail .bottle{margin:22px var(--wf-detail-gutter) 0!important}
 .detail .sections{padding-left:var(--wf-detail-gutter)!important;padding-right:var(--wf-detail-gutter)!important}
@@ -19,14 +17,10 @@ s.textContent=`
 .detail .sections>.profile-box,.detail .sections>section.profile-box,.detail .sections .rating-box{margin-top:22px!important}
 .detail .sections .tasting-note{margin-top:0!important;margin-bottom:22px!important}
 .detail .wf-cta{grid-template-columns:38px minmax(0,1fr) 18px!important;gap:10px!important;padding:13px 14px!important;min-height:64px!important;overflow:hidden!important;margin:22px 0!important}
-.detail .wf-ci{width:34px!important;height:34px!important}
-.detail .wf-ci svg{width:18px!important}
-.detail .wf-cc{min-width:0!important}
-.detail .wf-cc strong{font-size:15px!important;line-height:1!important;letter-spacing:.035em!important;white-space:nowrap!important}
-.detail .wf-ca{font-size:20px!important;line-height:1!important}
-.detail .estate-story{margin-top:0!important;padding-top:22px!important}
-.detail .rating-box{margin-top:22px!important;margin-bottom:0!important}
+.detail .wf-ci{width:34px!important;height:34px!important}.detail .wf-ci svg{width:18px!important}.detail .wf-cc{min-width:0!important}.detail .wf-cc strong{font-size:15px!important;line-height:1!important;letter-spacing:.035em!important;white-space:nowrap!important}.detail .wf-ca{font-size:20px!important;line-height:1!important}
+.detail .estate-story{margin-top:0!important;padding-top:22px!important}.detail .rating-box{margin-top:22px!important;margin-bottom:0!important}
 }
-`;
-document.head.appendChild(s);
+`;document.head.appendChild(s);
+function moveRating(){const d=document.querySelector('.detail');if(!d)return false;const rating=d.querySelector('.rating-box');if(!rating)return false;const social=[...d.querySelectorAll('[class*="wf-social"]')].filter(x=>x!==rating).pop();if(!social)return false;const socialCard=social.closest('section,article,.profile-box,[class*="wf-social"]')||social;if(socialCard===rating||rating.previousElementSibling===socialCard)return true;socialCard.insertAdjacentElement('afterend',rating);return true}
+let tries=0;const timer=setInterval(()=>{tries++;if(moveRating()||tries>40)clearInterval(timer)},250);new MutationObserver(()=>moveRating()).observe(document.documentElement,{childList:true,subtree:true});
 })();
