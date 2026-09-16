@@ -1,4 +1,4 @@
-/* WINEFUNDAY_DETAIL_SPACING_V8 — bottom rating restored + social/rating cards aligned */
+/* WINEFUNDAY_DETAIL_SPACING_V9 — bottom rating restored + social/rating cards aligned + pairing icon polish */
 (()=>{'use strict';
 const s=document.createElement('style');s.id='winefunday-detail-spacing-v1';s.textContent=`
 .detail .bottle,.detail .sections{--wf-detail-gutter:clamp(26px,4vw,48px)}
@@ -7,6 +7,27 @@ const s=document.createElement('style');s.id='winefunday-detail-spacing-v1';s.te
 .detail .sections>.profile-box,.detail .sections>section.profile-box{margin-top:24px!important}
 .detail .sections .tasting-note{margin-top:0!important;margin-bottom:24px!important}
 .detail .sections>.wf-cta,.detail .sections>.wf-pairing,.detail .sections>.wf-eye,.detail .sections>[class*="wf-social"],.detail .sections>[class*="wf-rating"]{width:100%!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
+
+/* Winefunday pairing pictograms: small, restrained, premium line treatment only */
+.wf-pairing .wf-pi{
+  width:34px!important;
+  height:34px!important;
+  margin:0 auto 9px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  color:#a56f32!important;
+  box-shadow:none!important;
+}
+.wf-pairing .wf-pi svg{
+  width:25px!important;
+  height:25px!important;
+  fill:none!important;
+  stroke:currentColor!important;
+  stroke-width:1.35!important;
+  stroke-linecap:round!important;
+  stroke-linejoin:round!important;
+}
 
 /* Social card and moved rating share one exact width */
 .detail .winefunday-social-block.wf-social-card-target{
