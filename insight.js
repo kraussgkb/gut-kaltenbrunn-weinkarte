@@ -1,11 +1,11 @@
-/* WINEFUNDAY_INSIGHT_LOADER_V6 — deterministic load order for insights, pairing icons, spacing and engagement analytics */
+/* WINEFUNDAY_INSIGHT_LOADER_V7 — deterministic load order for insights, pairing icons, spacing and engagement analytics */
 (()=>{'use strict';
 const s=document.createElement('style');
 s.id='winefunday-mobile-card-restore-v1';
 s.textContent='@media(max-width:580px){.card h2{font-size:18px!important;line-height:19px!important;margin:4px 0!important;letter-spacing:normal!important;height:38px!important;min-height:38px!important}.card .producer{font-size:15px!important;line-height:normal!important}.card .quick span{font-size:14px!important}.card .quick strong{font-size:13px!important;line-height:normal!important}}';
 document.head.appendChild(s);
 const engagement=document.createElement('script');
-engagement.src='engagement-analytics.js?v=20260916-1735';
+engagement.src='engagement-analytics.js?v=20260916-1750';
 engagement.async=false;
 document.head.appendChild(engagement);
 const base=document.createElement('script');
