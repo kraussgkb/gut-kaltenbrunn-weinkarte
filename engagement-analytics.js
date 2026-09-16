@@ -1,4 +1,4 @@
-/* WINEFUNDAY_ENGAGEMENT_ANALYTICS_V2 — isolated event tracking; never blocks the wine list */
+/* WINEFUNDAY_ENGAGEMENT_ANALYTICS_V3 — isolated event tracking; never blocks the wine list */
 (()=>{'use strict';
 const U='https://ohyrmkopbjgevgzucila.supabase.co';
 const K='sb_publishable_5ZDgYMpPlhXaJVoMr3b-eg_bFFRh3sA';
@@ -9,6 +9,7 @@ try{sid=sessionStorage.getItem(SESSION_KEY);if(!sid){sid=(crypto.randomUUID?cryp
 const clean=(v,n=160)=>String(v??'').trim().slice(0,n);
 const wineId=()=>clean(new URLSearchParams(location.search).get('id')||'',60)||null;
 function send(event_type,p={}){try{const body={session_id:sid,event_type,page_path:location.pathname+location.search,...p};fetch(U+'/rest/v1/page_events',{method:'POST',headers:H,keepalive:true,body:JSON.stringify(body)}).catch(()=>{})}catch(e){}}
+send('engagement_loaded',{wine_id:wineId(),filter_name:'version',filter_value:'v3'});
 function dayKey(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 try{const k='winefunday_daily_visitor_'+dayKey();if(!localStorage.getItem(k)){localStorage.setItem(k,'1');send('daily_visitor',{filter_name:'date',filter_value:dayKey()})}}catch(e){send('daily_visitor',{filter_name:'date',filter_value:dayKey()})}
 function labelOf(el){return clean((el.getAttribute&&el.getAttribute('aria-label')||el.title||el.textContent||'').replace(/\s+/g,' '),160)}
