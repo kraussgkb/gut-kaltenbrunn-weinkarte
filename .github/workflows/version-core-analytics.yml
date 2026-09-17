@@ -16,8 +16,8 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text()
-          old='<script src="analytics.js" defer></script>'
-          new='<script src="analytics.js?v=20260917-1250" defer></script>'
+          old='<script src="analytics.js?v=20260917-1250" defer></script>'
+          new='<script src="analytics.js?v=20260917-1300" defer></script>'
           if old not in s:
               raise SystemExit('Expected analytics loader not found')
           p.write_text(s.replace(old,new,1))
@@ -28,5 +28,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add index.html
           git diff --cached --quiet && exit 0
-          git commit -m 'Version core analytics loader'
+          git commit -m 'Version inline engagement analytics loader'
           git push
