@@ -10,23 +10,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Version analytics loader only
+      - name: Version analytics and insight loaders only
         run: |
           python - <<'PY'
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text()
-          old='<script src="analytics.js?v=20260917-1250" defer></script>'
-          new='<script src="analytics.js?v=20260917-1300" defer></script>'
-          if old not in s:
-              raise SystemExit('Expected analytics loader not found')
-          p.write_text(s.replace(old,new,1))
+          pairs=[
+            ('<script src="analytics.js?v=20260917-1300" defer></script>','<script src="analytics.js?v=20260917-1310" defer></script>'),
+            ('<script src="insight.js?v=20260917-0805" defer></script>','<script src="insight.js?v=20260917-1310" defer></script>')
+          ]
+          for old,new in pairs:
+              if old not in s: raise SystemExit('Expected loader not found: '+old)
+              s=s.replace(old,new,1)
+          p.write_text(s)
           PY
-      - name: Commit exact one-line loader change
+      - name: Commit exact loader changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add index.html
           git diff --cached --quiet && exit 0
-          git commit -m 'Version inline engagement analytics loader'
+          git commit -m 'Version cleaned analytics and Insights loaders'
           git push
