@@ -1,4 +1,14 @@
 {
+  "CH805-3-NV": {
+    "producer": "Laurent-Perrier",
+    "wine": "Cuvée Rosé",
+    "vintage": "NV",
+    "size": "3,00 l",
+    "sourcePage": "https://www.premierchampagne.com/products/laurent-perrier-cuvee-rose-brut-3l-jeroboam.html",
+    "sourceImage": "https://cdn11.bigcommerce.com/s-9hu30/images/stencil/2048x2048/products/1141/2808/laurent_perrier_cuvee_rose_brut_3l_jeroboam__69130.1668026856.jpg?c=2",
+    "verification": "Die Produktseite und der Bilddatensatz nennen ausdrücklich Laurent-Perrier Cuvée Rosé Brut 3L Jeroboam. Das echte Flaschenfoto wurde ausschließlich sauber von der mitfotografierten Holzkiste und dem weißen Hintergrund freigestellt, proportional skaliert und mittig auf die verbindliche Le-Pergole-Vorlage gesetzt; Flasche, Etikett und Kapsel wurden nicht retuschiert oder inhaltlich verändert.",
+    "verifiedOn": "2026-09-18"
+  },
   "CH805-2-NV": {
     "producer": "Laurent-Perrier",
     "wine": "Cuvée Rosé",
