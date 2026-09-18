@@ -1,4 +1,35 @@
 {
+  "WÖ405-1-23": {
+    "producer": "Schloss Gobelsburg",
+    "wine": "Grüner Veltliner Kamptal DAC Ried Lamm 1ÖTW",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.vinmonopolet.no/Land/%C3%98sterrike/Nieder%C3%B6sterreich/Kamptal/Gobelsburg-Ried-Lamm-Kamptal-Gr%C3%BCner-Veltliner-2023/p/5642301",
+    "sourceImage": "https://bilder.vinmonopolet.no/cache/1200x1200-0/5642301-1.jpg",
+    "formatConfirmation": "https://www.interspar.at/shop/weinwelt/schloss-gobelsburg-ried-lamm-1oetw-kamptal-dac-gruener-veltliner-2023/p/2020006135122",
+    "verification": "Beide Produktseiten nennen ausdrücklich Schloss Gobelsburg Ried Lamm 1ÖTW Grüner Veltliner 2023 und 0,75 l. Das hochauflösende Produktfoto zeigt die korrekte Ried-Lamm-Flasche; sie wurde ausschließlich vom weißen Hintergrund freigestellt, proportional skaliert und mittig auf die verbindliche Le-Pergole-Vorlage gesetzt.",
+    "verifiedOn": "2026-09-18"
+  },
+  "WÖ408-1-24": {
+    "producer": "Weingut Franz Hirtzberger",
+    "wine": "Grüner Veltliner Wachau DAC Ried Axpoint Smaragd",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://hedonism.co.uk/product/franz-hirtzberger-axpoint-gruner-veltliner-smaragd-2024",
+    "sourceImage": "https://hedonism.co.uk/cdn/shop/files/HED13255.jpg?v=1781903588",
+    "verification": "Die Produktseite nennt ausdrücklich Franz Hirtzberger Axpoint Grüner Veltliner Smaragd 2024 und 75 cl; Jahrgang, Ried Axpoint, Rebsorte und Produzent sind zusätzlich direkt auf dem Frontetikett des hochauflösenden Produktfotos sichtbar. Die Flasche wurde nur vom weißen Hintergrund freigestellt, proportional skaliert und mittig auf die verbindliche Le-Pergole-Vorlage gesetzt.",
+    "verifiedOn": "2026-09-18"
+  },
+  "WÖ401-1-22": {
+    "producer": "Weingut Bernhard Ott",
+    "wine": "FASS 4® Grüner Veltliner",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.walters-wine.com/products/bernhard-ott-fass-4-gruner-veltliner",
+    "sourceImage": "https://www.walters-wine.com/cdn/shop/files/bernhard-ott-fass-4-gruner-veltliner.jpg?v=1754448704&width=1946",
+    "verification": "Die Produktseite nennt ausdrücklich Bernhard Ott FASS 4, Jahrgang 2022, Grüner Veltliner und Wagram; der Jahrgang 2022 ist zusätzlich auf dem fotografierten Frontetikett sichtbar. Die echte 0,75-l-Flasche wurde ausschließlich aus dem hochauflösenden Händlerfoto freigestellt, proportional skaliert und mittig auf die verbindliche Le-Pergole-Vorlage gesetzt. Flasche, Etikett und Schraubverschluss blieben unverändert.",
+    "verifiedOn": "2026-09-18"
+  },
   "CH805-3-NV": {
     "producer": "Laurent-Perrier",
     "wine": "Cuvée Rosé",
