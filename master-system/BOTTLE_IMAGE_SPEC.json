@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "bindingReference": "LE_PERGOLE_MASTER_REFERENCE_DO_NOT_EDIT.jpeg",
+  "canvas": {
+    "width": 1024,
+    "height": 1536,
+    "format": "portrait 2:3"
+  },
+  "bottle": {
+    "alignment": "horizontal center",
+    "top": 20,
+    "maxWidth": 720,
+    "maxHeight": 1420,
+    "objectRule": "contain",
+    "allowedOperations": ["transparent trim", "proportional scale", "center placement"],
+    "forbiddenOperations": ["crop bottle", "distort", "retouch", "relabel", "change vintage", "invent missing areas", "substitute bottle size"]
+  },
+  "watermark": {
+    "asset": "LE_PERGOLE_WATERMARK_EXACT.png",
+    "sourceCrop": {"x": 770, "y": 1420, "width": 220, "height": 85},
+    "placement": {"x": 770, "y": 1420},
+    "rule": "Use extracted original only; never typeset or redraw."
+  },
+  "output": {
+    "format": "WebP",
+    "lossless": true,
+    "width": 1024,
+    "height": 1536
+  },
+  "instagram": {
+    "rule": "Use the identical verified detail image; no separately generated variant."
+  }
+}
+

@@ -1,0 +1,3 @@
+Der Abschnitt „Passt besonders zu“ und seine Icon-Assets bleiben entfernt.
+Es werden keine neuen Pairing-Icons erzeugt oder approximiert.
+
