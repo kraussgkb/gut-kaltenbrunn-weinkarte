@@ -7,7 +7,7 @@ const socialFix=document.createElement('style');socialFix.id='winefunday-social-
 const base=document.createElement('script');
 base.src='insight-base.js?v=20260918-1000';
 base.async=false;
-const icons=document.createElement('script');icons.src='pairing-icons-outline.js?v=20260918-1045';icons.async=false;document.head.appendChild(icons);
+const icons=document.createElement('script');icons.src='pairing-icons-premium.js?v=20260918-1235';icons.async=false;document.head.appendChild(icons);
 base.onload=()=>{
   const spacing=document.createElement('script');spacing.src='detail-spacing.js?v=20260913-1518';spacing.async=false;document.head.appendChild(spacing);
 };
