@@ -37,6 +37,7 @@ function wireSheet(modal){
   handle.addEventListener('pointerup',event=>finish(event));
   handle.addEventListener('pointercancel',event=>finish(event,true));
   handle.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();closeButton.click()}});
+  sheet.addEventListener('scroll',()=>{if(window.WinefundayUpdateToTop)window.WinefundayUpdateToTop()},{passive:true});
 }
 
 function activeSheet(){return document.querySelector('.wf-modal:not([hidden]) .wf-sheet')}
