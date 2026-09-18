@@ -89,6 +89,36 @@
     "verification": "Die Produktseite nennt ausdrücklich Gris Blanc Mathusalem 2023 und 6 l; das verknüpfte transparente PNG ist das Bild dieses Produkts.",
     "verifiedOn": "2026-09-18"
   },
+  "RO907-1-25": {
+    "producer": "Maison Saint Aix",
+    "wine": "AIX Rosé",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://thechampagnecompany.com/aix-provence-2025-rose-wine-75cl",
+    "sourceImage": "https://thechampagnecompany.com/media/catalog/product/a/i/aix_provence_rose_75cl.jpg",
+    "verification": "Die Produktseite nennt ausdrücklich AIX Provence Rosé 2025 und 75 cl; das Bild ist das direkt verknüpfte Flaschenasset dieses Produkts.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO907-2-25": {
+    "producer": "Maison Saint Aix",
+    "wine": "AIX Rosé",
+    "vintage": "2025",
+    "size": "1,50 l",
+    "sourcePage": "https://perfectewijn.nl/en/products/aix-rose-15-liter-2025",
+    "sourceImage": "https://perfectewijn.nl/cdn/shop/files/aix-rose-magnum_1984.webp?v=1770045132&width=1600",
+    "verification": "Die Produktseite nennt ausdrücklich AIX Rosé 2025, Magnum und 1,5 l; das transparente Bild ist direkt diesem Produkt zugeordnet.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO909-1-25": {
+    "producer": "Kellerei Terlan",
+    "wine": "Lagrein Rosé Südtirol DOC",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://www.cantina-terlano.com/en/wines/lagrein-rose-28/",
+    "sourceImage": "https://www.cantina-terlano.com/images/image_small_auto/lagrein_ros_.png?ts=1648631717",
+    "verification": "Die offizielle Produktseite der Kellerei Terlan nennt den aktuellen Jahrgang 2025 und 100 % Lagrein; das transparente Original-Flaschenasset wird direkt auf dieser Seite verwendet. Die Flaschengröße 0,75 l wird zusätzlich vom 2025-Handelseintrag bestätigt.",
+    "verifiedOn": "2026-09-18"
+  },
   "WÖ409-1-22": {
     "producer": "Weingut Franz Hirtzberger",
     "wine": "Grüner Veltliner Smaragd Honivogl",
