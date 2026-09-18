@@ -8,6 +8,7 @@ const base=document.createElement('script');
 base.src='insight-base.js?v=20260918-1000';
 base.async=false;
 base.onload=()=>{
+  const icons=document.createElement('script');icons.src='pairing-icons-outline.js?v=20260918-1030';icons.async=false;document.head.appendChild(icons);
   const spacing=document.createElement('script');spacing.src='detail-spacing.js?v=20260913-1518';spacing.async=false;document.head.appendChild(spacing);
 };
 document.head.appendChild(base);
