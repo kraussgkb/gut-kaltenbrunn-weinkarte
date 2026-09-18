@@ -1,4 +1,15 @@
 {
+  "CH805-2-NV": {
+    "producer": "Laurent-Perrier",
+    "wine": "Cuvée Rosé",
+    "vintage": "NV",
+    "size": "1,50 l",
+    "sourcePage": "https://www.calais-vins.com/champagne-laurent-perrier/8848-champagne-laurent-perrier-cuvee-rose-15-l-magnum.html",
+    "sourceImage": "https://www.calais-vins.com/18899-product_main/champagne-laurent-perrier-cuvee-rose-15-l-magnum.jpg",
+    "formatConfirmation": "https://www.winecom.de/products/rose-brut-magnum-champagne-aoc-champagne-laurent-perrier",
+    "verification": "Die Produktseite ordnet das Flaschenfoto ausdrücklich Laurent-Perrier Cuvée Rosé Magnum mit 1,5 l zu. Der zweite formatgenaue Händlernachweis bestätigt zusätzlich NV, 1,500 l und die GTIN 3258432100004. Die Flasche wurde lediglich vom weißen Hintergrund freigestellt, proportional skaliert und mittig auf die verbindliche Le-Pergole-Vorlage gesetzt; Etikett, Kapsel und Flaschenform blieben unverändert.",
+    "verifiedOn": "2026-09-18"
+  },
   "CH805-1-NV": {
     "producer": "Laurent-Perrier",
     "wine": "Cuvée Rosé",
