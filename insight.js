@@ -9,7 +9,7 @@ base.src='insight-base.js?v=20260917-1745';
 base.async=false;
 base.onload=()=>{
   const icons=document.createElement('script');
-  icons.src='pairing-icons-v6.js?v=20260918-0930';
+  icons.src='pairing-icons-v6.js?v=20260918-0940';
   icons.async=false;
   icons.onload=()=>{
     if(window.WinefundayPairingIconsApply)window.WinefundayPairingIconsApply();
