@@ -182,6 +182,16 @@
     "verification": "Die offizielle Produktseite der Kellerei Terlan nennt den aktuellen Jahrgang 2025 und 100 % Lagrein; das transparente Original-Flaschenasset wird direkt auf dieser Seite verwendet. Die Flaschengröße 0,75 l wird zusätzlich vom 2025-Handelseintrag bestätigt.",
     "verifiedOn": "2026-09-18"
   },
+  "WÖ404-1-23": {
+    "producer": "Weingut F.X. Pichler",
+    "wine": "Grüner Veltliner Wachau DAC Unendlich",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.gute-weine.de/produkt/fx-pichler-gruener-veltliner-unendlich-2023-73079h/",
+    "sourceImage": "https://res.cloudinary.com/guteweine/image/upload/v1/products/38096Hfl_o.png",
+    "verification": "Die Produktseite nennt ausdrücklich F.X. Pichler Grüner Veltliner Unendlich 2023 und 0,75 l; das transparente hochauflösende Flaschenasset zeigt den korrekten Wein und Jahrgang. Ausschließlich proportional skaliert, mittig platziert und mit dem vorhandenen Winefunday-Masterhintergrund sowie Original-Wasserzeichen kombiniert; Flasche und Etikett wurden nicht verändert.",
+    "verifiedOn": "2026-09-18"
+  },
   "WÖ409-1-22": {
     "producer": "Weingut Franz Hirtzberger",
     "wine": "Grüner Veltliner Smaragd Honivogl",
