@@ -222,5 +222,15 @@
     "sourceImage": "https://vinothek-brancaia.ch/cdn/shop/files/33704-075-22.png?v=1785710874&width=1600",
     "verification": "Produktseite, Jahrgang und Dateikennung 075-22 stimmen mit Wein und Flaschengroesse ueberein.",
     "verifiedOn": "2026-09-18"
+  },
+  "WÖ425-1-24": {
+    "producer": "Weingut Loimer",
+    "wine": "Grüner Veltliner LOIS",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://www.thewinecollective.com.au/products/2024-loimer-lois-gruner-veltliner-6-pack",
+    "sourceImage": "https://www.thewinecollective.com.au/cdn/shop/files/ITM539796-2024-loimer-lois-gruner-veltliner.webp?v=1768782006&width=3840",
+    "verification": "Die Produktseite nennt ausdrücklich Loimer LOIS Grüner Veltliner 2024, 750 ml und Schraubverschluss; das transparente, direkt verknüpfte Produktasset zeigt die passende LOIS-Flasche. Das Originalbild wurde nur auf die zusammenhängende Flaschenkontur zugeschnitten, proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert; Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
