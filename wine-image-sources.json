@@ -1,4 +1,15 @@
 {
+  "CH805-1-NV": {
+    "producer": "Laurent-Perrier",
+    "wine": "Cuvée Rosé",
+    "vintage": "NV",
+    "size": "0,75 l",
+    "sourcePage": "https://www.laurent-perrier.com/en/champagnes/cuvee-rose/",
+    "sourceImage": "https://www.laurent-perrier.com/wp-content/uploads/2023/08/Champagne-Cuvee-Rose-Laurent-Perrier.png",
+    "formatConfirmation": "https://www.champagneking.co.uk/price/1249_laurent-perrier-rose-champagne-75cl-oak-luxury-gift-boxed",
+    "verification": "Die Flasche stammt als transparentes Originalasset direkt von der offiziellen Cuvée-Rosé-Seite von Laurent-Perrier. Die reguläre 75-cl-Ausführung wird zusätzlich durch den formatgenauen Handelseintrag bestätigt. Flasche, Etikett und Kapsel wurden nicht retuschiert oder verändert; nur proportional skaliert und mittig auf die verbindliche Le-Pergole-Vorlage gesetzt.",
+    "verifiedOn": "2026-09-18"
+  },
   "RO901-1-24": {
     "producer": "Weingut Dr. Bürklin-Wolf",
     "wine": "Rosé",
