@@ -8,7 +8,7 @@ const base=document.createElement('script');
 base.src='insight-base.js?v=20260918-1310';
 base.async=false;
 base.onload=()=>{
-  const spacing=document.createElement('script');spacing.src='detail-spacing.js?v=20260913-1518';spacing.async=false;document.head.appendChild(spacing);
+  const spacing=document.createElement('script');spacing.src='detail-spacing.js?v=20260918-1325';spacing.async=false;document.head.appendChild(spacing);
 };
 document.head.appendChild(base);
 })();
