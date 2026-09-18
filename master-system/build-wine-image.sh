@@ -24,8 +24,13 @@ convert -size 1024x1536 xc:none \
   -blur 0x17 "$work_dir/shadow.png"
 
 convert "$script_dir/LE_PERGOLE_BACKGROUND_DERIVED.png" \
-  "$work_dir/shadow.png" -composite \
-  "$work_dir/bottle.png" -gravity north -geometry +0+20 -composite \
-  "$script_dir/LE_PERGOLE_WATERMARK_EXACT.png" -gravity northwest -geometry +770+1420 -composite \
-  -define webp:lossless=true "$output_image"
+  "$work_dir/shadow.png" -compose over -composite \
+  "$work_dir/with-shadow.png"
 
+convert "$work_dir/with-shadow.png" \
+  "$work_dir/bottle.png" -gravity north -geometry +0+20 -compose over -composite \
+  "$work_dir/with-bottle.png"
+
+convert "$work_dir/with-bottle.png" \
+  "$script_dir/LE_PERGOLE_WATERMARK_EXACT.png" -gravity northwest -geometry +770+1420 -compose over -composite \
+  -define webp:lossless=true "$output_image"

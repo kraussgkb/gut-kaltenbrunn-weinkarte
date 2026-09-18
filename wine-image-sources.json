@@ -1,4 +1,24 @@
 {
+  "RO901-1-24": {
+    "producer": "Weingut Dr. Bürklin-Wolf",
+    "wine": "Rosé",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://www.schlumberger.de/weingut-dr.-buerklin-wolf/rose-2024/905067-2024-fl",
+    "sourceImage": "https://media.schlumberger.de/asset/339713005336/image_ceu24sa7t17495df0322udp52o/905067.jpg",
+    "verification": "Die Produktseite nennt ausdrücklich Dr. Bürklin-Wolf Rosé 2024 und 0,75 l; das Bild ist das hochauflösende Originalasset des verknüpften Produkts.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO902-1-24": {
+    "producer": "Fürstlich Castell'sches Domänenamt",
+    "wine": "Cas 'tell me' Rosé",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://castell.de/2025-Cas-tell-me-rose-VDP.GUTSWEIN/127-2025",
+    "sourceImage": "https://castell.de/thumbnail/1c/61/bf/1741356681/Castell_GW_Cas_tellme_rose_241105_1920px_1920x1920.jpg",
+    "verification": "Das Flaschenfoto stammt direkt von Castell; die offizielle 2024-Kampagne bezeichnet das Produkt ausdrücklich als Cas 'tell me' Rosé 2024. Rebsorten und Produkt stimmen mit dem Karteneintrag überein.",
+    "verifiedOn": "2026-09-18"
+  },
   "RO903-1-25": {
     "producer": "Château de Miraval",
     "wine": "Miraval Rosé Côtes de Provence",
@@ -17,6 +37,26 @@
     "sourcePage": "https://www.vinatis.co.uk/80862-magnum-miraval-rose-2025",
     "sourceImage": "https://www.vinatis.co.uk/114088-thickbox_default/magnum-miraval-rose-2025.png",
     "verification": "Die Produktseite und der Bild-Alttext nennen ausdrücklich Magnum Miraval Rosé 2025; das verknüpfte PNG zeigt genau eine freigestellte Frontflasche.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO904-1-25": {
+    "producer": "Domaines Ott",
+    "wine": "BY.OTT Rosé Côtes de Provence",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://www.pogoswine.com/products/domaine-ott-by-ott-cotes-de-provence-rose-2024",
+    "sourceImage": "https://www.pogoswine.com/cdn/shop/files/734599240058.jpg?v=1774047902",
+    "verification": "Die Produktseite nennt im Seitentitel und in den Produktdaten ausdrücklich Domaines Ott BY.OTT Rosé 2025 und 750 ml. Ein anderes angebliches 2025-Bild mit sichtbarem Jahrgang 2024 wurde verworfen.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO904-2-24": {
+    "producer": "Domaines Ott",
+    "wine": "BY.OTT Rosé Côtes de Provence",
+    "vintage": "2024",
+    "size": "1,50 l",
+    "sourcePage": "https://www.magnumdevin.com/en/magnums-of-rose-wines/5213-magnum-rose-wine-cotes-de-provence-by-ott-2024-15l.html",
+    "sourceImage": "https://www.magnumdevin.com/3516/magnum-vin-rose-cotes-de-provence-by-ott-2024.jpg",
+    "verification": "Die Produktseite nennt ausdrücklich BY.OTT 2024 und 1,5 l; der sichtbare Jahrgang 2024 auf dem Originaletikett bestätigt die Zuordnung.",
     "verifiedOn": "2026-09-18"
   },
   "WÖ409-1-22": {
