@@ -5,9 +5,8 @@ s.textContent='@media(max-width:580px){.card h2{font-size:18px!important;line-he
 document.head.appendChild(s);
 const socialFix=document.createElement('style');socialFix.id='winefunday-social-spacing-v1';socialFix.textContent='.winefunday-social-block{padding:30px 30px 24px!important}.winefunday-social-layout{padding:4px 0 0!important}.winefunday-social-actions{margin-left:0!important;margin-right:0!important}.winefunday-social-closing{margin-top:24px!important}.winefunday-social-privacy{margin:10px 12px 2px!important}@media(max-width:620px){.winefunday-social-block{padding:26px 20px 21px!important}}';document.head.appendChild(socialFix);
 const base=document.createElement('script');
-base.src='insight-base.js?v=20260918-1000';
+base.src='insight-base.js?v=20260918-1310';
 base.async=false;
-const icons=document.createElement('script');icons.src='pairing-icons-premium.js?v=20260918-1250';icons.async=false;document.head.appendChild(icons);
 base.onload=()=>{
   const spacing=document.createElement('script');spacing.src='detail-spacing.js?v=20260913-1518';spacing.async=false;document.head.appendChild(spacing);
 };
