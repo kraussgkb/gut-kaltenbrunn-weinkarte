@@ -43,7 +43,7 @@ function wireSheet(modal){
 function activeSheet(){return document.querySelector('.wf-modal:not([hidden]) .wf-sheet')}
 function wireToTop(){
   const button=document.getElementById('toTop');if(!button)return;
-  const update=()=>{const sheet=activeSheet(),distance=sheet?sheet.scrollTop:window.scrollY;button.classList.toggle('visible',distance>360)};
+  const update=()=>{const sheet=activeSheet(),distance=sheet?sheet.scrollTop:window.scrollY;button.classList.toggle('visible',distance>(sheet?160:360))};
   if(button.dataset.wfTopReady){update();return}
   button.dataset.wfTopReady='1';
   button.onclick=()=>{const sheet=activeSheet();if(sheet)sheet.scrollTo({top:0,behavior:'smooth'});else window.scrollTo({top:0,behavior:'smooth'})};
