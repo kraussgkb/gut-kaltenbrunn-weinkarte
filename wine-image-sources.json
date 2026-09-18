@@ -59,6 +59,36 @@
     "verification": "Die Produktseite nennt ausdrücklich BY.OTT 2024 und 1,5 l; der sichtbare Jahrgang 2024 auf dem Originaletikett bestätigt die Zuordnung.",
     "verifiedOn": "2026-09-18"
   },
+  "RO905-1-23": {
+    "producer": "Domaines Ott",
+    "wine": "Clos Mireille Rosé",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.bremer-weinkolleg.de/domaines-ott/clos-mireille-rose-2023/243015-2023",
+    "sourceImage": "https://media.schlumberger.de/image/339713005336/image_38okgrhial77r9jvbe2l9f2l1g/-FJPG/243015-2023.jpg",
+    "verification": "Die Produktseite nennt Clos Mireille Rosé 2023 und 0,75 l; der Jahrgang 2023 ist zusätzlich direkt auf dem hochauflösenden Flaschenasset sichtbar.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO906-3-23": {
+    "producer": "Gérard Bertrand",
+    "wine": "Gris Blanc",
+    "vintage": "2023",
+    "size": "3,00 l",
+    "sourcePage": "https://www.bibendum-wine-online.co.uk/products/00045595_Gerard-Bertrand-Gris-Blanc-Jeroboam-2023-Occitaine-300cl-x-1",
+    "sourceImage": "https://www.bibendum-wine-online.co.uk/netalogue/zoom/00045595.jpg",
+    "verification": "Die Produktseite ordnet das Bild ausdrücklich Gris Blanc Jéroboam 2023 mit 300 cl zu. Für dieses seltene Format lag kein schärferes zweifelsfrei zugeordnetes Original vor.",
+    "verifiedOn": "2026-09-18"
+  },
+  "RO906-4-23": {
+    "producer": "Gérard Bertrand",
+    "wine": "Gris Blanc",
+    "vintage": "2023",
+    "size": "6,00 l",
+    "sourcePage": "https://corkandbarrelco.co.uk/products/gerard-bertrand-gris-blanc-mathusalem-2023-occitanie-6l-x-1",
+    "sourceImage": "https://corkandbarrelco.co.uk/cdn/shop/files/IMG-9529.png?v=1745869662&width=1445",
+    "verification": "Die Produktseite nennt ausdrücklich Gris Blanc Mathusalem 2023 und 6 l; das verknüpfte transparente PNG ist das Bild dieses Produkts.",
+    "verifiedOn": "2026-09-18"
+  },
   "WÖ409-1-22": {
     "producer": "Weingut Franz Hirtzberger",
     "wine": "Grüner Veltliner Smaragd Honivogl",
