@@ -1,4 +1,14 @@
 {
+  "RO903-1-25": {
+    "producer": "Château de Miraval",
+    "wine": "Miraval Rosé Côtes de Provence",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://www.miraval.com/une-oeuvre/miraval-rose/",
+    "sourceImage": "https://cdn.vin.co/_clients_folder/perrin/Miraval_Cotes_de_Provence_Rose_1722845517.png",
+    "verification": "Offizielle Miraval-Produktseite bezeichnet das freigestellte Flaschenbild ausdrücklich als Miraval Côtes de Provence Rosé 2025.",
+    "verifiedOn": "2026-09-18"
+  },
   "WÖ409-1-22": {
     "producer": "Weingut Franz Hirtzberger",
     "wine": "Grüner Veltliner Smaragd Honivogl",
