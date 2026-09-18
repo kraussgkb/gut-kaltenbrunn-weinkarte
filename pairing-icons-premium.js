@@ -34,9 +34,24 @@ pasta:F('M8 12h32l-3 30H11L8 12Z')+S('M14 20c6-5 14 5 20 0M15 29c6-5 12 5 18 0')
 bread:F('M8 18c3-9 11-14 20-13 10 1 17 9 16 19-1 12-10 19-23 19C9 43 3 35 5 26c.5-3 1.5-6 3-8Z')+S('M16 14l5 7M24 10l5 7M32 12l5 7'),
 cheese:F('M5 17 24 7l19 10v26H5V17Z')+S('M5 17h38')+E(16,28,3,3)+E(29,35,3,3)+E(36,25,2.5,2.5),
 dessert:F('M9 17h30l-3 26H12L9 17Z')+F('M13 14c2-8 20-8 22 0H13Z')+F('M20 5h8v8h-8z'),
-chocolate:F('M10 6h28v36H10V6Z')+`<rect x="14" y="10" width="8" height="8" rx="1" fill="${BG}"/><rect x="26" y="10" width="8" height="8" rx="1" fill="${BG}"/><rect x="14" y="22" width="8" height="8" rx="1" fill="${BG}"/><rect x="26" y="22" width="8" height="8" rx="1" fill="${BG}"/>`
+chocolate:F('M10 6h28v36H10V6Z')+`<rect x="14" y="10" width="8" height="8" rx="1" fill="${BG}"/><rect x="26" y="10" width="8" height="8" rx="1" fill="${BG}"/><rect x="14" y="22" width="8" height="8" rx="1" fill="${BG}"/><rect x="26" y="22" width="8" height="8" rx="1" fill="${BG}"/>`,
+beet:F('M11 23c0-9 6-14 13-14s13 5 13 14c0 8-6 15-13 22-7-7-13-14-13-22Z')+F('M22 10C17 8 13 4 13 1c6 0 10 3 11 8 2-6 7-9 13-8-1 5-5 9-11 10l-4-1Z'),
+aperitif:F('M8 6h32l-4 14c-1 6-5 10-10 12v9h9v4H13v-4h9v-9c-5-2-9-6-10-12L8 6Z')+S('M12 14h24'),
+occasion:F('M24 3l5 13 14 1-11 9 4 14-12-8-12 8 4-14-11-9 14-1 5-13Z'),
+cloche:F('M6 31c1-11 8-19 18-20 10 1 17 9 18 20H6Z')+F('M3 33h42v5H3z')+F('M20 6h8v6h-8z'),
+schnitzel:F('M7 17c6-8 25-10 33-3 7 6 4 17-5 23-10 7-27 5-31-4-3-7-2-12 3-16Z')+E(16,25,1.5,1.5)+E(26,18,1.5,1.5)+E(34,28,1.5,1.5),
+pork:F('M5 25c0-10 9-18 21-18 7 0 13 3 17 8l4-2-2 9c1 10-7 18-19 18-13 0-21-5-21-15Z')+E(34,24,6,4)+F('M13 37h5v8h-5zM31 37h5v8h-5z'),
+foiegras:F('M6 14c8-7 28-7 36 0v21c-8 7-28 7-36 0V14Z')+E(24,24,9,6)+F('M20 22h8v4h-8z'),
+charcuterie:F('M5 9h38v30H5z')+E(16,24,8,8)+E(34,18,5,5)+F('M28 30h11v5H28z'),
+sushi:F('M8 11h13v27H8zM27 11h13v27H27z')+`<circle cx="14.5" cy="24.5" r="4" fill="${BG}"/><circle cx="33.5" cy="24.5" r="4" fill="${BG}"/>`,
+caviar:F('M7 14h34l-4 28H11L7 14Z')+S('M10 11c3-9 25-9 28 0')+E(17,24,2,2)+E(25,29,2,2)+E(33,23,2,2),
+truffle:F('M8 19c2-7 9-11 16-10 7-3 16 2 17 9 6 5 3 14-3 17-5 8-18 10-26 4-8-6-10-14-4-20Z')+E(17,24,1.5,1.5)+E(28,18,1.5,1.5)+E(32,31,1.5,1.5),
+herbs:F('M22 44V24C10 25 5 18 6 8c10 1 16 6 16 15C24 13 31 7 42 7c1 11-6 19-18 19v18h-2Z'),
+pizza:F('M24 4 5 43h38L24 4Z')+S('M10 34h28')+E(21,21,3,3)+E(30,29,3,3),
+fruit:F('M24 12c11 0 18 7 18 17S35 45 24 45 6 39 6 29s7-17 18-17Z')+F('M23 13c0-7 5-11 12-10-2 7-6 10-12 10Z')+S('M23 13c-3-4-7-6-11-6'),
+curry:F('M5 19h38c-2 16-9 24-19 24S7 35 5 19Z')+S('M11 16c4-7 22-7 26 0')+E(17,27,2,2)+E(25,32,2,2)+E(33,26,2,2)
 };
-const alias={aperitif:'dessert',occasion:'dessert',cloche:'artichoke',schnitzel:'veal',pork:'beef',pigeon:'poultry',foiegras:'poultry',charcuterie:'bread',sushi:'fish',caviar:'fish',truffle:'mushroom',beet:'carrot',vegetable:'artichoke',herbs:'salad',pizza:'pasta',goatcheese:'cheese',softcheese:'cheese',bluecheese:'cheese',fruit:'dessert',curry:'salad',grill:'beef'};
+const alias={pigeon:'poultry',vegetable:'artichoke',goatcheese:'cheese',softcheese:'cheese',bluecheese:'cheese',grill:'beef'};
 const rules=[
 [/kaviar/,'caviar'],[/jakobs?muschel|scallop|coquille/,'scallop'],[/auster|oyster/,'oyster'],[/miesmuschel|muschel/,'mussel'],[/hummer|lobster|languste|langoust|kaisergranat|krebs|krustentier/,'lobster'],[/garnele|shrimp|scampi/,'shrimp'],[/sushi|sashimi/,'sushi'],[/steinbutt|turbot|seezunge/,'flatfish'],[/lachs|salmon/,'salmon'],[/thunfisch|tuna/,'tuna'],[/zander|saibling|forelle|fisch|kabeljau|dorade|wolfsbarsch|seeteufel|schwertfisch|sardine|meeresfrüchte|meeresfruechte|bouillabaisse|ceviche/,'fish'],
 [/foie\s*gras|gänseleber|gaenseleber/,'foiegras'],[/ente|duck/,'duck'],[/kaninchen|rabbit/,'rabbit'],[/taube|pigeon/,'pigeon'],[/schnitzel/,'schnitzel'],[/wildschwein/,'game'],[/hirsch|reh|wild|venison/,'game'],[/kalb|veal|tafelspitz/,'veal'],[/steak|rinder?filet|rindsfilet|entrec[oô]te|roastbeef|rind|beef|wagyu|bistecca|brasato|gulasch|wellington|prime rib|rotes fleisch/,'beef'],[/schwein|pork|spanferkel|bratwurst|käsekrainer|speck/,'pork'],[/lamm|lamb|karree/,'lamb'],[/huhn|hähn|haehn|geflügel|poularde|poulet|backhendl|brathendl|hendl|gans|perlhuhn|tandoori chicken|paprikahuhn/,'poultry'],[/charcuterie|brotzeit|jause/,'charcuterie'],
