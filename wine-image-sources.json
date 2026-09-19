@@ -293,6 +293,16 @@
     "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Knoll, Grüner Veltliner Ried Kreutles Smaragd Wachau DAC 2024, 0,75 l und Artikelnummer 03678. Das direkt verknüpfte hochauflösende transparente Originalasset trägt Produzent, Wein, Lage, Qualitätsstufe und Jahrgang im Dateinamen und zeigt die passende Knoll-Flasche mit Ried-Kreutles-, Loibner-Grüner-Veltliner-, Smaragd- und Vinea-Wachau-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Das Original wurde ausschließlich auf seine vorhandene transparente Flaschenkontur zugeschnitten, proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ418-1-24": {
+    "producer": "Weingut Emmerich Knoll",
+    "wine": "Grüner Veltliner Wachau DAC Loiben Ried Trum Federspiel",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://leonandsonwine.com/products/2024-weingut-emmerich-knoll-loibner-ried-trum-gruner-veltliner-federspiel-wachau-austria",
+    "sourceImage": "https://leonandsonwine.com/cdn/shop/files/2024WeingutEmmerichKnollLoibnerRiedTrumGrunerVeltlinerFederspiel_Wachau_Austria.jpg?v=1761418347&width=1000",
+    "verification": "Die jahrgangsgenaue Produktseite nennt ausdrücklich 2024 Weingut Emmerich Knoll Loibner Ried Trum Grüner Veltliner Federspiel, Wachau, Österreich; der zugehörige Datensatz nennt Emmerich Knoll, Grüner Veltliner und Wachau. Auf dem direkt verknüpften hochauflösenden Originalfoto sind 2024, Federspiel, Loibner Ried Trum, Grüner Veltliner und Weingut Knoll unmittelbar auf der echten Flasche lesbar. Ausschließlich der fotografierte Hintergrund wurde entlang der vorhandenen Flaschenkontur entfernt; die Flasche wurde proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ420-1-21": {
     "producer": "Weingut Kollwentz-Römerhof",
     "wine": "Chardonnay Ried Gloria",
