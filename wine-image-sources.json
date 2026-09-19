@@ -553,6 +553,16 @@
     "verification": "Die jahrgangsgenaue Produktseite nennt ausdrücklich Dönnhoff Höllenpfad im Mühlenberg Riesling GG 2024 aus der Nahe; der formatgenaue Datensatz bei Woodland Hills Wine Company bestätigt zusätzlich Jahrgang 2024 und 750 ml. Das unmittelbar zum Produkt verknüpfte hochauflösende Originalasset trägt Produzent, Wein und Jahrgang bereits im Dateinamen und zeigt die passende Dönnhoff-Flasche mit Höllenpfad-im-Mühlenberg-Riesling- und GG-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WD512-1-23": {
+    "producer": "Weingut Dönnhoff",
+    "wine": "Tonschiefer Riesling trocken",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.frazierjones.wine/donnhoff-tonschiefer-riesling-trocken-dry-slate-2023/",
+    "sourceImage": "https://cdn11.bigcommerce.com/s-720fd/images/stencil/original/products/12596/23031/GF31AW23001__57744.1734092258.jpg?c=2",
+    "verification": "Die jahrgangs- und formatgenaue Produktseite nennt ausdrücklich Dönnhoff Tonschiefer Riesling trocken/Dry Slate 2023 und 75 cl. Das unmittelbar als Hauptbild dieses Produktdatensatzes verknüpfte hochauflösende Originalasset zeigt die vollständige passende Flasche; Dönnhoff, Tonschiefer, Riesling Dry Slate und 2023 sind auf dem Frontetikett direkt lesbar, der originale Schraubverschluss ist vollständig sichtbar. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett, Jahrgang und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WD528-1-24": {
     "producer": "Weingut Georg Breuer",
     "wine": "GB Sauvage Riesling",
