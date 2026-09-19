@@ -1003,16 +1003,6 @@
     "verification": "Die konkrete Produktseite nennt Dreissigacker Vintages Riesling NV und 75 cl. Das Originalfoto zeigt die vollständige passende Flasche mit lesbarem Dreissigacker-Vintages-Etikett. Nur der weiße Außenhintergrund wurde entfernt und die unveränderte Flasche auf den Master gesetzt.",
     "verifiedOn": "2026-09-19"
   },
-  "WD547-1-19": {
-    "producer": "Weingut von Othegraven",
-    "wine": "Kanzemer Altenberg Riesling Kabinett Versteigerung",
-    "vintage": "2019",
-    "size": "0,75 l",
-    "sourcePage": "https://www.von-othegraven.de/products/2019-altenberg-kabinett-versteigerung",
-    "sourceImage": "https://www.von-othegraven.de/cdn/shop/files/25-vo-wf-2019-riesling-kabinett-kanzemer-altenberg-vdp-versteigerung-2020.png?v=1764841689&width=1200",
-    "verification": "Die offizielle Produktseite nennt Altenberg Kabinett Versteigerung 2019, Kanzem, Riesling und 0,75 l. Das Originalfoto zeigt die vollständige passende Flasche; Kanzemer Altenberg, Riesling Kabinett und Mosel sind lesbar. Die Flasche wurde unverändert auf den Master gesetzt.",
-    "verifiedOn": "2026-09-19"
-  },
   "WD552-1-21": {
     "producer": "Reichsrat von Buhl",
     "wine": "Forster Pechstein Riesling GG",
@@ -1031,6 +1021,16 @@
     "sourcePage": "https://www.koelner-weinkeller.de/Shop/Laender/Deutschland/Pfalz/keine-Unterregion/Reichsrat-von-Buhl/",
     "sourceImage": "https://www.koelner-weinkeller.de/media/6a/49/85/1692832494/2021-Forster-Ungeheuer-GG-Buhl-10118-21_x.png?ts=1692832494",
     "verification": "Die Produktübersicht nennt Reichsrat von Buhl Forster Ungeheuer Riesling GG 2021 und 0,75 l. Das freigestellte Originalfoto zeigt die vollständige passende Flasche; 2021 Ungeheuer Riesling GG ist direkt auf dem Etikett lesbar. Die Flasche wurde unverändert auf den Master gesetzt.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WD555-1-18": {
+    "producer": "Schlossgut Diel",
+    "wine": "Dorsheimer Burgberg Riesling GG",
+    "vintage": "2018",
+    "size": "0,75 l",
+    "sourcePage": "https://www.weinwolf.de/schlossgut-diel-riesling-dorsheimer-burgberg-gg-53041019",
+    "sourceImage": "https://www.weinwolf.de/media/22/31/1d/1717244132/530410_1809.png?ts=1717244132",
+    "verification": "Die konkrete Weinwolf-Produktseite nennt Schlossgut Diel Dorsheimer Burgberg Riesling GG 2018, 0,75 l und die eindeutige Artikelnummer 53041019. Das hochauflösende Original zeigt die vollständige passende Diel-Burgberg-GG-Flasche mit VDP-Kapsel und Naturkorken. Die Flasche wurde unverändert auf den Master gesetzt.",
     "verifiedOn": "2026-09-19"
   }
 }
