@@ -262,5 +262,15 @@
     "sourceImage": "https://incert-resources.com/dow/aHR0cHM6Ly93aW5saW5lLndlaW5oYW5kZWxzaGF1cy5uZXQvYXBpL2ltYWdlcy9VME5JVlZOVVJWSWdVbFlnVjBGSFVrRk5Ma3BRUnc/1200w0h.jpg",
     "verification": "Die Döllerer-Produktseite nennt ausdrücklich Weingut Familie Schuster, Roter Veltliner Wagram DAC 2024, 0,75 l und Schraubverschluss; das direkt verknüpfte hochauflösende Produktfoto zeigt die passende Originalflasche mit Schuster-Etikett und Marienkäfer. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WÖ420-1-21": {
+    "producer": "Weingut Kollwentz-Römerhof",
+    "wine": "Chardonnay Ried Gloria",
+    "vintage": "2021",
+    "size": "0,75 l",
+    "sourcePage": "https://ullrich.ch/de/kollwentz-chardonnay-ried-gloria-2021-burgenland-140-75cl/55583/",
+    "sourceImage": "https://d1q9atv66skeoi.cloudfront.net/image/961033245606/image_dki9c1vra926je2rj1kldfcf25/-S1600x1600",
+    "verification": "Die Produktseite nennt ausdrücklich Kollwentz Chardonnay Ried Gloria 2021 und 75 cl; das direkt als strukturiertes Produktbild verknüpfte transparente Originalasset zeigt auf dem Etikett sichtbar Gloria 2021. Das Original wurde ausschließlich proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
