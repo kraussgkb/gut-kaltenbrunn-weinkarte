@@ -232,5 +232,25 @@
     "sourceImage": "https://www.thewinecollective.com.au/cdn/shop/files/ITM539796-2024-loimer-lois-gruner-veltliner.webp?v=1768782006&width=3840",
     "verification": "Die Produktseite nennt ausdrücklich Loimer LOIS Grüner Veltliner 2024, 750 ml und Schraubverschluss; das transparente, direkt verknüpfte Produktasset zeigt die passende LOIS-Flasche. Das Originalbild wurde nur auf die zusammenhängende Flaschenkontur zugeschnitten, proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert; Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WÖ421-1-24": {
+    "producer": "Weingut Kollwentz-Römerhof",
+    "wine": "Chardonnay Leithakalk",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://www.interspar.at/shop/weinwelt/kollwentz-chardonnay-leithakalk-2024/p/2020004529497",
+    "sourceImage": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004529497/dt_zoom.jpg",
+    "verification": "Die INTERSPAR-Produktseite nennt ausdrücklich Kollwentz Chardonnay Leithakalk 2024 und 0,75 l; das verknüpfte Produktfoto zeigt die passende Originalflasche mit Kollwentz-Kapsel und Leithakalk-Etikett. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WÖ422-1-22": {
+    "producer": "Weingut Kollwentz-Römerhof",
+    "wine": "Chardonnay Ried Tatschler",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.interspar.at/shop/weinwelt/kollwentz-chardonnay-ried-tatschler-2022/p/2020005453746",
+    "sourceImage": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005453746/dt_zoom.jpg",
+    "verification": "Die INTERSPAR-Produktseite nennt ausdrücklich Kollwentz Chardonnay Ried Tatschler 2022 und 0,75 l; das verknüpfte Produktfoto zeigt die passende Originalflasche mit Kollwentz-Kapsel und Ried-Tatschler-Etikett. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
