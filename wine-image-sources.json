@@ -263,6 +263,16 @@
     "verification": "Die Döllerer-Produktseite nennt ausdrücklich Weingut Familie Schuster, Roter Veltliner Wagram DAC 2024, 0,75 l und Schraubverschluss; das direkt verknüpfte hochauflösende Produktfoto zeigt die passende Originalflasche mit Schuster-Etikett und Marienkäfer. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ416-1-24": {
+    "producer": "Weingut Emmerich Knoll",
+    "wine": "Grüner Veltliner Wachau DAC Loiben Ried Kreutles Federspiel",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://www.thewinesociety.com/product/weingut-emmerich-knoll-gruner-veltliner-ried-kreutles-federspiel-wachau-2024-en.aspx",
+    "sourceImage": "https://www.thewinesociety.com/globalassets/product-image-target/white-wine/aa5701/aa5701_weingut-emmerich-knoll-gruner-veltliner-ried-kreutles-federspiel-wachau-2024_1.png?compand=true&rsampler=bicubic&v=BCSJJslxIa5&width=1200",
+    "verification": "Die jahrgangsgenaue Wine-Society-Produktseite nennt ausdrücklich Weingut Emmerich Knoll, Grüner Veltliner Ried Kreutles Federspiel Wachau 2024, 75 cl, Naturkork und Produktcode AA5701. Das direkt verknüpfte hochauflösende transparente Originalasset zeigt die passende Knoll-Flasche; auf dem Frontetikett sind 2024, Federspiel, Ried Kreutles, Loibner Grüner Veltliner und Weingut Knoll sichtbar. Das Original wurde ausschließlich auf seine vorhandene transparente Flaschenkontur zugeschnitten, proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ417-1-24": {
     "producer": "Weingut Emmerich Knoll",
     "wine": "Grüner Veltliner Wachau DAC Ried Kreutles Smaragd",
