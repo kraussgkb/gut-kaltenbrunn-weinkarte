@@ -313,6 +313,16 @@
     "verification": "Die jahrgangsgenaue Wein-Wolf-Produktseite nennt ausdrücklich Johann Topf Grüner Veltliner Ried Wechselberg 2023, 0,75 l und Artikelnummer 00535823. Das direkt verknüpfte hochauflösende Produktfoto ist im Dateinamen dem Jahrgang 2023 zugeordnet und zeigt die passende Originalflasche mit Grüner-Veltliner-Ried-Wechselberg-Etikett und Schraubverschluss; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ431-1-25": {
+    "producer": "Weingut Johann Topf",
+    "wine": "Grüner Veltliner Ried Wechselberg Kamptal DAC",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://www.weingut-topf.at/produkt/gruener-veltliner-ried-wechselberg-2023/",
+    "sourceImage": "https://www.weingut-topf.at/wp-content/uploads/2020/01/gruener-veltliner_wechselberg_square.png",
+    "verification": "Die offizielle, aktuell jahrgangsgenaue Produktseite des Weinguts Johann Topf nennt ausdrücklich Grüner Veltliner Ried Wechselberg 2025 und 0,75 l. Das dort direkt eingebundene hochauflösende, transparente Originalasset zeigt die passende Topf-Flasche mit Grüner-Veltliner-, Ried-Wechselberg- und Kamptal-Kennzeichnung sowie Schraubverschluss; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Die Flasche wurde ausschließlich proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ458-1-25": {
     "producer": "Weingut Wohlmuth",
     "wine": "Gelber Muskateller Südsteiermark DAC Glimmer",
