@@ -1338,5 +1338,26 @@
     "formatConfirmation": "https://www.bovino.de/jermann/where-dreams-have-no-end/a148501",
     "verification": "Die konkrete Produktseite nennt Jermann W…Dreams 2022; die ergänzende Produktseite bestätigt 0,75 l und Jahrgang 2022. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche mit Where Dreams have no end-, Jermann- und blauem Stern-Mond-Verschluss; die Jahrgangsmarkierung 22 ist unten rechts auf dem Frontetikett sichtbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Schraubverschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "WI523-1-25": {
+    "producer": "Kellerei Terlan",
+    "wine": "Winkl Sauvignon Alto Adige Terlano DOC",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://www.silkes-weinkeller.de/wein/weisswein/terlan-sauvignon-blanc-winkl-2025.html",
+    "sourceImage": "https://www.silkes-weinkeller.de/out/pictures/master/product/1/terlan-sauvignon-blanc-winkl-2025.png",
+    "verification": "Die konkrete Produktseite nennt Terlan Sauvignon Blanc Winkl 2025. Das direkt verknüpfte hochauflösende transparente Originalfoto zeigt die vollständige passende 0,75-l-Flasche; Terlan, Sauvignon, Winkl und 2025 sind direkt auf dem goldenen Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "WI524-1-23": {
+    "producer": "IDDA – Gaja & Graci",
+    "wine": "IDDA Bianco Sicilia DOP",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://hartandcru.com/blogs/wine-reads/the-volcanic-beast-mt-etna",
+    "sourceImage": "https://hartandcru.com/cdn/shop/files/Idda_Bianco_2023.jpg?v=1755285401&width=1080",
+    "formatConfirmation": "https://www.wine.com/product/idda-etna-bianco-2023/2423963",
+    "verification": "Die konkrete Quelle ordnet das Originalfoto dem IDDA Bianco Sicilia DOP 2023 zu; die ergänzende Produktseite bestätigt 2023 und 750 ml. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche; IDDA, Sicilia und 2023 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund und die vollständig unterhalb der Flasche liegende Spiegelung wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
