@@ -413,6 +413,16 @@
     "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Pichler-Krutzler, Grüner Veltliner Supergraf 2021, 0,75 l, Naturkorken und Artikelnummer 245046. Das direkt verknüpfte hochauflösende Originalasset trägt Wein und Jahrgang im Dateinamen und zeigt die passende Pichler-Krutzler-Flasche mit Supergraf- und Wachau-Österreich-Kennzeichnung. Lediglich die zusammenhängenden weißen Hintergrundflächen wurden entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ466-1-18": {
+    "producer": "Weingut Pichler-Krutzler",
+    "wine": "Riesling Ried Pfaffenberg Alte Reben",
+    "vintage": "2018",
+    "size": "0,75 l",
+    "sourcePage": "https://www.millesima.com/se/pichler-krutzler-riesling-ried-pfaffenberg-alte-reben-2018.html",
+    "sourceImage": "https://static.millesima.com/s3/attachements/h1000px/J2892_2018NM_c.png",
+    "verification": "Die jahrgangsgenaue Millesima-Produktseite nennt ausdrücklich Pichler-Krutzler Riesling Ried Pfaffenberg Alte Reben 2018 und eine Flasche zu 75 cl. Das unmittelbar zu diesem Produktdatensatz gehörende transparente Originalasset trägt den Jahrgang 2018 in seiner URL und zeigt die passende Pichler-Krutzler-Flasche mit Riesling-, Ried-Pfaffenberg-Alte-Reben-, Kremstal- und Österreich-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Das Original wurde ausschließlich proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ460-1-23": {
     "producer": "Weingut Wohlmuth",
     "wine": "Riesling Ried Edelschuh Grosse STK-Lage Südsteiermark DAC",
