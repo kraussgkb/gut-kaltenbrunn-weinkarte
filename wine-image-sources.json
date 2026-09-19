@@ -293,6 +293,16 @@
     "verification": "Die Döllerer-Produktseite nennt ausdrücklich Weingut Familie Schuster, Roter Veltliner Wagram DAC 2024, 0,75 l und Schraubverschluss; das direkt verknüpfte hochauflösende Produktfoto zeigt die passende Originalflasche mit Schuster-Etikett und Marienkäfer. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ411-1-24": {
+    "producer": "Weingut Franz Hirtzberger",
+    "wine": "Grüner Veltliner Rotes Tor Smaragd",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://bestofwines.com/de/wein/winzer/franz-hirtzberger/gruner-veltliner-rotes-tor-smaragd-2024.htm",
+    "sourceImage": "https://bestofwines.com/wine-images/40323_big.jpg",
+    "verification": "Die jahrgangsgenaue Best-of-Wines-Produktseite nennt ausdrücklich Franz Hirtzberger Grüner Veltliner Rotes Tor Smaragd 2024 und das Format 0,75 l. Das unmittelbar zu diesem Produktdatensatz gehörende Originalfoto zeigt die passende echte Standardflasche; Rotes Tor – Grüner Veltliner, Smaragd 2024, Franz Hirtzberger sowie Wachau – Österreich sind auf dem Frontetikett lesbar. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett, Jahrgang und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ416-1-24": {
     "producer": "Weingut Emmerich Knoll",
     "wine": "Grüner Veltliner Wachau DAC Loiben Ried Kreutles Federspiel",
