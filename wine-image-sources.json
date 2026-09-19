@@ -453,6 +453,16 @@
     "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Wohlmuth, Sauvignon Blanc Quarzit Südsteiermark DAC 2025, 0,75 l und Artikelnummer 296006. Das direkt verknüpfte hochauflösende transparente Originalasset trägt Wein und Jahrgang im Dateinamen; auf Flasche und Etikett sind Wohlmuth, Quarzit, Sauvignon Blanc, Südsteiermark DAC, STK-Kennzeichnung und der originale Schraubverschluss sichtbar. Der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Das Original wurde ausschließlich auf seine vorhandene transparente Flaschenkontur zugeschnitten, proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ463-1-25": {
+    "producer": "Weingut Pichler-Krutzler",
+    "wine": "Grüner Veltliner Dürnstein Wachau DAC",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://shop.doellerer.at/products/245068-weingut-pichler-krutzler-gruener-veltliner-duernstein-wachau-dac-2025",
+    "sourceImage": "https://shop.doellerer.at/cdn/shop/files/245068-Gruener_Veltliner_Duernstein_Wachau_DAC_2025_57731dd4-3628-424f-a4df-39c8670a7a5c.png?v=1783685469",
+    "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Pichler-Krutzler, Grüner Veltliner Dürnstein Wachau DAC 2025, Artikelnummer 245068 und weist über die Produktvariante 0,75 l aus. Das direkt verknüpfte hochauflösende Originalasset gehört ausschließlich zu diesem 2025er Produktdatensatz und zeigt die passende echte Flasche; Pichler-Krutzler, Grüner Veltliner, Dürnstein und Wachau – Österreich sind auf dem Frontetikett unmittelbar lesbar. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Schraubverschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ464-1-24": {
     "producer": "Weingut Pichler-Krutzler",
     "wine": "Grüner Veltliner Wachau DAC Ried Supperin",
