@@ -292,5 +292,25 @@
     "sourceImage": "https://images.squarespace-cdn.com/content/v1/60264cbac9b3ef613a6f663b/1673727471285-OLQ1CZ0P4BOEF6WSBXUG/Recyling.png?format=2500w",
     "verification": "Die Produktseite nennt ausdrücklich Familienweingut Sattlerhof, Sauvignon Blanc Gamlitz, Jahrgang 2023, DAC Südsteiermark und 750 ml; das direkt als Hauptbild verknüpfte hochauflösende Originalfoto zeigt die passende Sattlerhof-Flasche mit Gamlitz-Sauvignon-Blanc- und STK-Kennzeichnung. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WÖ430-1-22": {
+    "producer": "Weingut Johann Topf",
+    "wine": "Chardonnay Ried Hasel",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.weinwolf.de/johann-topf-chardonnay-ried-hasel-00560922",
+    "sourceImage": "https://www.weinwolf.de/media/40/79/c7/1728470704/00560920_2404_ohneJg.png?ts=1728470704",
+    "verification": "Die jahrgangsgenaue Wein-Wolf-Produktseite nennt ausdrücklich Johann Topf Chardonnay Ried Hasel 2022, 0,75 l, Artikelnummer 00560922 und Schraubverschluss. Das direkt verknüpfte hochauflösende Produktfoto zeigt die passende Originalflasche mit Chardonnay-Ried-Hasel-Etikett; der Jahrgang ist bei dieser Abfüllung nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WÖ431-1-23": {
+    "producer": "Weingut Johann Topf",
+    "wine": "Grüner Veltliner Ried Wechselberg",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.weinwolf.de/johann-topf-gruener-veltliner-ried-wechselberg-00535823",
+    "sourceImage": "https://www.weinwolf.de/media/1f/6d/41/1728470703/005358_2023_2404_ohneJg.png?ts=1728470703",
+    "verification": "Die jahrgangsgenaue Wein-Wolf-Produktseite nennt ausdrücklich Johann Topf Grüner Veltliner Ried Wechselberg 2023, 0,75 l und Artikelnummer 00535823. Das direkt verknüpfte hochauflösende Produktfoto ist im Dateinamen dem Jahrgang 2023 zugeordnet und zeigt die passende Originalflasche mit Grüner-Veltliner-Ried-Wechselberg-Etikett und Schraubverschluss; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
