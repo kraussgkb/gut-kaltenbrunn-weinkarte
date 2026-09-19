@@ -263,6 +263,16 @@
     "verification": "Die Döllerer-Produktseite nennt ausdrücklich Weingut Familie Schuster, Roter Veltliner Wagram DAC 2024, 0,75 l und Schraubverschluss; das direkt verknüpfte hochauflösende Produktfoto zeigt die passende Originalflasche mit Schuster-Etikett und Marienkäfer. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ417-1-24": {
+    "producer": "Weingut Emmerich Knoll",
+    "wine": "Grüner Veltliner Wachau DAC Ried Kreutles Smaragd",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://shop.doellerer.at/products/03678-weingut-knoll-gruener-veltliner-ried-kreutles-smaragd-wachau-dac-2024",
+    "sourceImage": "https://shop.doellerer.at/cdn/shop/files/03678-Gruener_Veltliner_Ried_Kreutles_Smaragd_Wachau_DAC_2024.png?v=1783685500&width=1920",
+    "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Knoll, Grüner Veltliner Ried Kreutles Smaragd Wachau DAC 2024, 0,75 l und Artikelnummer 03678. Das direkt verknüpfte hochauflösende transparente Originalasset trägt Produzent, Wein, Lage, Qualitätsstufe und Jahrgang im Dateinamen und zeigt die passende Knoll-Flasche mit Ried-Kreutles-, Loibner-Grüner-Veltliner-, Smaragd- und Vinea-Wachau-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Das Original wurde ausschließlich auf seine vorhandene transparente Flaschenkontur zugeschnitten, proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ420-1-21": {
     "producer": "Weingut Kollwentz-Römerhof",
     "wine": "Chardonnay Ried Gloria",
