@@ -1132,5 +1132,46 @@
     "sourceImage": "https://www.koelner-weinkeller.de/media/91/d7/c2/1680843339/2020-Bockenauer%20Felseneck%20Riesling%20GG%20Magnum-Sch%C3%A4fer%20Fr%C3%B6hlich-10680-20_x.png?ts=1680843339",
     "verification": "Die konkrete Produktseite nennt Schäfer-Fröhlich Bockenauer Felseneck Riesling GG 2020 ausdrücklich als Magnum und weist das 1,5-l-Format aus. Das freigestellte Originalfoto zeigt die vollständige passende Magnumflasche; Felseneck, Riesling GG und 2020 sind erkennbar. Die Flasche wurde unverändert auf den Master gesetzt.",
     "verifiedOn": "2026-09-19"
+  },
+  "WF607-1-24": {
+    "producer": "Domaine Jean-Marc Brocard",
+    "wine": "Chablis",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://pese-wein.de/en/products/12416-jean-marc-brocard-chablis-2024/",
+    "sourceImage": "https://pese-wein.de/media/products/12416-01-1920x1920.webp",
+    "verification": "Die konkrete Produktseite nennt Jean-Marc Brocard Chablis 2024, 750 ml und Naturkork. Das direkt verknüpfte hochauflösende transparente Originalasset zeigt die vollständige passende 2024er Flasche; Chablis, Jean-Marc Brocard und 2024 sind auf dem Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; die echte Flasche wurde proportional und mittig auf den unveränderten Master gesetzt. Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WF608-1-22": {
+    "producer": "Domaine Sylvain Morey",
+    "wine": "Chassagne-Montrachet 1er Cru En Caillerets",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://achetezduvin.fr/fr/sylvain-morey/5582-chassagne-montrachet-1er-cru-en-caillerets.html",
+    "sourceImage": "https://achetezduvin.fr/1719-large_default/chassagne-montrachet-1er-cru-en-caillerets.jpg",
+    "verification": "Die konkrete Produktseite nennt Domaine Sylvain Morey Chassagne-Montrachet 1er Cru En Caillerets 2022 und 75 cl. Das direkt verknüpfte Originalfoto zeigt die vollständige passende Flasche; Chassagne-Montrachet, 1er Cru En Caillerets, Sylvain Morey, 2022 und 0,75 l sind auf dem Etikett lesbar. Ausschließlich der weiße Außenhintergrund und die unterhalb der Flasche liegende Spiegelung wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WF610-1-22": {
+    "producer": "Maison Louis Jadot",
+    "wine": "Chassagne-Montrachet",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.enotecacollova.com/en/chassagne-montrachet-2022-p9293/",
+    "sourceImage": "https://cdn.enotecacollova.com/media/images/products/9293/big/vini-bianchi-cote-de-beaune-chassagne-montrachet-2022-maison-louis-jadot-b-e587.jpg",
+    "verification": "Die jahrgangsgenaue Produktseite nennt Maison Louis Jadot Chassagne-Montrachet 2022, Chardonnay, 13,5 % vol. und eine einzelne 0,75-l-Flasche. Das direkt zu diesem Artikel verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Louis-Jadot-Flasche mit Chassagne-Montrachet-Appellation und 75-cl-Angabe. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional und mittig auf den unveränderten Master gesetzt. Flasche, Etikett und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WF611-1-23": {
+    "producer": "Domaine Etienne Sauzet",
+    "wine": "Chassagne-Montrachet Les Encégnières",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.bleuprovencefinewines.com/products/domaine-etienne-sauzet-chassagne-montrachet-les-encegnieres-2023",
+    "sourceImage": "https://www.bleuprovencefinewines.com/cdn/shop/files/E0837447-6D01-4144-90A9-8FA30DFFBC7A_1200x1200.png?v=1762964585",
+    "formatConfirmation": "https://www.honestgrapes.co.uk/products/chassagne-montrachet-les-encegnieres-domaine-etienne-sauzet-2023",
+    "verification": "Die beiden jahrgangsgenauen Produktseiten nennen Domaine Etienne Sauzet Chassagne-Montrachet Les Encégnières 2023 und 75 cl. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche; 2023, Chassagne-Montrachet, Les Encégnières und Etienne Sauzet sind direkt lesbar. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde proportional und mittig auf den unveränderten Master gesetzt. Flasche, Etikett, Jahrgang und Wachsverschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
