@@ -543,6 +543,16 @@
     "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Wohlmuth, Riesling Ried Edelschuh Grosse STK-Lage Südsteiermark DAC 2023 und 0,75 l. Das direkt verknüpfte hochauflösende transparente Originalasset trägt Wein und Jahrgang im Dateinamen; auf dem Etikett sind 2023, Riesling, Ried Edelschuh, Südsteiermark DAC, Wohlmuth und die G-STK-Kennzeichnung sichtbar. Das Original wurde ausschließlich proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WD511-1-24": {
+    "producer": "Weingut Dönnhoff",
+    "wine": "Riesling Höllenpfad im Mühlenberg Grosses Gewächs",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://thewineemporium.com.au/donnhoff-hollenpfad-im-muhlenberg-riesling-gg-2024",
+    "sourceImage": "https://cdn11.bigcommerce.com/s-7syjdg7klr/images/stencil/original/products/37256/36983/Donnhoff-Hollenpfad-im-Muhlenberg-Riesling-GG-2024__84436.1782796263.jpg?c=1",
+    "verification": "Die jahrgangsgenaue Produktseite nennt ausdrücklich Dönnhoff Höllenpfad im Mühlenberg Riesling GG 2024 aus der Nahe; der formatgenaue Datensatz bei Woodland Hills Wine Company bestätigt zusätzlich Jahrgang 2024 und 750 ml. Das unmittelbar zum Produkt verknüpfte hochauflösende Originalasset trägt Produzent, Wein und Jahrgang bereits im Dateinamen und zeigt die passende Dönnhoff-Flasche mit Höllenpfad-im-Mühlenberg-Riesling- und GG-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WD528-1-24": {
     "producer": "Weingut Georg Breuer",
     "wine": "GB Sauvage Riesling",
