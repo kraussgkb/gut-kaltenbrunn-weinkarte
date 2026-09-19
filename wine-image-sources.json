@@ -443,6 +443,16 @@
     "verification": "Die jahrgangsgenaue Perbacco-Produktseite nennt ausdrücklich Riesling Wechselberg Spiegel Kamptal DAC Reserve 1ÖTW von Johann Topf, Jahrgang 2019 und einen Literpreis auf Basis der 0,75-l-Flasche. Das direkt verknüpfte Originalfoto zeigt die passende Topf-Flasche mit Riesling-, Ried-Wechselberg-Spiegel-, 1ÖTW- und Kamptal-Reserve-Kennzeichnung sowie Schraubverschluss; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ433-1-22": {
+    "producer": "Weingut Johann Topf",
+    "wine": "Riesling Ried Wechselberg Spiegel 1ÖTW",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.winefamly.com/johann-topf-riesling-wechselberg-2022",
+    "sourceImage": "https://www.winefamly.com/media/catalog/product/2/8/280682022_0.png",
+    "verification": "Die jahrgangsgenaue Winefamly-Produktseite nennt ausdrücklich Johann Topf Riesling Ried Wechselberg Spiegel 1ÖTW 2022, 750 ml, 100 % Riesling und Schraubverschluss. Das unmittelbar zu diesem Produktdatensatz gehörende hochauflösende transparente Originalasset trägt den Jahrgang 2022 in der eindeutigen Dateikennung 280682022_0.png und zeigt die passende Topf-Flasche mit Riesling-, Ried-Wechselberg-Spiegel-, 1ÖTW- und Kamptal-Kennzeichnung. Der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Das Original wurde ausschließlich auf seine vorhandene transparente Flaschenkontur zugeschnitten, proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Schraubverschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ458-1-25": {
     "producer": "Weingut Wohlmuth",
     "wine": "Gelber Muskateller Südsteiermark DAC Glimmer",
