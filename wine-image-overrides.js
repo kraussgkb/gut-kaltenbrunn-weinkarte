@@ -125,5 +125,15 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "RO907-2-25": "Weinbilder/RO907-2-25.webp?v=master-20260918-5",
   "RO909-1-25": "Weinbilder/RO909-1-25.webp?v=master-20260918-5",
   "WÖ409-1-22": "Weinbilder/WÖ409-1-22.webp?v=master-20260918-1",
-  "RI132-1-22": "Weinbilder/RI132-1-22.jpeg"
+  "RI132-1-22": "Weinbilder/RI132-1-22.jpeg",
+  "WD502-1-18": "Weinbilder/WD502-1-18.webp?v=master-20260919-29",
+  "WD513-1-18": "Weinbilder/WD513-1-18.webp?v=master-20260919-30",
+  "WD514-1-18": "Weinbilder/WD514-1-18.webp?v=master-20260919-31",
+  "WD516-1-18": "Weinbilder/WD516-1-18.webp?v=master-20260919-32",
+  "WD517-1-20": "Weinbilder/WD517-1-20.webp?v=master-20260919-33",
+  "WD518-1-22": "Weinbilder/WD518-1-22.webp?v=master-20260919-34",
+  "WD536-1-19": "Weinbilder/WD536-1-19.webp?v=master-20260919-35",
+  "WD538-1-19": "Weinbilder/WD538-1-19.webp?v=master-20260919-36",
+  "WD542-1-25": "Weinbilder/WD542-1-25.webp?v=master-20260919-37",
+  "WD552-1-20": "Weinbilder/WD552-1-20.webp?v=master-20260919-38"
 });
