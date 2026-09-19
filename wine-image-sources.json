@@ -1254,5 +1254,25 @@
     "formatConfirmation": "https://www.winedoor.it/chardonnay-monteverro-toscana-igt-monteverro.html",
     "verification": "Das offizielle Monteverro-Archiv führt den Chardonnay 2020; die ergänzende Produktseite bestätigt die 0,75-l-Flasche. Das offizielle transparente Originalasset trägt den eindeutigen Ch20-Dateinamen und zeigt die vollständige passende Flasche; Monteverro, Chardonnay und 2020 sind direkt auf dem Frontetikett lesbar. Nur transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WI508-1-21": {
+    "producer": "Gaja",
+    "wine": "Gaia & Rey Langhe DOP",
+    "vintage": "2021",
+    "size": "0,75 l",
+    "sourcePage": "https://www.enotecacollova.com/en/gaia-rey-2021-p9737/",
+    "sourceImage": "https://cdn.enotecacollova.com/media/images/products/9737/big/vini-bianchi-langhe-bianco-gaia-rey-2021-gaja-b-de9e.jpg",
+    "verification": "Die konkrete Produktseite nennt Gaja Gaia & Rey 2021 als einzelne 0,75-l-Flasche. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; GAJA, GAIA & REY, Langhe und 2021 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WI509-1-20": {
+    "producer": "J. Hofstätter",
+    "wine": "Vigna Kolbenhof Gewürztraminer Alto Adige DOC",
+    "vintage": "2020",
+    "size": "0,75 l",
+    "sourcePage": "https://www.rinascente.it/it/item/j-hofstatter-vigna-kolbenhof-gewuerztraminer-alto-adige-doc-2020-750ml-22309862",
+    "sourceImage": "https://product-assets.rinascente.it/80/33301/8033301713845_01_v2Du7O_.jpg",
+    "verification": "Die konkrete Produktseite nennt J. Hofstätter Vigna Kolbenhof Gewürztraminer Alto Adige DOC 2020 und 750 ml; das direkt zu diesem Artikel verknüpfte Originalfoto zeigt die vollständige passende Flasche mit Kolbenhof-, Vigna-Gewürztraminer- und J.-Hofstätter-Etikett. Ausschließlich der gleichmäßige helle Außenhintergrund wurde entfernt; Flasche, Etikett und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
