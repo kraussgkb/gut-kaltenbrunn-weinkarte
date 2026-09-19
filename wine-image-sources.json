@@ -1173,5 +1173,25 @@
     "formatConfirmation": "https://www.honestgrapes.co.uk/products/chassagne-montrachet-les-encegnieres-domaine-etienne-sauzet-2023",
     "verification": "Die beiden jahrgangsgenauen Produktseiten nennen Domaine Etienne Sauzet Chassagne-Montrachet Les Encégnières 2023 und 75 cl. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche; 2023, Chassagne-Montrachet, Les Encégnières und Etienne Sauzet sind direkt lesbar. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde proportional und mittig auf den unveränderten Master gesetzt. Flasche, Etikett, Jahrgang und Wachsverschluss blieben unverändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WF616-1-22": {
+    "producer": "Maison Joseph Drouhin",
+    "wine": "Meursault AOC",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.odyssee-vins.com/joseph-drouhin-meursault-blanc-2022-75cl.html",
+    "sourceImage": "https://www.odyssee-vins.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/1/_/27acd9268454d3981a95021b14917962/joseph-drouhin-meursault-blanc-2022-75cl-www.odyssee-vins.com-ov106983.jpg",
+    "verification": "Die konkrete Produktseite und der Originaldateiname nennen Joseph Drouhin Meursault Blanc 2022 und 75 cl. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche; Joseph Drouhin, Meursault, 2022 und 750 ml sind direkt auf Front- und Halsetikett lesbar. Ausschließlich der weiße Außenhintergrund und der unterhalb der Flasche liegende Bodenschatten wurden entfernt; die echte Flasche wurde proportional und mittig auf den unveränderten Master gesetzt. Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
+  },
+  "WF628-1-22": {
+    "producer": "Domaine Pierre Girardin",
+    "wine": "Puligny-Montrachet Villages Blanc",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.versus.wine/product/domaine-pierre-girardin-puligny-montrachet-villages-blanc-2022-13-75cl-6a3ae30ebd9d",
+    "sourceImage": "https://drzx03g1xem1q.cloudfront.net/Se9IrSi1lLXyW02zFvTWwSZv/vin-france-domaine_pierre_girardin-puligny_montrachet-2022-2000.webp",
+    "verification": "Die konkrete Produktseite nennt Domaine Pierre Girardin Puligny-Montrachet Villages Blanc 2022, 13 % vol. und 75 cl. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; Puligny-Montrachet, 2022, Pierre Girardin und Meursault – Côte d'Or sind auf dem Frontetikett lesbar. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde proportional und mittig auf den unveränderten Master gesetzt. Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
