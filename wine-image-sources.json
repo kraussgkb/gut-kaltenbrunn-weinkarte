@@ -542,5 +542,15 @@
     "sourceImage": "https://shop.doellerer.at/cdn/shop/files/296005-Riesling_Ried_Edelschuh_Grosse_STK-Lage_Suedsteiermark_DAC_2023.png?v=1783685508&width=1920",
     "verification": "Die jahrgangsgenaue Döllerer-Produktseite nennt ausdrücklich Weingut Wohlmuth, Riesling Ried Edelschuh Grosse STK-Lage Südsteiermark DAC 2023 und 0,75 l. Das direkt verknüpfte hochauflösende transparente Originalasset trägt Wein und Jahrgang im Dateinamen; auf dem Etikett sind 2023, Riesling, Ried Edelschuh, Südsteiermark DAC, Wohlmuth und die G-STK-Kennzeichnung sichtbar. Das Original wurde ausschließlich proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WD528-1-24": {
+    "producer": "Weingut Georg Breuer",
+    "wine": "GB Sauvage Riesling",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://www.schlumberger.de/weingut-georg-breuer/gb-sauvage-riesling-2024/901007-2024-ktn",
+    "sourceImage": "https://media.schlumberger.de/asset/339713005336/image_ccr468qqf97vd6ul6mirs63k7o/901007.jpg",
+    "verification": "Die jahrgangsgenaue Produktseite der Schlumberger-Gruppe nennt ausdrücklich Weingut Georg Breuer, GB Sauvage Riesling 2024, Deutschland/Rheingau und 0,75 l. Das über die dortige Funktion ‚Bild herunterladen‘ unmittelbar verknüpfte hochauflösende Originalasset mit Artikelkennung 901007 zeigt die passende Georg-Breuer-Flasche mit GB-Sauvage-Riesling-, Rheingau- und originaler Schraubverschluss-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
