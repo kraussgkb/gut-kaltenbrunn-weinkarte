@@ -552,5 +552,15 @@
     "sourceImage": "https://media.schlumberger.de/asset/339713005336/image_ccr468qqf97vd6ul6mirs63k7o/901007.jpg",
     "verification": "Die jahrgangsgenaue Produktseite der Schlumberger-Gruppe nennt ausdrücklich Weingut Georg Breuer, GB Sauvage Riesling 2024, Deutschland/Rheingau und 0,75 l. Das über die dortige Funktion ‚Bild herunterladen‘ unmittelbar verknüpfte hochauflösende Originalasset mit Artikelkennung 901007 zeigt die passende Georg-Breuer-Flasche mit GB-Sauvage-Riesling-, Rheingau- und originaler Schraubverschluss-Kennzeichnung; der Jahrgang ist nicht Bestandteil des sichtbaren Frontetiketts. Lediglich der zusammenhängende weiße Außenhintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
+  },
+  "WD529-1-22": {
+    "producer": "Weingut Georg Breuer",
+    "wine": "Terra Montosa Riesling",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.vinsalemanys.com/es/inicio/2706-terra-montosa-riesling-2022-075l.html",
+    "sourceImage": "https://www.vinsalemanys.com/11052-large_default/terra-montosa-riesling-2022-075l.jpg",
+    "verification": "Die jahrgangs- und formatgenaue Produktseite nennt ausdrücklich Georg Breuer Terra Montosa Riesling 2022, Rheingau und 0,75 l. Das unmittelbar als Hauptbild dieses Produktdatensatzes verknüpfte transparente Originalasset zeigt die passende Flasche; Georg Breuer, Terra Montosa, 2022 und Rheingau sind auf dem Frontetikett direkt lesbar. Das vorhandene freigestellte Original wurde ausschließlich proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett, Jahrgang und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
   }
 }
