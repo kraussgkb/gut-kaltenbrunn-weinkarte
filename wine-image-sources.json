@@ -1359,5 +1359,25 @@
     "formatConfirmation": "https://www.wine.com/product/idda-etna-bianco-2023/2423963",
     "verification": "Die konkrete Quelle ordnet das Originalfoto dem IDDA Bianco Sicilia DOP 2023 zu; die ergänzende Produktseite bestätigt 2023 und 750 ml. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche; IDDA, Sicilia und 2023 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund und die vollständig unterhalb der Flasche liegende Spiegelung wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "RÖ502-1-18": {
+    "producer": "Weingut Gernot Heinrich",
+    "wine": "Gabarinza",
+    "vintage": "2018",
+    "size": "0,75 l",
+    "sourcePage": "https://www.9wines.com/gernot-heinrich/organic-gabarinza-2018",
+    "sourceImage": "https://9w.nice-cdn.com/upload/image/product/large/default/12781_25354d95.png",
+    "verification": "Die jahrgangsgenaue Produktseite nennt Heinrich Gabarinza 2018 und 0,75 l. Das direkt verknüpfte hochauflösende transparente Originalfoto zeigt die vollständige passende Flasche; Heinrich, Gabarinza und 2018 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RÖ506-1-17": {
+    "producer": "Weingut Gernot Heinrich",
+    "wine": "Salzberg",
+    "vintage": "2017",
+    "size": "0,75 l",
+    "sourcePage": "https://www.neunweine.at/weingut-gernot-heinrich/salzberg-2017",
+    "sourceImage": "https://9w.nice-cdn.com/upload/image/product/large/default/7596_758e681b.png",
+    "verification": "Die jahrgangsgenaue Produktseite nennt Weingut Gernot Heinrich Salzberg 2017, Bio, 0,75 l. Das direkt verknüpfte hochauflösende transparente Originalfoto zeigt die vollständige passende Flasche; Heinrich, Ried Salzberg und 2017 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
