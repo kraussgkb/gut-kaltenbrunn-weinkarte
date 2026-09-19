@@ -1296,5 +1296,26 @@
     "formatConfirmation": "https://www.edelweine24.de/shop/quarz-sauvignon-blanc-sudtirol-doc-2022-cantina-terlan-075l-22438",
     "verification": "Die konkrete Produktseite und der Originaldateiname ordnen das Foto dem Kellerei-Terlan Quarz Sauvignon 2022 zu; die ergänzende Produktseite bestätigt 2022 und 0,75 l. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche mit Terlan-, Sauvignon- und Quarz-Kennzeichnung. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "WI516-1-22": {
+    "producer": "Gaja",
+    "wine": "Rossj-Bass Langhe DOP",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.katsuda.com/c/cont03/cont0304/2311-2-011",
+    "sourceImage": "https://katsuda.itembox.cloud/product/348/000000034863/000000034863-01.jpg?size=l&w=ODAw",
+    "verification": "Die konkrete Produktseite nennt Gaja Rossj Bass Chardonnay 2022 und 750 ml. Das direkt verknüpfte Originalfoto zeigt die vollständige passende Flasche; Rossj-Bass, Langhe, 2022 und GAJA sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund und die vollständig unterhalb der Flasche liegende Spiegelung wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "WI516-1-24": {
+    "producer": "Gaja",
+    "wine": "Rossj-Bass Langhe DOP",
+    "vintage": "2024",
+    "size": "0,75 l",
+    "sourcePage": "https://www.vinotekabeograd.com/vina-iz-italije/25754-gaja-rossj-bass",
+    "sourceImage": "https://www.vinotekabeograd.com/files/images/slike_proizvoda/62887.jpg",
+    "formatConfirmation": "https://www.bovino.nl/gaja/rossj-bass-vintage-2024/a150137",
+    "verification": "Die konkrete Produktseite ordnet die Originalaufnahme dem Gaja Rossj-Bass 2024 zu; die ergänzende Produktseite bestätigt Jahrgang 2024 und 0,75 l. Das hochauflösende Originalfoto zeigt die vollständige passende Flasche; Rossj-Bass, Langhe, 2024 und GAJA sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
