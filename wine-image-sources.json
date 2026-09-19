@@ -263,6 +263,16 @@
     "verification": "Die INTERSPAR-Produktseite nennt ausdrücklich Kollwentz Chardonnay Ried Tatschler 2022 und 0,75 l; das verknüpfte Produktfoto zeigt die passende Originalflasche mit Kollwentz-Kapsel und Ried-Tatschler-Etikett. Lediglich der zusammenhängende weiße Hintergrund wurde entfernt; die Flasche wurde anschließend proportional skaliert, mittig platziert und mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Etikett und Verschluss wurden nicht verändert.",
     "verifiedOn": "2026-09-19"
   },
+  "WÖ424-1-20": {
+    "producer": "Weingut Loimer",
+    "wine": "Grüner Veltliner Kamptal DAC Langenlois Ried Käferberg 1ÖTW",
+    "vintage": "2020",
+    "size": "0,75 l",
+    "sourcePage": "https://www.koelner-weinkeller.de/2020-Gruener-Veltliner-Ried-Kaeferberg-Fred-Loimer-50028-20",
+    "sourceImage": "https://www.koelner-weinkeller.de/media/0d/e2/3a/1680879224/2020-Ried_K%C3%A4ferberg-Fred_Loimer-50028-20_x.png",
+    "verification": "Die jahrgangsgenaue Produktseite nennt ausdrücklich Fred Loimer Grüner Veltliner Ried Käferberg 2020, Erste Lage ÖTW, Artikelnummer 50028-20 und 0,75 l. Das direkt verknüpfte hochauflösende transparente Originalasset zeigt die passende Loimer-Flasche; auf dem Frontetikett sind 2020, Ried Käferberg 1ÖW, Langenlois Kamptal DAC und Loimer unmittelbar lesbar. Das Original wurde ausschließlich auf seine vorhandene transparente Flaschenkontur zugeschnitten, proportional skaliert und mittig mit dem unveränderten Masterhintergrund sowie Original-Wasserzeichen kombiniert. Flasche, Jahrgang, Etikett und Verschluss wurden nicht verändert.",
+    "verifiedOn": "2026-09-19"
+  },
   "WÖ427-1-24": {
     "producer": "Weingut Familie Schuster",
     "wine": "Roter Veltliner Wagram DAC",
