@@ -2030,5 +2030,25 @@
     "sourceImage": "https://cdn11.bigcommerce.com/s-720fd/images/stencil/1280x1280/products/11108/19879/BO14AR20001__58807.1689865011.jpg?c=2",
     "verification": "Die konkrete Produktseite nennt Château Pavie Macquin 2020 und 75 cl. Das direkt zugeordnete Originalfoto zeigt die vollständige passende Flasche; Château Pavie Macquin, Saint-Émilion und 2020 sind direkt auf dem Etikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang, Kapsel und Format blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "RF219-1-17": {
+    "producer": "Paul Jaboulet Aîné",
+    "wine": "Hermitage La Maison Bleue",
+    "vintage": "2017",
+    "size": "0,75 l",
+    "sourcePage": "https://www.wine.com/product/jaboulet-hermitage-la-maison-bleue-2017/609368",
+    "sourceImage": "https://res.cloudinary.com/winecom/image/upload/c1zmfoconyl02cdxcviy",
+    "verification": "Die konkrete Wine.com-Produktseite nennt Paul Jaboulet Aîné Hermitage La Maison Bleue, Jahrgang 2017 und 750 ml und ordnet das Originalfoto direkt diesem Artikel zu. Die vollständige Flasche zeigt Produzent, Hermitage, La Maison Bleue und 2017 lesbar auf den Originaletiketten. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etiketten, Jahrgang, Verschluss und Format blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RF228-1-17": {
+    "producer": "Château Pichon Longueville Comtesse de Lalande",
+    "wine": "Réserve de la Comtesse",
+    "vintage": "2017",
+    "size": "0,75 l",
+    "sourcePage": "https://www.benchmarkwine.com/winery/2375-reserve-de-la-comtesse",
+    "sourceImage": "https://www.aduv.co.uk/cdn/shop/products/FRBOR05-18-CHATEAU-PICHON-Reserve-de-la-Comtesse-de-Lalande.jpg?v=1742474853",
+    "verification": "Die jahrgangsbezogene Händlerübersicht bestätigt Réserve de la Comtesse 2017 in 750 ml. Das hochauflösende Originalfoto zeigt die vollständige passende Einzelflasche; Pichon Comtesse Réserve, Pauillac und 2017 sind direkt auf dem Etikett lesbar. Ausschließlich der Außenhintergrund und der vom Flaschenboden getrennte Bodenschatten wurden entfernt; Flasche, Etikett, Jahrgang, Kapsel und Format blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }

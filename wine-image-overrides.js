@@ -244,5 +244,7 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "WI516-1-23": "Weinbilder/WI516-1-23.webp?v=master-20260920-145",
   "WI520-1-22": "Weinbilder/WI520-1-22.webp?v=master-20260920-146",
   "RF211-1-16": "Weinbilder/RF211-1-16.webp?v=master-20260920-147",
-  "RF212-1-20": "Weinbilder/RF212-1-20.webp?v=master-20260920-148"
+  "RF212-1-20": "Weinbilder/RF212-1-20.webp?v=master-20260920-148",
+  "RF219-1-17": "Weinbilder/RF219-1-17.webp?v=master-20260920-149",
+  "RF228-1-17": "Weinbilder/RF228-1-17.webp?v=master-20260920-150"
 });
