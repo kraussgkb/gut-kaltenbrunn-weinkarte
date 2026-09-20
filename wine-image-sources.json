@@ -2190,5 +2190,16 @@
     "sourceImage": "https://www.albatrosswines.com/cdn/shop/files/IMG_63142.jpg?v=1755176873&width=3023",
     "verification": "Die konkrete Produktseite nennt Vega Sicilia Valbuena 5º, Jahrgang 2019 und ausdrücklich Magnum 1,5 l. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige, breitere Großformatflasche; Vega Sicilia, Valbuena 5º und 2019 sind direkt auf dem Etikett lesbar. Die Produktionszeile auf dem Originaletikett nennt zudem die 2019 abgefüllten Magnumflaschen. Ausschließlich der äußere fotografierte Kellerhintergrund wurde mit einer manuell an die echte Flaschenkontur angepassten Alphamaske entfernt; Flasche, Etikett, Jahrgang, Glasprägung, Kapsel und Format blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "RW513-1-12": {
+    "producer": "Marqués de Murrieta",
+    "wine": "Castillo Ygay Gran Reserva Especial Rioja DOCa",
+    "vintage": "2012",
+    "size": "0,75 l",
+    "sourcePage": "https://hedonism.co.uk/products/castillo-ygay-gran-reserva-especial-2012",
+    "sourceImage": "https://hedonism.co.uk/cdn/shop/files/HED96951.jpg?v=1781890912&width=3840",
+    "formatConfirmation": "https://marquesdemurrieta.com/products/castillo_ygay_gran_reserva_especial_cajamadera_1botella_075l",
+    "verification": "Die offizielle Produktseite von Marqués de Murrieta nennt Castillo Ygay 2012 als einzelne 0,75-l-Flasche; die jahrgangsgenaue Händlerseite bestätigt Castillo Ygay Gran Reserva Especial 2012 und 75 cl. Das direkt zugeordnete hochauflösende Originalfoto zeigt die vollständige passende Flasche; Marqués de Murrieta, Castillo Ygay, Rioja, Gran Reserva Especial und Cosecha 2012 sind direkt auf Flasche und Etikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang, Glasprägung, Kapsel und Format blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
