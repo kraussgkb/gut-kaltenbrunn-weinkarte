@@ -2223,5 +2223,15 @@
     "formatConfirmation": "https://www.wine.com/product/marchesi-antinori-tignanello-2020/1442536",
     "verification": "Die jahrgangsgenaue Produktseite und das direkt zugeordnete hochauflösende transparente Originalfoto nennen und zeigen Marchesi Antinori Tignanello 2020; Tignanello, 2020 und Marchesi Antinori sind direkt auf dem unveränderten Etikett lesbar. Wine.com bestätigt für exakt denselben Wein Produzent, Jahrgang 2020 und 750 ml auf einer Produktseite. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang, Glasprägung, Kapsel und Format blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "CH812-1-16": {
+    "producer": "Louis Roederer",
+    "wine": "Cristal",
+    "vintage": "2016",
+    "size": "0,75 l",
+    "sourcePage": "https://www.jjbuckley.com/wine/2016-louis-roederer-cristal-in-stock/2016-2082408-750/",
+    "sourceImage": "https://images.jjbuckley.com/Vintage/284722/thumb_463x1162_2016-2082408-750.jpg",
+    "verification": "Die konkrete Produktseite nennt Louis Roederer Cristal 2016 und 750 ml. Das direkt zugeordnete Originalfoto zeigt die vollständige passende Einzelflasche; Louis Roederer, Cristal und 2016 sind direkt auf dem Etikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt und die unveränderte Flasche proportional auf der Mittelachse des Masters platziert; Flasche, Etikett, Jahrgang, Glas, Kapsel und Format blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
