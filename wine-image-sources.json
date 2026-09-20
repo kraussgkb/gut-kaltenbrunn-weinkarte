@@ -1379,5 +1379,15 @@
     "sourceImage": "https://9w.nice-cdn.com/upload/image/product/large/default/7596_758e681b.png",
     "verification": "Die jahrgangsgenaue Produktseite nennt Weingut Gernot Heinrich Salzberg 2017, Bio, 0,75 l. Das direkt verknüpfte hochauflösende transparente Originalfoto zeigt die vollständige passende Flasche; Heinrich, Ried Salzberg und 2017 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "RÖ507-1-20": {
+    "producer": "Weingut Kollwentz",
+    "wine": "Steinzeiler",
+    "vintage": "2020",
+    "size": "0,75 l",
+    "sourcePage": "https://www.meinlamgraben.eu/shop/en/kollwentz-steinzeiler-20",
+    "sourceImage": "https://www.meinlamgraben.eu/shop/media/catalog/product/4/4/445848_kollwentz_steinzeiler-2020.png",
+    "verification": "Die konkrete Produktseite nennt Kollwentz Steinzeiler 2020 und 0,75 l. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; Kollwentz, Steinzeiler und 2020 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparente Farbreste außerhalb der von der Quelle selbst definierten Flaschenkontur wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
