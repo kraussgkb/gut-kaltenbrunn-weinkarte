@@ -1990,5 +1990,25 @@
     "sourceImage": "https://www.cuvees.com/web/image/product.product/9412/image_1024/%5BSAUZE01_22_0750%5D%20Etienne%20Sauzet%20Puligny%20Montrachet%202022?unique=3da8400",
     "verification": "Die konkrete Produktseite nennt Etienne Sauzet Puligny-Montrachet 2022 und 750 ml. Das direkt zugeordnete transparente Originalfoto zeigt die vollständige passende Flasche; Puligny-Montrachet, Etienne Sauzet und 2022 sind direkt auf Haupt- und Jahrgangsetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etiketten, Jahrgang und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "WI516-1-23": {
+    "producer": "Gaja",
+    "wine": "Rossj-Bass Langhe DOP",
+    "vintage": "2023",
+    "size": "0,75 l",
+    "sourcePage": "https://www.vinotekabeograd.com/vina-iz-italije/22694-gaja-rossj-bass",
+    "sourceImage": "https://www.vinotekabeograd.com/files/images/slike_proizvoda/55796.jpg",
+    "verification": "Die konkrete Händlerseite ordnet das Originalfoto Gaja Rossj-Bass 2023 zu. Auf der vollständigen 0,75-Liter-Flasche sind Produzent, Rossj-Bass, Langhe und 2023 direkt auf dem Etikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "WI520-1-22": {
+    "producer": "Kellerei Terlan",
+    "wine": "Vorberg Pinot Bianco Riserva Alto Adige Terlano DOC",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://8wines.nl/wijnen/terlan-vorberg-pinot-bianco-riserva-2022",
+    "sourceImage": "https://peak-wines.com/cdn/shop/files/Terlan_vorberg_riserva_2022_front.jpg?v=1764193680&width=2048",
+    "verification": "Die jahrgangsgenaue Produktseite bestätigt Kellerei Terlan Vorberg Pinot Bianco Riserva 2022 in 750 ml; das hochauflösende Originalfoto zeigt dieselbe vollständige Flasche. Terlan, Pinot Bianco Vorberg Riserva und 2022 sind direkt auf dem Etikett lesbar. Ausschließlich der Außenhintergrund und die Spiegelung unterhalb des unveränderten Flaschenbodens wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
