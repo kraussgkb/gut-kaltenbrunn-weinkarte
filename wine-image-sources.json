@@ -1430,5 +1430,35 @@
     "formatConfirmation": "https://www.bcliquorstores.com/product/347722",
     "verification": "Das direkt verknüpfte Originalfoto zeigt die vollständige Château-Lagrange-Flasche; Château Lagrange, Saint-Julien und 2020 sind direkt auf dem Frontetikett lesbar. Die ergänzende jahrgangsgenaue Produktseite bestätigt Château Lagrange 2020 und 75 cl. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "RF210-1-12": {
+    "producer": "Château Palmer",
+    "wine": "Château Palmer",
+    "vintage": "2012",
+    "size": "0,75 l",
+    "sourcePage": "https://www.costco.com.mx/Vinos/Vinos/Vino-Tinto/Chateau-Palmer-2012-Vino-Tinto-750-ml/p/678009",
+    "sourceImage": "https://www.costco.com.mx/medias/sys_master/products/h84/h8d/327616284196894.jpg",
+    "verification": "Die konkrete Produktseite nennt Château Palmer 2012 und 750 ml. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; Château Palmer, Margaux, Médoc und 2012 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RF212-1-16": {
+    "producer": "Château Pavie Macquin",
+    "wine": "Château Pavie Macquin Premier Grand Cru Classé",
+    "vintage": "2016",
+    "size": "0,75 l",
+    "sourcePage": "https://winevins.com/en-ch/products/chateau-pavie-macquin-tinto-2016",
+    "sourceImage": "https://winevins.com/cdn/shop/files/ChateauPavieMacquinTinto2016_3d618974-4643-431e-9cb9-809eff70cbf0_1800x1800.png?v=1743349404",
+    "verification": "Die konkrete Produktseite nennt Château Pavie Macquin 2016 und 750 ml. Das direkt verknüpfte hochauflösende transparente Originalfoto zeigt die vollständige passende Flasche; Château Pavie Macquin, Saint-Émilion, Premier Grand Cru Classé und 2016 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RF213-1-20": {
+    "producer": "Château Pontet-Canet",
+    "wine": "Château Pontet-Canet Pauillac",
+    "vintage": "2020",
+    "size": "0,75 l",
+    "sourcePage": "https://normanbyfinewines.co.nz/products/chateau-pontet-canet-pauillac-2020-750ml",
+    "sourceImage": "https://normanbyfinewines.co.nz/cdn/shop/files/pont2020.png?v=1743385026",
+    "verification": "Die konkrete Produktseite nennt Château Pontet-Canet Pauillac 2020 und 750 ml. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; Château Pontet-Canet, Pauillac und 2020 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
