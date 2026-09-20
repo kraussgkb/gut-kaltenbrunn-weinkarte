@@ -1389,5 +1389,46 @@
     "sourceImage": "https://www.meinlamgraben.eu/shop/media/catalog/product/4/4/445848_kollwentz_steinzeiler-2020.png",
     "verification": "Die konkrete Produktseite nennt Kollwentz Steinzeiler 2020 und 0,75 l. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; Kollwentz, Steinzeiler und 2020 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparente Farbreste außerhalb der von der Quelle selbst definierten Flaschenkontur wurden entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
     "verifiedOn": "2026-09-20"
+  },
+  "RF205-1-09": {
+    "producer": "Château Clos Fourtet",
+    "wine": "Clos Fourtet Premier Grand Cru Classé",
+    "vintage": "2009",
+    "size": "0,75 l",
+    "sourcePage": "https://www.caves-carriere.fr/en/clos-fourtet/53691-clos-fourtet",
+    "sourceImage": "https://www.caves-carriere.fr/46344-large_default/clos-fourtet.jpg",
+    "verification": "Die konkrete Produktseite nennt Clos Fourtet 2009, Saint-Émilion 1er Grand Cru Classé und 75 cl. Das direkt verknüpfte Originalfoto zeigt die vollständige passende Flasche; Clos Fourtet, Saint-Émilion und 2009 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende helle Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RF206-1-11": {
+    "producer": "Château Haut-Brion",
+    "wine": "Château Haut-Brion Premier Grand Cru Classé",
+    "vintage": "2011",
+    "size": "0,75 l",
+    "sourcePage": "https://www.wtso.com/shared/product/91341",
+    "sourceImage": "https://d266ccgqaoijca.cloudfront.net/Products/91341_NB.png",
+    "verification": "Die konkrete Produktseite nennt Château Haut-Brion 2011 und 750 ml. Das direkt verknüpfte transparente Originalfoto zeigt die vollständige passende Flasche; Château Haut-Brion und 2011 sind direkt auf dem Frontetikett lesbar. Ausschließlich transparenter Leerraum wurde beschnitten; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RF207-1-09": {
+    "producer": "Château La Conseillante",
+    "wine": "Château La Conseillante Pomerol",
+    "vintage": "2009",
+    "size": "0,75 l",
+    "sourcePage": "https://grandcruliquidassets.com/products/la-conseillante-2009-750ml",
+    "sourceImage": "https://grandcruliquidassets.com/cdn/shop/products/BDXLACLACO-0750-2009-F0L0C0_1200x.jpg?v=1591940052",
+    "verification": "Die konkrete Produktseite nennt Château La Conseillante Pomerol 2009, Bottle und 750 ml. Das direkt verknüpfte hochauflösende Originalfoto zeigt die vollständige passende Flasche; Château La Conseillante, Pomerol und 2009 sind direkt auf dem Frontetikett lesbar. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
+  },
+  "RF209-1-20": {
+    "producer": "Château Lagrange",
+    "wine": "Château Lagrange Saint-Julien Grand Cru Classé",
+    "vintage": "2020",
+    "size": "0,75 l",
+    "sourcePage": "https://terradawine.com/wine/detail?product_id=6433",
+    "sourceImage": "https://image.terradawine.com/product_image/71866/1c6e4ae5bf122a6225532e33d7483256.jpeg",
+    "formatConfirmation": "https://www.bcliquorstores.com/product/347722",
+    "verification": "Das direkt verknüpfte Originalfoto zeigt die vollständige Château-Lagrange-Flasche; Château Lagrange, Saint-Julien und 2020 sind direkt auf dem Frontetikett lesbar. Die ergänzende jahrgangsgenaue Produktseite bestätigt Château Lagrange 2020 und 75 cl. Ausschließlich der zusammenhängende weiße Außenhintergrund wurde entfernt; Flasche, Etikett, Jahrgang und Verschluss blieben unverändert.",
+    "verifiedOn": "2026-09-20"
   }
 }
