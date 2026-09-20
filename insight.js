@@ -12,4 +12,3 @@ base.onload=()=>{
 };
 document.head.appendChild(base);
 })();
-const orderTest=document.createElement('script');orderTest.src='order-test.js?v=20260920-0851';orderTest.async=false;document.head.appendChild(orderTest);
