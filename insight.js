@@ -11,4 +11,8 @@ base.onload=()=>{
   const spacing=document.createElement('script');spacing.src='detail-spacing.js?v=20260918-1325';spacing.async=false;document.head.appendChild(spacing);
 };
 document.head.appendChild(base);
+const order=document.createElement('script');
+order.src='order.js?v=20260922-live';
+order.async=false;
+document.head.appendChild(order);
 })();
