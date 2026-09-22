@@ -31,7 +31,7 @@
     inner.className = "winefunday-order-inner";
     button.className = "winefunday-order-button";
     button.textContent = "Jetzt direkt bestellen";
-    button.href = "https://winefunday-bestellen.dominik511618.chatgpt.site/bestellen?wein=" + encodeURIComponent(wineId);
+    button.href = "https://winefunday-drucktest.dominik511618.chatgpt.site/bestellen?wein=" + encodeURIComponent(wineId);
     inner.append(button);
     dock.append(inner);
     document.body.appendChild(dock);
