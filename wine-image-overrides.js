@@ -262,5 +262,6 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "RW512-2-19": "Weinbilder/RW512-2-19.webp?v=master-20260920-164",
   "RW513-1-12": "Weinbilder/RW513-1-12.webp?v=master-20260920-165",
   "RI152-1-21": "Weinbilder/RI152-1-21.webp?v=master-20260920-166",
-  "RI156-1-20": "Weinbilder/RI156-1-20.webp?v=master-20260920-167"
+  "RI156-1-20": "Weinbilder/RI156-1-20.webp?v=master-20260920-167",
+  "RF212-1-16": "https://www.chateaupavie.com/media/cache/bouteille_full/media/vins/image/millesimes/chateau-pavie-chateau-pavie-saint-emilion-1er-grand-cru-classe-a-2016-9744.png"
 });
