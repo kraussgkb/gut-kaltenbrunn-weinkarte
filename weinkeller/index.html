@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#004438"><title>Weinkeller · Gut Kaltenbrunn</title>
+<style>
+:root{--g:#004438;--iv:#F9F6F3;--ink:#26332f;--gold:#b3772d;--line:#d5d8d7}
+*{box-sizing:border-box}body{margin:0;background:var(--iv);color:var(--ink);font-family:Candara,Optima,"Segoe UI",Arial,sans-serif}
+.shell{width:min(760px,calc(100% - 28px));margin:auto}.head{padding:34px 0 22px;text-align:center}.head h1{font:400 38px Georgia,serif;color:var(--g);margin:0 0 8px}.head p{margin:0;color:#64706c}
+.card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--g);border-radius:16px;padding:20px;box-shadow:0 16px 40px #23302c14}
+label{display:block;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--g);margin-bottom:8px}.search{width:100%;font:18px inherit;padding:15px;border:1px solid #bcc9c4;border-radius:11px;outline:none}
+.search:focus{border-color:var(--g);box-shadow:0 0 0 3px #00443812}.hint{font-size:13px;color:#77817e;margin:10px 2px 0}
+.results{margin-top:16px}.wine{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px;margin-bottom:10px;cursor:pointer}.wine:hover{border-color:#9fb1aa}.wine h2{font:400 22px Georgia,serif;color:var(--g);margin:0 0 4px}.meta{color:#68736f;font-size:14px}.location{margin-top:13px;padding:13px;border-left:4px solid var(--gold);background:#faf9f5;border-radius:5px}.location b{display:block;color:var(--g)}.code{font-family:ui-monospace,monospace;font-size:12px;margin-top:5px;color:#68736f}
+.empty{padding:30px 10px;text-align:center;color:#68736f}.map-placeholder{margin-top:18px;border:1px dashed #aebbb6;border-radius:12px;padding:34px 18px;text-align:center;color:#68736f;background:#fbfcfb}.admin-link{display:block;text-align:center;margin:22px 0;color:var(--g);font-size:13px}
+.badge{display:inline-block;background:var(--g);color:#fff;padding:4px 8px;border-radius:4px;font-size:10px;font-weight:700;letter-spacing:.08em;margin-bottom:8px}
+</style>
+</head>
+<body><main class="shell">
+<header class="head"><div class="badge">MITARBEITER</div><h1>Weinkeller</h1><p>Wein suchen. Standort sofort finden.</p></header>
+<section class="card"><label for="q">ARTIKELNUMMER, WEIN ODER WEINGUT</label><input id="q" class="search" autocomplete="off" placeholder="z. B. RF224-1-90"><p class="hint">Ab 2 Zeichen werden passende Weine angezeigt.</p><div id="results" class="results"></div></section>
+<a class="admin-link" href="./admin/">Admin-Bereich</a>
+</main>
+<script>
+let wines=[],locations={};const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+async function start(){try{const [w,l]=await Promise.all([fetch('../wines.json',{cache:'no-store'}),fetch('./locations.json',{cache:'no-store'})]);wines=(await w.json()).filter(x=>x.active===true);locations=await l.json()}catch(e){document.getElementById('results').innerHTML='<div class="empty">Daten konnten nicht geladen werden.</div>'}}
+function loc(id){return Array.isArray(locations[id])?locations[id]:[]}
+function render(){const t=q.value.trim().toLowerCase();if(t.length<2){results.innerHTML='';return}const rows=wines.filter(w=>([w.id,w.name,w.producer,w.year].join(' ')).toLowerCase().includes(t)).slice(0,12);results.innerHTML=rows.length?rows.map(w=>'<article class="wine"><h2>'+esc(w.name)+'</h2><div class="meta">'+[w.producer,w.year,w.size,w.id].filter(Boolean).map(esc).join(' · ')+'</div>'+(loc(w.id).length?loc(w.id).map(x=>'<div class="location"><b>'+esc(x.place)+' · '+esc(x.rack)+' · Ebene '+esc(x.level)+'</b><span class="code">'+esc(x.code)+'</span></div>').join(''):'<div class="location"><b>Lagerort noch nicht erfasst</b></div>')+'<div class="map-placeholder">Grafische Kelleransicht folgt nach der Raumaufnahme.</div></article>').join(''):'<div class="empty">Kein Wein gefunden.</div>'}
+q.addEventListener('input',render);start();
+</script></body></html>
