@@ -1,0 +1,7 @@
+{
+  "_schema": {
+    "description": "Winefunday Lagerorte. Ein Wein kann mehrere Lagerorte besitzen.",
+    "fields": ["place","rack","level","code"],
+    "example_code": "BRE-IT01-E01"
+  }
+}
