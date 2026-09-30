@@ -6,7 +6,6 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "CH801-3-NV": "Weinbilder/CH801-3-NV.webp",
   "CH801-4-NV": "Weinbilder/CH801-4-NV.webp",
   "CH802-1-NV": "Weinbilder/CH802-1-NV.webp",
-  "CH803-1-NV": "Weinbilder/CH803-1-NV.webp",
   "CH804-1-NV": "Weinbilder/CH804-1-NV.webp",
   "CH804-2-NV": "Weinbilder/CH804-2-NV.webp",
   "CH805-1-NV": "Weinbilder/CH805-1-NV.webp?v=master-20260918-6",
@@ -16,9 +15,7 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "CH806-2-NV": "Weinbilder/CH806-2-NV.webp",
   "CH807-1-12": "Weinbilder/CH807-1-12.webp",
   "CH808-1-NV": "Weinbilder/CH808-1-NV.webp",
-  "CH809-1-NV": "Weinbilder/CH809-1-NV.webp",
   "CH810-1-NV": "Weinbilder/CH810-1-NV.webp",
-  "CH811-1-14": "Weinbilder/CH811-1-14.webp",
   "CH812-1-16": "Weinbilder/CH812-1-16.webp?v=master-20260920-168",
   "CH812-1-82": "Weinbilder/CH812-1-82.webp",
   "CH812-2-12": "Weinbilder/CH812-2-12.webp",
@@ -263,5 +260,8 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "RW513-1-12": "Weinbilder/RW513-1-12.webp?v=master-20260920-165",
   "RI152-1-21": "Weinbilder/RI152-1-21.webp?v=master-20260920-166",
   "RI156-1-20": "Weinbilder/RI156-1-20.webp?v=master-20260920-167",
-  "RF212-1-16": "https://www.chateaupavie.com/media/cache/bouteille_full/media/vins/image/millesimes/chateau-pavie-chateau-pavie-saint-emilion-1er-grand-cru-classe-a-2016-9744.png"
+  "RF212-1-16": "https://www.chateaupavie.com/media/cache/bouteille_full/media/vins/image/millesimes/chateau-pavie-chateau-pavie-saint-emilion-1er-grand-cru-classe-a-2016-9744.png",
+  "RI203-1-19": "Weinbilder/RI203-1-19.webp?v=20260930-argiano",
+  "RI153-1-22": "Weinbilder/RI153-1-22.webp?v=20260930-argiano"
 });
+

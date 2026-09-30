@@ -2243,5 +2243,25 @@
     "sourceImage": "https://www.classicdriver.com/sites/default/files/users/0/collectibles_images/feed_892003/f1dca74421dd995ae8de3b70fbf3b94f.jpeg",
     "verification": "Die konkrete Auktionsseite nennt Dom Pérignon Vintage 1993 und ausdrücklich eine einzelne Magnumflasche. Das hochauflösende Originalfoto zeigt die vollständige passende Einzelflasche; Moët & Chandon, Dom Pérignon, Vintage 1993 und 1500 ml sind direkt auf dem Etikett lesbar. Ausschließlich der neutrale Studiohintergrund wurde entfernt und die unveränderte Flasche proportional auf der Mittelachse des Masters platziert; Flasche, Etikett, Jahrgang, Glas, Kapsel und Format blieben unverändert.",
     "verifiedOn": "2026-09-21"
+  },
+  "RI203-1-19": {
+    "producer": "Argiano",
+    "wine": "Sella del Leccio Rosso di Montalcino DOC",
+    "vintage": "2019",
+    "size": "0,75 l",
+    "sourcePage": "https://weinwolf-media.s3.eu-central-1.amazonaws.com/data-sheets/Wein-Wolf-Expertise-22046419.pdf",
+    "sourceImage": "https://weinwolf-media.s3.eu-central-1.amazonaws.com/data-sheets/Wein-Wolf-Expertise-22046419.pdf",
+    "verification": "Original-Flaschenbild einschließlich Original-Alphamaske aus dem jahrgangsgenauen Lieferantendatenblatt 22046419 extrahiert; Seite belegt Wein, Jahrgang 2019, 0,750 l und EAN 8022931515196. Nur proportionaler Maßstab und mittige Platzierung über das vorhandene Master-Bildskript. Vorlage und originale Wortmarke unverändert. Quellbild 121×473 Pixel, deshalb begrenzte Detailauflösung.",
+    "verifiedOn": "2026-09-30"
+  },
+  "RI153-1-22": {
+    "producer": "Argiano",
+    "wine": "Solengo Toscana IGT",
+    "vintage": "2022",
+    "size": "0,75 l",
+    "sourcePage": "https://www.gourmet-wines.com/Argiano-Solengo-Toscana-IGT-2022/GW10652",
+    "sourceImage": "https://www.gourmet-wines.com/media/57/8b/a7/1736270703/Solengo.jpg",
+    "verification": "Produktseite GW10652 ordnet das Originalfoto Argiano Solengo Toscana IGT 2022 und 0,75 l zu. Der Jahrgang ist im Frontetikett nicht separat lesbar; Zuordnung erfolgt über die konkrete Produktseite. Nur äußeren weißen Hintergrund freigestellt und proportional mittig über das vorhandene Master-Bildskript platziert. Flasche, Etikett und Originalwortmarke unverändert.",
+    "verifiedOn": "2026-09-30"
   }
 }
