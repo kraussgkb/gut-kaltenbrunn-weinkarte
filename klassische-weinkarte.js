@@ -23,3 +23,5 @@ function chapters(items,wines){
  document.getElementById('menu').innerHTML=list.map((c,i)=>`<section class="menu-chapter" id="kapitel-${i}"><h2>${esc(c.label)}</h2>${c.sections.filter(s=>s.blocks.length).map(s=>(s.label?`<h3>${esc(s.label)}</h3>`:'')+s.blocks.map(rows=>`<div class="menu-wine"><p class="wine-name">${esc(rows[0].name)}</p>${rows.map(row).join('')}</div>`).join('')).join('')}</section>`).join('');
  if(location.hash)document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
  }catch(e){document.getElementById('menu').textContent=e.message;}})();
+
+document.getElementById('menu-to-top').onclick=()=>scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
