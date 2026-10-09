@@ -27,10 +27,15 @@ function chapters(items,wines){
  const applySearch=()=>{const query=input.value.trim();const terms=normalize(query).split(/\s+/).filter(Boolean);let count=0;const ids=new Set();const filtered=list.map(c=>({...c,sections:c.sections.map(s=>({...s,blocks:s.blocks.map(rows=>rows.filter(w=>{const text=normalize([w.name,w.grapes,w.producer,w.id,w.region,w.country,w.year].join(' '));const matches=terms.every(t=>text.includes(t));if(matches)ids.add(w.id);return matches;})).filter(rows=>rows.length)})).filter(s=>s.blocks.length)})).filter(c=>c.sections.length);count=ids.size;render(filtered);document.getElementById('menu-search-status').textContent=query?`${count} passende Weine`:'';if(!filtered.length)document.getElementById('menu').innerHTML='<section class="menu-chapter"><h2>Keine passenden Weine</h2><p>Bitte einen anderen Suchbegriff eingeben.</p></section>';};
  input.addEventListener('input',applySearch);
  document.getElementById('menu-search-clear').onclick=()=>{input.value='';applySearch();input.focus();};
- document.getElementById('menu-search-panel').onsubmit=e=>{e.preventDefault();applySearch();input.blur();document.getElementById('menu').scrollIntoView({behavior:'smooth'});};
+ document.getElementById('menu-search-panel').onsubmit=e=>{e.preventDefault();applySearch();input.blur();searchPanel.hidden=true;searchToggle.setAttribute('aria-expanded','false');document.body.classList.remove('menu-search-open');setTimeout(()=>document.getElementById('menu').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}),300);};
  if(location.hash)document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
  }catch(e){document.getElementById('menu').textContent=e.message;}})();
 
 document.getElementById('menu-to-top').onclick=()=>scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
 
-const searchToggle=document.getElementById('menu-search-toggle'),searchPanel=document.getElementById('menu-search-panel');searchToggle.onclick=()=>{const open=searchPanel.hidden;searchPanel.hidden=!open;searchToggle.setAttribute('aria-expanded',String(open));if(open)document.getElementById('menu-search-input').focus();};searchPanel.addEventListener('keydown',e=>{if(e.key==='Escape'){searchPanel.hidden=true;searchToggle.setAttribute('aria-expanded','false');searchToggle.focus();}});
+const searchToggle=document.getElementById('menu-search-toggle'),searchPanel=document.getElementById('menu-search-panel');
+function positionSearch(){const viewport=window.visualViewport;document.documentElement.style.setProperty('--search-visible-top',`${viewport?.offsetTop||0}px`);}
+window.visualViewport?.addEventListener('resize',positionSearch);
+window.visualViewport?.addEventListener('scroll',positionSearch);
+searchToggle.onclick=()=>{const open=searchPanel.hidden;searchPanel.hidden=!open;searchToggle.setAttribute('aria-expanded',String(open));document.body.classList.toggle('menu-search-open',open);if(open){positionSearch();document.getElementById('menu-search-input').focus({preventScroll:true});}};
+searchPanel.addEventListener('keydown',e=>{if(e.key==='Escape'){searchPanel.hidden=true;searchToggle.setAttribute('aria-expanded','false');document.body.classList.remove('menu-search-open');searchToggle.focus({preventScroll:true});}});
