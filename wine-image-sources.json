@@ -2263,5 +2263,325 @@
     "sourceImage": "https://www.gourmet-wines.com/media/57/8b/a7/1736270703/Solengo.jpg",
     "verification": "Produktseite GW10652 ordnet das Originalfoto Argiano Solengo Toscana IGT 2022 und 0,75 l zu. Der Jahrgang ist im Frontetikett nicht separat lesbar; Zuordnung erfolgt über die konkrete Produktseite. Nur äußeren weißen Hintergrund freigestellt und proportional mittig über das vorhandene Master-Bildskript platziert. Flasche, Etikett und Originalwortmarke unverändert.",
     "verifiedOn": "2026-09-30"
+  },
+  "WD566-1-25": {
+    "producer": "Weingut Georg Breuer",
+    "wine": "GB Blanc Weiß- & Grauburgunder",
+    "vintage": "2025",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.bremer-weinkolleg.de/weingut-georg-breuer/gb-blanc-weiss-grauburgunder-2025/901083-2025",
+    "sourceImage": "https://media.schlumberger.de/image/339713005336/image_rflpa4o5a91jn2oo2bc2h3fh5n/-FJPG/901083.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WD567-1-24": {
+    "producer": "Weingut Prinz Salm",
+    "wine": "Grauburgunder",
+    "vintage": "2024",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.bremer-weinkolleg.de/weingut-prinz-salm/grauburgunder-2024",
+    "sourceImage": "https://media.schlumberger.de/image/339713005336/image_cmce6iqt0d5nf7oh60hh3b8b1c/-FJPG/903022.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WÖ422-1-23": {
+    "producer": "Weingut Kollwentz-Römerhof",
+    "wine": "Chardonnay Ried Tatschler",
+    "vintage": "2023",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.vinospirit.at/p/Kollwentz/Chardonnay-Ried-Tatschler-2023/41322323",
+    "sourceImage": "https://www.vinospirit.at/media/39/66/16/1747909513/41322323.png?ts=1784713283",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WI527-1-19": {
+    "producer": "Kellerei St. Michael-Eppan",
+    "wine": "Appius Südtirol DOC",
+    "vintage": "2019",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.stmichael.it/it/i-vini/appius/appius-2019/",
+    "sourceImage": "https://www.stmichael.it/it/img/asset/aW1hZ2VzL2ZsYXNjaGVuL2FwcGl1cy9hbHRvLWFkaWdlLWRvYy1hcHBpdXMtMjAxOS1kZXRhaWwucG5n/alto-adige-doc-appius-2019-detail.png?w=1024&h=2971.3421550095&fit=crop&sharp=5&q=100&s=c6178064d1fbb71193da27e672aebd72",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WI527-1-20": {
+    "producer": "Kellerei St. Michael-Eppan",
+    "wine": "Appius Südtirol DOC",
+    "vintage": "2020",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.stmichael.it/en/the-wines/appius/appius-2020/",
+    "sourceImage": "https://www.stmichael.it/en/img/asset/aW1hZ2VzL2ZsYXNjaGVuL2FwcGl1cy9hbHRvLWFkaWdlLWRvYy1hcHBpdXMtMjAyMC1kZXRhaWwucG5n/alto-adige-doc-appius-2020-detail.png?w=1024&h=2960.1506591337&fit=crop&sharp=5&q=100&s=cfe623bc11cd471bce743e65e6b76c43",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI207-1-22": {
+    "producer": "Tenuta San Guido",
+    "wine": "Guidalberto Toscana IGT",
+    "vintage": "2022",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.toscanavini.com/en/vini-rossi/670-tenuta-san-guido-guidalberto-2022.html",
+    "sourceImage": "https://www.toscanavini.com/601-large_default/guidalberto-2022.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI111-1-22": {
+    "producer": "Tenuta di Biserno",
+    "wine": "Biserno",
+    "vintage": "2022",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.sfwtc.com/wine/2022-tenuta-di-biserno-biserno/2022-194430-750/",
+    "sourceImage": "https://images.sfwtc.com/Vintage/286423/thumb_463x1162_2022-194430-750.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "CH803-1-NV": {
+    "producer": "Laurent-Perrier",
+    "wine": "Héritage",
+    "vintage": "NV",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.laurent-perrier.com/fr/champagnes/heritage/",
+    "sourceImage": "https://www.laurent-perrier.com/wp-content/uploads/2024/07/Champagne-Heritage-Laurent-Perrier.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "CH809-1-NV": {
+    "producer": "Delamotte",
+    "wine": "Rosé",
+    "vintage": "NV",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://delamotte.jp/lineup/rose.html",
+    "sourceImage": "https://delamotte.jp/lineup/img/rose/750ml.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WD558-1-25": {
+    "producer": "Weingut Wageck Pfaffmann",
+    "wine": "Tertiär Sauvignon Blanc",
+    "vintage": "2025",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://shop.wageck-weine.de/products/sauvignon-blanc",
+    "sourceImage": "https://shop.wageck-weine.de/cdn/shop/products/922-GUTSW-Sauvignon_blanc_TERTIAER.png?v=1743493686",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WI519-1-25": {
+    "producer": "Famiglia Cotarella",
+    "wine": "Verdeluce Vermentino Umbria IGP",
+    "vintage": "2025",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.piemont-express.de/collections/neuheiten-1/products/cotarella-verdeluce-vermentino-2025",
+    "sourceImage": "https://www.piemont-express.de/cdn/shop/files/cotarella-verdeluce-vermentino-2025-vorn.jpg?v=1791482826",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WI526-1-25": {
+    "producer": "Venica & Venica",
+    "wine": "Sauvignon Ronco del Cerò Collio DOC",
+    "vintage": "2025",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://saittavini.com/Venica-Venica/2025-Ronco-del-Cero-Sauvignon-DOC-Collio",
+    "sourceImage": "https://saittavini.com/media/f6/b5/1c/1790937449/2025%20Ronco%20del%20Cero%20Saittavini.jpg?ts=1790937449",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WF605-1-23": {
+    "producer": "Domaine Etienne Sauzet",
+    "wine": "Bourgogne Chardonnay",
+    "vintage": "2023",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.lecarredesvins.com/18861-domaine-etienne-sauzet-bourgogne-2023-7191900.html",
+    "sourceImage": "https://www.lecarredesvins.com/36513-large_default/domaine-etienne-sauzet-bourgogne-2023.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RÖ501-1-21": {
+    "producer": "Weingut Gesellmann",
+    "wine": "Bela Rex",
+    "vintage": "2021",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://wein-quadrat.at/produkt/gesellmann-bela-rex/",
+    "sourceImage": "https://wein-quadrat.at/wp-content/uploads/2022/12/54000_BELA_REX_oJg.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WF612-1-13": {
+    "producer": "Château La Mission Haut-Brion",
+    "wine": "Château La Mission Haut-Brion Blanc",
+    "vintage": "2013",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.mission-haut-brion.com/nos-vins/chateau-la-mission-haut-brion-blanc/chateau-la-mission-haut-brion-blanc-2013/",
+    "sourceImage": "https://www.mission-haut-brion.com/wp-content/uploads/sites/4/2022/05/MHB-2013-min-1-377x1024.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RF208-1-06": {
+    "producer": "Château La Mission Haut-Brion",
+    "wine": "Château La Mission Haut-Brion",
+    "vintage": "2006",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.mission-haut-brion.com/nos-vins/chateau-la-mission-haut-brion-rouge/chateau-la-mission-haut-brion-rouge-2006/",
+    "sourceImage": "https://www.mission-haut-brion.com/wp-content/uploads/sites/4/2022/05/MHR-2006-min-375x1024.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RF228-1-10": {
+    "producer": "Château Pichon Longueville Comtesse de Lalande",
+    "wine": "Château Pichon Longueville Comtesse de Lalande",
+    "vintage": "2010",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.chateaunet.com/chateau-pichon-longueville-comtesse-de-lalande-1038520-chateau-pichon-longueville-comtesse-de-lalande-pauillac-rouge-2010-075",
+    "sourceImage": "https://www.chateaunet.com/media/catalog/product/cache/6a6c50edcf064e05cd73ce39c8402c9a/1/0/100001272_075_47.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI125-2-00": {
+    "producer": "Podere Il Carnasciale",
+    "wine": "Il Caberlot",
+    "vintage": "2000",
+    "size": "Fl. 1,50l",
+    "sourcePage": "https://enolora.it/products/il-caberlot-2000-igt-toscana-podere-il-carnasciale-magnum",
+    "sourceImage": "https://enolora.it/cdn/shop/files/21_43454e26-b99f-45f4-8254-93c65eebf124.jpg?v=1727455668",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI125-1-20": {
+    "producer": "Podere Il Carnasciale",
+    "wine": "Il Caberlot Sommelleria",
+    "vintage": "2020",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.piemont-express.de/en-eu/products/podere-il-carnasciale-il-caberlot-sommelleria-2020-1",
+    "sourceImage": "https://www.piemont-express.de/cdn/shop/files/Podere-Il-Carnasciale-Il-Caberlot-Sommelleria-2020-front.jpg?v=1763813681",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI126-1-22": {
+    "producer": "Tenuta di Biserno",
+    "wine": "Il Pino di Biserno Toscana IGT",
+    "vintage": "2022",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.xtrawine.com/products/tenuta-di-biserno-il-pino-di-biserno-2022",
+    "sourceImage": "https://www.xtrawine.com/cdn/shop/files/tenuta-di-biserno-il-pino-di-biserno-2022_54124_1_8a92f6c6-4a1f-42b0-89c4-b0223e01538b.webp?v=1773745844",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI132-1-19": {
+    "producer": "Montevertine",
+    "wine": "Le Pergole Torte Toscana IGT",
+    "vintage": "2019",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://enotecatuscia.it/caveau/1511-montevertine-le-pergole-torte-igt-2019.html",
+    "sourceImage": "https://enotecatuscia.it/1505-large_default/montevertine-le-pergole-torte-igt-2019.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI132-1-21": {
+    "producer": "Montevertine",
+    "wine": "Le Pergole Torte Toscana IGT",
+    "vintage": "2021",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.winemilano.it/prodotto/le-pergole-torte-2021-montevertine-750-ml/",
+    "sourceImage": "https://www.winemilano.it/wp-content/uploads/2026/07/LE-PERGOLE-TORTE-2021-WINEMILANO-.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI134-1-23": {
+    "producer": "Tenuta dell'Ornellaia",
+    "wine": "Le Volte dell’Ornellaia Toscana IGT",
+    "vintage": "2023",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.ornellaia.com/en/wines/le-volte-dellornellaia-2023/",
+    "sourceImage": "https://saornellaiastatic.blob.core.windows.net/media/0001203_le-volte-dellornellaia-2023.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI146-1-19": {
+    "producer": "Tenuta dell'Ornellaia",
+    "wine": "Ornellaia Bolgheri DOC Superiore Rosso",
+    "vintage": "2019",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.giwine.it/vini-rossi/178-ornellaia-bolgheri-superiore-doc-2019-tenuta-dell-ornellaia-0375l.html",
+    "sourceImage": "https://www.giwine.it/275-large_default/ornellaia-bolgheri-superiore-doc-2019-tenuta-dell-ornellaia-0375l.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI149-1-23": {
+    "producer": "Gaja Ca' Marcanda",
+    "wine": "Promis Toscana IGT",
+    "vintage": "2023",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://shop.osteriadellachiocciola.it/en/products/promis-2023-ca-marcanda-gaja",
+    "sourceImage": "https://shop.osteriadellachiocciola.it/cdn/shop/files/Screenshot2026-08-11alle11.03senzasfondo.34.png?v=1786439052",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RI150-1-20": {
+    "producer": "Tenuta San Guido",
+    "wine": "Bolgheri Sassicaia DOC",
+    "vintage": "2020",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.pasticceriasaccone.it/products/bolgheri-sassicaia-doc-sassicaia-2020-0-75l-tenuta-san-guido",
+    "sourceImage": "https://www.pasticceriasaccone.it/cdn/shop/files/001ma13_1_1_1_1_1_3adbd864-65e8-461d-9aef-5733ae13f4d1.jpg?v=1697094114",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WI501-1-21": {
+    "producer": "Jermann",
+    "wine": "Afix Riesling Venezia Giulia IGT",
+    "vintage": "2021",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.lacavestore.com/en/wines/3426-afix-riesling-igt-jermann-2021.html",
+    "sourceImage": "https://www.lacavestore.com/7898-large_default/afix-riesling-igt-jermann-2021.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "WI507-1-19": {
+    "producer": "Monteverro",
+    "wine": "Monteverro Chardonnay Toscana IGT",
+    "vintage": "2019",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.monteverro.com/en/wines/monteverro-chardonnay-en-en/2019-monteverro-chardonnay/",
+    "sourceImage": "https://www.monteverro.com/app/uploads/2022/07/ch-19.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RÖ504-1-22": {
+    "producer": "Weingut Gesellmann",
+    "wine": "Opus Eximium",
+    "vintage": "2022",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.bremer-weinkolleg.de/weingut-gesellmann/opus-eximium-cuvee-2022/753040-2022",
+    "sourceImage": "https://media.schlumberger.de/image/339713005336/image_jo3bjnc2fd48jfpafedrri406n/-FJPG/753040.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RÖ505-1-21": {
+    "producer": "Weingut Gernot Heinrich",
+    "wine": "Pannobile",
+    "vintage": "2021",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.edelrausch.de/gernot-heinrich-pannobile-2021",
+    "sourceImage": "https://www.edelrausch.de/media/image/product/9536/lg/gernot-heinrich-pannobile-2021.png",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RD503-1-20": {
+    "producer": "Weingut Georg Breuer",
+    "wine": "Georg Breuer Spätburgunder",
+    "vintage": "2020",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.vinocentral.de/weingut-georg-breuer-gb-rouge-spaetburgunder",
+    "sourceImage": "https://images.vinocentral.de/media/image/ab/a1/8c/bild_weingut_georg_breuer_spaetburgunder_gb_rouge_2020.jpg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
+  },
+  "RF218-1-82": {
+    "producer": "Château Gruaud Larose",
+    "wine": "Château Gruaud Larose",
+    "vintage": "1982",
+    "size": "Fl. 0,75l",
+    "sourcePage": "https://www.stephconti.com/vin-de-bordeaux-stephconti/les-meilleurs-vins-de-saint-julien-grands-crus-de-bordeaux/chateau-gruaud-larose-1982-75cl-saint-julien-3.html",
+    "sourceImage": "https://media.cdnws.com/_i/47855/11891/1444/94/gruaud-larose-1982-a-bt0370-2026-09-29-1.jpeg",
+    "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
+    "verifiedOn": "2026-10-09"
   }
 }

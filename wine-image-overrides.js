@@ -1,4 +1,4 @@
-/* Local image paths for verified sparkling-wine bottle assets. */
+/* Verified bottle images; sources are recorded in wine-image-sources.json. */
 window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "CH801-0-NV": "Weinbilder/CH801-0-NV.webp",
   "CH801-1-NV": "Weinbilder/CH801-1-NV.webp",
@@ -263,6 +263,37 @@ window.WINE_IMAGE_OVERRIDES = Object.freeze({
   "RI156-1-20": "Weinbilder/RI156-1-20.webp?v=master-20260920-167",
   "RF212-1-16": "https://www.chateaupavie.com/media/cache/bouteille_full/media/vins/image/millesimes/chateau-pavie-chateau-pavie-saint-emilion-1er-grand-cru-classe-a-2016-9744.png",
   "RI203-1-19": "Weinbilder/RI203-1-19.webp?v=20260930-argiano",
-  "RI153-1-22": "Weinbilder/RI153-1-22.webp?v=20260930-argiano"
+  "RI153-1-22": "Weinbilder/RI153-1-22.webp?v=20260930-argiano",
+  "WD566-1-25": "Weinbilder/WD566-1-25.webp?v=master-20261009",
+  "WD567-1-24": "Weinbilder/WD567-1-24.webp?v=master-20261009",
+  "WÖ422-1-23": "Weinbilder/WÖ422-1-23.webp?v=master-20261009",
+  "WI527-1-19": "Weinbilder/WI527-1-19.webp?v=master-20261009",
+  "WI527-1-20": "Weinbilder/WI527-1-20.webp?v=master-20261009",
+  "RI207-1-22": "Weinbilder/RI207-1-22.webp?v=master-20261009",
+  "RI111-1-22": "Weinbilder/RI111-1-22.webp?v=master-20261009",
+  "CH803-1-NV": "Weinbilder/CH803-1-NV.webp?v=master-20261009",
+  "CH809-1-NV": "Weinbilder/CH809-1-NV.webp?v=master-20261009",
+  "WD558-1-25": "Weinbilder/WD558-1-25.webp?v=master-20261009",
+  "WI519-1-25": "Weinbilder/WI519-1-25.webp?v=master-20261009",
+  "WI526-1-25": "Weinbilder/WI526-1-25.webp?v=master-20261009",
+  "WF605-1-23": "Weinbilder/WF605-1-23.webp?v=master-20261009",
+  "RÖ501-1-21": "Weinbilder/RÖ501-1-21.webp?v=master-20261009",
+  "WF612-1-13": "Weinbilder/WF612-1-13.webp?v=master-20261009",
+  "RF208-1-06": "Weinbilder/RF208-1-06.webp?v=master-20261009",
+  "RF228-1-10": "Weinbilder/RF228-1-10.webp?v=master-20261009",
+  "RI125-2-00": "Weinbilder/RI125-2-00.webp?v=master-20261009",
+  "RI125-1-20": "Weinbilder/RI125-1-20.webp?v=master-20261009",
+  "RI126-1-22": "Weinbilder/RI126-1-22.webp?v=master-20261009",
+  "RI132-1-19": "Weinbilder/RI132-1-19.webp?v=master-20261009",
+  "RI132-1-21": "Weinbilder/RI132-1-21.webp?v=master-20261009",
+  "RI134-1-23": "Weinbilder/RI134-1-23.webp?v=master-20261009",
+  "RI146-1-19": "Weinbilder/RI146-1-19.webp?v=master-20261009",
+  "RI149-1-23": "Weinbilder/RI149-1-23.webp?v=master-20261009",
+  "RI150-1-20": "Weinbilder/RI150-1-20.webp?v=master-20261009",
+  "WI501-1-21": "Weinbilder/WI501-1-21.webp?v=master-20261009",
+  "WI507-1-19": "Weinbilder/WI507-1-19.webp?v=master-20261009",
+  "RÖ504-1-22": "Weinbilder/RÖ504-1-22.webp?v=master-20261009",
+  "RÖ505-1-21": "Weinbilder/RÖ505-1-21.webp?v=master-20261009",
+  "RD503-1-20": "Weinbilder/RD503-1-20.webp?v=master-20261009",
+  "RF218-1-82": "Weinbilder/RF218-1-82.webp?v=master-20261009"
 });
-
