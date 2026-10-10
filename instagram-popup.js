@@ -1,4 +1,5 @@
 (()=>{
+ if(new URLSearchParams(location.search).has('id'))return;
  const script=document.currentScript,preview=script.hasAttribute('data-preview'),root=new URL('.',script.src),key='winefunday-instagram-last-shown',day=86400000;
  const style=document.createElement('link');style.rel='stylesheet';style.href=new URL('instagram-popup.css',root);document.head.append(style);
  const dialog=document.createElement('dialog');dialog.className='wf-insta-dialog';dialog.setAttribute('aria-labelledby','wf-insta-title');dialog.setAttribute('aria-describedby','wf-insta-copy');
