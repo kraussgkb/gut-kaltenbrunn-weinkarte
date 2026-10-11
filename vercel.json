@@ -65,6 +65,10 @@
   ],
   "rewrites": [
     {
+      "source": "/dienstplaene",
+      "destination": "/dienstplaene/index.html"
+    },
+    {
       "source": "/dienstplaene/aktuelle-woche",
       "destination": "/dienstplaene/aktuelle-woche.html"
     },
