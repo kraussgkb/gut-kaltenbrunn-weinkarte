@@ -62,5 +62,15 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/dienstplaene/aktuelle-woche",
+      "destination": "/dienstplaene/aktuelle-woche.html"
+    },
+    {
+      "source": "/dienstplaene/naechste-woche",
+      "destination": "/dienstplaene/naechste-woche.html"
+    }
   ]
 }
