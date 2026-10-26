@@ -1,5 +1,5 @@
 {
-  "report": "2026-10-09T17:30",
+  "report": "2026-10-23T17:30",
   "coverage": [
     "2026-10-01",
     "2026-12-31"
@@ -261,7 +261,7 @@
       "occasion": "Geburtstagsfeier",
       "room": "Wittelsbacher Stube",
       "time": "13:00-16:00",
-      "pax": 40,
+      "pax": 50,
       "sourceDate": "16.10",
       "id": "8df3d944aaf70013"
     },
@@ -287,33 +287,13 @@
     },
     {
       "start": "2026-10-17",
-      "end": "2026-10-25",
-      "occasion": "80. Geburtstag",
-      "room": "DAB, Pferdestalltenne, Tenne",
-      "time": "11:30-18:00",
-      "pax": 240,
-      "sourceDate": "17.-25.10",
-      "id": "9aed9bb1b09924db"
-    },
-    {
-      "start": "2026-10-17",
-      "end": "2026-10-25",
-      "occasion": "80. Geburtstag",
-      "room": "Pferdestalltenne, Tenne",
-      "time": "12:00-24:00",
-      "pax": 1,
-      "sourceDate": "17.-25.10",
-      "id": "233106f56a721558"
-    },
-    {
-      "start": "2026-10-17",
       "end": "2026-10-17",
       "occasion": "Taufe",
       "room": "Restaurant",
       "time": "13:00-16:00",
       "pax": 23,
       "sourceDate": "17.10",
-      "id": "4d84723154ade556"
+      "id": "6f8340362e56f2ea"
     },
     {
       "start": "2026-10-17",
@@ -323,7 +303,7 @@
       "time": "15:00-03:00",
       "pax": 44,
       "sourceDate": "17.10",
-      "id": "8e78437c438f2512"
+      "id": "92a082c9963b71ac"
     },
     {
       "start": "2026-10-17",
@@ -333,17 +313,7 @@
       "time": "18:00-22:00",
       "pax": 38,
       "sourceDate": "17.10",
-      "id": "b9cf5d7d44c93a74"
-    },
-    {
-      "start": "2026-10-17",
-      "end": "2026-10-17",
-      "occasion": "80. Geburtstag",
-      "room": "Restaurant",
-      "time": "19:00-22:00",
-      "pax": 15,
-      "sourceDate": "17.10",
-      "id": "049a7788600d0fc1"
+      "id": "2d93024e7e31cadc"
     },
     {
       "start": "2026-10-19",
@@ -353,7 +323,47 @@
       "time": "10:30-13:15",
       "pax": 16,
       "sourceDate": "19.10",
-      "id": "28dffd740fc1b843"
+      "id": "53a3e7a7b7a83f5d"
+    },
+    {
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "occasion": "Außer Haus",
+      "room": "Außer Haus",
+      "time": "16:00-20:00",
+      "pax": 60,
+      "sourceDate": "20.10",
+      "id": "46ec7bf419ec919d"
+    },
+    {
+      "start": "2026-10-21",
+      "end": "2026-10-25",
+      "occasion": "80. Geburtstag",
+      "room": "DAB, Pferdestalltenne, Tenne",
+      "time": "11:30-18:00",
+      "pax": 138,
+      "sourceDate": "21.-25.10",
+      "id": "b9a27025096d6893"
+    },
+    {
+      "start": "2026-10-21",
+      "end": "2026-10-25",
+      "occasion": "80. Geburtstag",
+      "room": "Pferdestalltenne, Tenne",
+      "time": "12:00-24:00",
+      "pax": 1,
+      "sourceDate": "21.-25.10",
+      "id": "afd298407cfbf3c1"
+    },
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "occasion": "Feier",
+      "room": "Gastgarten, Salettl, Terrasse Salettl, Terrasse Wirtsstube, Wirtsstube",
+      "time": "13:00-18:00",
+      "pax": 170,
+      "sourceDate": "22.10",
+      "id": "3ad9cb15b6ff2843"
     },
     {
       "start": "2026-10-22",
@@ -363,7 +373,7 @@
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "22.10",
-      "id": "af17c09f93e5ba28"
+      "id": "f5b160d89101c0f7"
     },
     {
       "start": "2026-10-23",
@@ -373,7 +383,7 @@
       "time": "08:00-22:00",
       "pax": 300,
       "sourceDate": "23.-25.10",
-      "id": "d307b783e287fcba"
+      "id": "4a6bcab0dd427657"
     },
     {
       "start": "2026-10-24",
@@ -381,9 +391,9 @@
       "occasion": "Taufe",
       "room": "Terrasse Wirtsstube, Wirtsstube",
       "time": "12:00-18:00",
-      "pax": 60,
+      "pax": 59,
       "sourceDate": "24.10",
-      "id": "61b15bef9a80036a"
+      "id": "66a92ca4f5b54988"
     },
     {
       "start": "2026-10-24",
@@ -393,7 +403,7 @@
       "time": "12:15-18:00",
       "pax": 41,
       "sourceDate": "24.10",
-      "id": "c116fa8a02f389e6"
+      "id": "5852465344e62d0c"
     },
     {
       "start": "2026-10-24",
@@ -403,27 +413,17 @@
       "time": "13:00-16:00",
       "pax": 11,
       "sourceDate": "24.10",
-      "id": "a3cb6bf4ddc369ba"
-    },
-    {
-      "start": "2026-10-26",
-      "end": "2026-10-26",
-      "occasion": "Mittagessen",
-      "room": "Gastgarten, Restaurant",
-      "time": "12:00-16:00",
-      "pax": 25,
-      "sourceDate": "26.10",
-      "id": "e1e5e8355212176f"
+      "id": "6aa05adccca92d24"
     },
     {
       "start": "2026-10-28",
       "end": "2026-10-28",
       "occasion": "Tagung",
       "room": "DAB",
-      "time": "12:00-19:00",
-      "pax": 3,
+      "time": "12:00-18:00",
+      "pax": 4,
       "sourceDate": "28.10",
-      "id": "2482edc7b5fc7458"
+      "id": "3bdb2eb9552b3bfb"
     },
     {
       "start": "2026-10-29",
@@ -489,11 +489,21 @@
       "start": "2026-10-31",
       "end": "2026-10-31",
       "occasion": "Party",
-      "room": "Firlefanz",
+      "room": "Festsaal",
       "time": "19:00-02:00",
-      "pax": 100,
+      "pax": 300,
       "sourceDate": "31.10",
       "id": "956bd69eb46505af"
+    },
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "occasion": "Weihnachtsfeier",
+      "room": "Terrasse Wirtsstube, Wirtsstube",
+      "time": "17:00-03:00",
+      "pax": 40,
+      "sourceDate": "06.11",
+      "id": "e0a047faa622d44b"
     },
     {
       "start": "2026-11-11",
@@ -503,7 +513,7 @@
       "time": "12:00-15:00",
       "pax": 60,
       "sourceDate": "11.11",
-      "id": "044a4550e31be0ee"
+      "id": "fd9e688ff2214093"
     },
     {
       "start": "2026-11-11",
@@ -513,7 +523,7 @@
       "time": "12:00-16:00",
       "pax": 30,
       "sourceDate": "11.11",
-      "id": "381c456aae3c92c6"
+      "id": "20b11d926dc90908"
     },
     {
       "start": "2026-11-11",
@@ -523,7 +533,7 @@
       "time": "18:30-21:00",
       "pax": 24,
       "sourceDate": "11.11",
-      "id": "77a8a926958b592d"
+      "id": "64890145ee147b06"
     },
     {
       "start": "2026-11-12",
@@ -533,7 +543,7 @@
       "time": "19:00-23:00",
       "pax": 25,
       "sourceDate": "12.11",
-      "id": "92425dcc996b7f6c"
+      "id": "501b362d20d84084"
     },
     {
       "start": "2026-11-13",
@@ -543,7 +553,7 @@
       "time": "09:00-22:00",
       "pax": 100,
       "sourceDate": "13.-15.11",
-      "id": "89cad6c063fc87a9"
+      "id": "516a48783d8bb767"
     },
     {
       "start": "2026-11-13",
@@ -553,7 +563,7 @@
       "time": "15:30-22:00",
       "pax": 20,
       "sourceDate": "13.11",
-      "id": "3891286b52648b78"
+      "id": "d3d1357c49a4ed40"
     },
     {
       "start": "2026-11-13",
@@ -563,7 +573,7 @@
       "time": "16:00-23:00",
       "pax": 200,
       "sourceDate": "13.11",
-      "id": "815bdfd466177c68"
+      "id": "b9f76f48c50ccb03"
     },
     {
       "start": "2026-11-14",
@@ -573,7 +583,7 @@
       "time": "16:30-01:00",
       "pax": 29,
       "sourceDate": "14.11",
-      "id": "f3392d84d699b6b9"
+      "id": "3585697ea40b6a0c"
     },
     {
       "start": "2026-11-14",
@@ -583,7 +593,7 @@
       "time": "19:00-02:00",
       "pax": 100,
       "sourceDate": "14.11",
-      "id": "86770ada63b330fb"
+      "id": "d82370ffef835c1c"
     },
     {
       "start": "2026-11-19",
@@ -593,7 +603,17 @@
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "19.11",
-      "id": "c17a799e26612ad1"
+      "id": "c1d21c89863b56f1"
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "occasion": "Besprechung",
+      "room": "Pferdestalltenne, Restaurant",
+      "time": "09:30-14:00",
+      "pax": 4,
+      "sourceDate": "20.11",
+      "id": "b35aa4db5d621ba5"
     },
     {
       "start": "2026-11-20",
@@ -603,7 +623,7 @@
       "time": "10:30-17:00",
       "pax": 250,
       "sourceDate": "20.11",
-      "id": "8643389674397468"
+      "id": "1b410255d90fca07"
     },
     {
       "start": "2026-11-20",
@@ -613,7 +633,7 @@
       "time": "19:00-23:00",
       "pax": 150,
       "sourceDate": "20.-22.11",
-      "id": "12eb4f122ad65faa"
+      "id": "98454788652b16f0"
     },
     {
       "start": "2026-11-21",
@@ -623,7 +643,7 @@
       "time": "16:00-03:00",
       "pax": 70,
       "sourceDate": "21.11",
-      "id": "dc107673363694ed"
+      "id": "6e53e5e823f69cdd"
     },
     {
       "start": "2026-11-21",
@@ -633,17 +653,17 @@
       "time": "19:00-02:00",
       "pax": 100,
       "sourceDate": "21.11",
-      "id": "e3acafb712457fd7"
+      "id": "873de4a9f3d38cf6"
     },
     {
       "start": "2026-11-25",
       "end": "2026-11-25",
       "occasion": "109 € Weihnachtsfeier",
-      "room": "Festsaal",
-      "time": "18:00-23:00",
-      "pax": 60,
+      "room": "Eisstockbahn, Wittelsbacher Stube",
+      "time": "18:00-22:30",
+      "pax": 50,
       "sourceDate": "25.11",
-      "id": "0b87cc3bfae2eb67"
+      "id": "1ac9030ab8cda230"
     },
     {
       "start": "2026-11-26",
@@ -653,7 +673,27 @@
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "26.11",
-      "id": "5fc70caaf1f464b6"
+      "id": "d566ae43a1a73b52"
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "occasion": "Hochzeit",
+      "room": "Wittelsbacher Stube",
+      "time": "12:00-17:00",
+      "pax": 30,
+      "sourceDate": "27.11",
+      "id": "1854ce5d56e83119"
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "occasion": "Räucherhäusl",
+      "room": "Eisstockbahn, Räucherhäusl",
+      "time": "17:00-24:00",
+      "pax": 25,
+      "sourceDate": "27.11",
+      "id": "c4437b9a2afa33f0"
     },
     {
       "start": "2026-11-28",
@@ -663,7 +703,7 @@
       "time": "12:00-16:00",
       "pax": 55,
       "sourceDate": "28.11",
-      "id": "b6d52469f1dda953"
+      "id": "053b95568a78bae1"
     },
     {
       "start": "2026-11-30",
@@ -673,7 +713,7 @@
       "time": "12:30-14:30",
       "pax": 25,
       "sourceDate": "30.11",
-      "id": "68895a6b0a6e617c"
+      "id": "979193fc9a3feb95"
     },
     {
       "start": "2026-11-30",
@@ -683,7 +723,17 @@
       "time": "14:00-17:00",
       "pax": 1,
       "sourceDate": "30.11",
-      "id": "3fe29c167d5ca28b"
+      "id": "063fc4c74a9562e0"
+    },
+    {
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "occasion": "109 € Weihnachtsfeier",
+      "room": "Eisstockbahn, Wittelsbacher Stube",
+      "time": "16:00-23:00",
+      "pax": 40,
+      "sourceDate": "01.12",
+      "id": "80be03bda08e377d"
     },
     {
       "start": "2026-12-02",
@@ -693,7 +743,17 @@
       "time": "12:30-14:30",
       "pax": 25,
       "sourceDate": "02.12",
-      "id": "49ba7acb89ea62bb"
+      "id": "3ade798f1d88a29a"
+    },
+    {
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "occasion": "Tagung",
+      "room": "DAB, Restaurant",
+      "time": "13:00-23:00",
+      "pax": 7,
+      "sourceDate": "02.12",
+      "id": "b53ca18e03886646"
     },
     {
       "start": "2026-12-02",
@@ -703,17 +763,17 @@
       "time": "18:30-21:00",
       "pax": 24,
       "sourceDate": "02.12",
-      "id": "a5422ed5ad44f9a3"
+      "id": "0dc5db6cd1a7e75c"
     },
     {
       "start": "2026-12-03",
       "end": "2026-12-03",
-      "occasion": "Weihnachtsfeier",
+      "occasion": "109 € Weihnachtsfeier",
       "room": "Eisstockbahn, Räucherhäusl",
       "time": "17:00-24:00",
       "pax": 15,
       "sourceDate": "03.12",
-      "id": "9f342c54379a9799"
+      "id": "f98fb7490c7086c8"
     },
     {
       "start": "2026-12-04",
@@ -723,7 +783,7 @@
       "time": "11:00-16:00",
       "pax": 15,
       "sourceDate": "04.12",
-      "id": "0051c20cdc1d8420"
+      "id": "49e1517d9924319e"
     },
     {
       "start": "2026-12-04",
@@ -733,7 +793,17 @@
       "time": "13:00-18:00",
       "pax": 30,
       "sourceDate": "04.12",
-      "id": "9767a1dc5efe597d"
+      "id": "0d697d939c2640e3"
+    },
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "occasion": "Räucherhäusl",
+      "room": "Eisstockbahn, Räucherhäusl",
+      "time": "14:00-20:00",
+      "pax": 28,
+      "sourceDate": "04.12",
+      "id": "7af708dbede0bf78"
     },
     {
       "start": "2026-12-04",
@@ -743,7 +813,17 @@
       "time": "15:30-22:00",
       "pax": 10,
       "sourceDate": "04.12",
-      "id": "25b2ed0efd30642e"
+      "id": "9db9f3d50ddaaa3c"
+    },
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "occasion": "109 € Weihnachtsfeier",
+      "room": "Eisstockbahn, Restaurant",
+      "time": "16:45-21:45",
+      "pax": 12,
+      "sourceDate": "04.12",
+      "id": "f9a553cf24f9d7a6"
     },
     {
       "start": "2026-12-04",
@@ -753,7 +833,7 @@
       "time": "18:00-23:00",
       "pax": 12,
       "sourceDate": "04.12",
-      "id": "9bf1245d527846be"
+      "id": "3213acf36399de9d"
     },
     {
       "start": "2026-12-05",
@@ -763,7 +843,7 @@
       "time": "12:00-18:00",
       "pax": 130,
       "sourceDate": "05.-06.12",
-      "id": "db52aab44e44de00"
+      "id": "eae562c4fd57c236"
     },
     {
       "start": "2026-12-05",
@@ -773,7 +853,7 @@
       "time": "14:30-18:00",
       "pax": 13,
       "sourceDate": "05.12",
-      "id": "5a5b252785f9ae54"
+      "id": "165dbf1d126c9dcf"
     },
     {
       "start": "2026-12-07",
@@ -783,7 +863,7 @@
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "07.12",
-      "id": "a8e14d349c96ddab"
+      "id": "d6ce060f68cb772c"
     },
     {
       "start": "2026-12-10",
@@ -793,7 +873,17 @@
       "time": "18:00-01:00",
       "pax": 100,
       "sourceDate": "10.12",
-      "id": "d721c8bfc5a29a76"
+      "id": "0a2475e3b6cf5e6e"
+    },
+    {
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "occasion": "109 € Weihnachtsfeier",
+      "room": "Eisstockbahn, Restaurant",
+      "time": "18:00-23:00",
+      "pax": 9,
+      "sourceDate": "10.12",
+      "id": "2ede48338251d6b6"
     },
     {
       "start": "2026-12-11",
@@ -803,7 +893,7 @@
       "time": "17:00-23:00",
       "pax": 10,
       "sourceDate": "11.12",
-      "id": "7f473022ebdbeaf0"
+      "id": "771da5a91c49e6d7"
     },
     {
       "start": "2026-12-12",
@@ -813,7 +903,27 @@
       "time": "13:00-24:00",
       "pax": 18,
       "sourceDate": "12.12",
-      "id": "a612f96da9a91b01"
+      "id": "d588d23a7024208f"
+    },
+    {
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "occasion": "Lunch",
+      "room": "Wittelsbacher Stube",
+      "time": "12:00-18:00",
+      "pax": 35,
+      "sourceDate": "13.12",
+      "id": "263d01d10670c31a"
+    },
+    {
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "occasion": "109 € Weihnachtsfeier",
+      "room": "Eisstockbahn, Räucherhäusl",
+      "time": "17:00-23:00",
+      "pax": 25,
+      "sourceDate": "16.12",
+      "id": "4cd767e8713880c0"
     },
     {
       "start": "2026-12-17",
@@ -823,7 +933,7 @@
       "time": "15:45-22:30",
       "pax": 23,
       "sourceDate": "17.12",
-      "id": "97fdd7687c50e1dc"
+      "id": "13d2d8c97dd51785"
     },
     {
       "start": "2026-12-17",
@@ -833,7 +943,7 @@
       "time": "17:00-23:00",
       "pax": 60,
       "sourceDate": "17.12",
-      "id": "9d2a1b6484328cc2"
+      "id": "fe76a05bebb2f595"
     },
     {
       "start": "2026-12-18",
@@ -843,7 +953,7 @@
       "time": "08:00-16:00",
       "pax": 1,
       "sourceDate": "18.-20.12",
-      "id": "77a7cd9956df292a"
+      "id": "db50bee051f2f1fe"
     },
     {
       "start": "2026-12-18",
@@ -853,7 +963,27 @@
       "time": "12:00-18:00",
       "pax": 500,
       "sourceDate": "18.-20.12",
-      "id": "ef96b62658859f3b"
+      "id": "2be04b2c6a1cddbc"
+    },
+    {
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "occasion": "109 € Weihnachtsfeier",
+      "room": "Wittelsbacher Stube",
+      "time": "18:00-23:00",
+      "pax": 40,
+      "sourceDate": "18.12",
+      "id": "5e889a5899c0ecbd"
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "occasion": "Außer Haus",
+      "room": "Außer Haus",
+      "time": "16:00-22:00",
+      "pax": 35,
+      "sourceDate": "19.12",
+      "id": "a08ea736c3e244b3"
     },
     {
       "start": "2026-12-19",
@@ -863,7 +993,7 @@
       "time": "19:00-02:00",
       "pax": 100,
       "sourceDate": "19.12",
-      "id": "98914365289325ed"
+      "id": "aca2056171f30d34"
     },
     {
       "start": "2026-12-23",
@@ -873,7 +1003,7 @@
       "time": "19:00-02:00",
       "pax": 100,
       "sourceDate": "23.12",
-      "id": "c788f5d092943e5b"
+      "id": "18c3c618ce26966f"
     },
     {
       "start": "2026-12-25",
@@ -883,7 +1013,37 @@
       "time": "08:00-22:00",
       "pax": 300,
       "sourceDate": "25.-27.12",
-      "id": "b0e829781c2e6134"
+      "id": "e3f913b18a04d165"
+    },
+    {
+      "start": "2026-12-25",
+      "end": "2026-12-25",
+      "occasion": "Eisstockbahn",
+      "room": "Eisstockbahn",
+      "time": "15:00-17:00",
+      "pax": 6,
+      "sourceDate": "25.12",
+      "id": "8c49b393c2f6610f"
+    },
+    {
+      "start": "2026-12-26",
+      "end": "2026-12-26",
+      "occasion": "Familienfeier",
+      "room": "Restaurant",
+      "time": "17:30-19:30",
+      "pax": 20,
+      "sourceDate": "26.12",
+      "id": "1062f43bd97e7f23"
+    },
+    {
+      "start": "2026-12-27",
+      "end": "2026-12-27",
+      "occasion": "Räucherhäusl",
+      "room": "Räucherhäusl",
+      "time": "14:00-22:00",
+      "pax": 30,
+      "sourceDate": "27.12",
+      "id": "0ceb4874b9dd1a39"
     },
     {
       "start": "2026-12-28",
@@ -893,9 +1053,9 @@
       "time": "16:00-19:00",
       "pax": 50,
       "sourceDate": "28.12",
-      "id": "e949e6f38e3d71c8"
+      "id": "85a91e992fd66de1"
     }
   ],
-  "source": "Forecast ab KW 42.pdf",
+  "source": "Forecast KW44.pdf",
   "schema": 2
 }
