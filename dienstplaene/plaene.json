@@ -3,30 +3,6 @@
     {
       "department": "Service",
       "year": 2026,
-      "week": 42,
-      "url": "/dienstplaene/service-2026-kw42-7b98949480e93c64.pdf"
-    },
-    {
-      "department": "Stewarding",
-      "year": 2026,
-      "week": 42,
-      "url": "/dienstplaene/stewarding-2026-kw42-ceb5f64a30dc2152.pdf"
-    },
-    {
-      "department": "Service",
-      "year": 2026,
-      "week": 43,
-      "url": "/dienstplaene/service-2026-kw43-17c46fc96736a5e7.pdf"
-    },
-    {
-      "department": "Stewarding",
-      "year": 2026,
-      "week": 43,
-      "url": "/dienstplaene/stewarding-2026-kw43-a3f1c3349ca0a97f.pdf"
-    },
-    {
-      "department": "Service",
-      "year": 2026,
       "week": 44,
       "url": "/dienstplaene/service-2026-kw44-4460bd514949043d.pdf"
     },
@@ -35,6 +11,18 @@
       "year": 2026,
       "week": 44,
       "url": "/dienstplaene/stewarding-2026-kw44-7fc72d42468abe40.pdf"
+    },
+    {
+      "department": "Service",
+      "year": 2026,
+      "week": 45,
+      "url": "/dienstplaene/service-2026-kw45-aaff9ce399055c31.pdf"
+    },
+    {
+      "department": "Stewarding",
+      "year": 2026,
+      "week": 45,
+      "url": "/dienstplaene/stewarding-2026-kw45-2a28774a1be503e9.pdf"
     }
   ]
 }
