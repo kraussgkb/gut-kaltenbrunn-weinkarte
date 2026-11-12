@@ -19,3 +19,6 @@ header img{width:82px;height:82px}
 
 .hofladen-social{max-width:1060px;margin:0 auto;padding:24px max(20px,4vw) 52px;border-top:1px solid var(--line)}
 .hofladen-social p{max-width:56ch}.hofladen-social a{display:inline-block;padding-block:8px;font-weight:650}
+
+.detail dl > div:last-child,
+.detail dl > div:nth-child(odd):nth-last-child(2){border-bottom:0}
