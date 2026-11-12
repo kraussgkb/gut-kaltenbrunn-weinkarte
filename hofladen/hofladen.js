@@ -33,11 +33,17 @@ function photo(wine,detail=false){
   if(!wine.image)return null;
   const frame=el('figure',null,'photo');
   const img=el('img');
-  img.src=wine.image;
+  const knownCutout=wine.image.endsWith('/RI143-1-21-a1dc4472-1ad9-4760-87ac-4eff4a05a1cd.png');
+  let tryCutout=detail&&!knownCutout;
   img.alt='Flasche '+wine.name;
-  img.addEventListener('error',()=>frame.remove(),{once:true});
+  img.addEventListener('error',()=>{
+    if(!tryCutout){frame.remove();return;}
+    tryCutout=false;
+    img.src=wine.image;
+  });
+  img.src=tryCutout?'/hofladen/flaschen/'+encodeURIComponent(wine.id)+'.webp?bild='+encodeURIComponent(wine.image):wine.image;
   frame.append(img);
-  if(wine.image.endsWith('/RI143-1-21-a1dc4472-1ad9-4760-87ac-4eff4a05a1cd.png')){
+  if(knownCutout){
     frame.classList.add('reimitz-cutout');
     if(!detail){
       const mark=el('img',null,'bottle-mark');
