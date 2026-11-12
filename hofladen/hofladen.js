@@ -100,6 +100,70 @@ function section(parent,name,body,cls){
   block.append(el('h2',name),el('p',body));
   parent.append(block);
 }
+function guestRating(wine){
+  const endpoint='https://ohyrmkopbjgevgzucila.supabase.co/rest/v1';
+  const headers={apikey:'sb_publishable_5ZDgYMpPlhXaJVoMr3b-eg_bFFRh3sA','Content-Type':'application/json'};
+  const block=el('section',null,'guest-rating');
+  const heading=el('h2','Schon ausgetrunken? Jetzt das Weinerlebnis bewerten');
+  heading.id='guest-rating-heading';
+  block.setAttribute('aria-labelledby',heading.id);
+  const summary=el('p','Bewertungen werden geladen …','muted');
+  const stars=el('div',null,'guest-rating-stars');
+  stars.setAttribute('role','group');
+  stars.setAttribute('aria-label','Bewertung mit ein bis fünf Sternen');
+  const message=el('p',null,'guest-rating-message');
+  message.setAttribute('role','status');
+
+  async function refresh(){
+    try{
+      const response=await fetch(endpoint+'/rpc/get_wine_rating',{
+        method:'POST',headers,body:JSON.stringify({p_wine_id:wine.id})
+      });
+      if(!response.ok)throw Error();
+      const [aggregate]=await response.json();
+      const count=Number(aggregate?.rating_count||0);
+      summary.textContent=count
+        ? new Intl.NumberFormat('de-DE',{minimumFractionDigits:1,maximumFractionDigits:1}).format(Number(aggregate.average_rating))+' von 5 · '+count+(count===1?' Bewertung':' Bewertungen')
+        : 'Noch keine Bewertungen';
+    }catch{
+      summary.textContent='Bewertungen sind gerade nicht verfügbar.';
+    }
+  }
+
+  const buttons=Array.from({length:5},(_,index)=>{
+    const rating=index+1;
+    const button=el('button','★');
+    button.type='button';
+    button.setAttribute('aria-label',rating===1?'1 Stern':rating+' Sterne');
+    button.setAttribute('aria-pressed','false');
+    button.addEventListener('click',async()=>{
+      buttons.forEach(star=>{star.disabled=true;});
+      message.textContent='Bewertung wird gespeichert …';
+      try{
+        const response=await fetch(endpoint+'/wine_ratings',{
+          method:'POST',headers:{...headers,Prefer:'return=minimal'},
+          body:JSON.stringify({wine_id:wine.id,rating})
+        });
+        if(!response.ok)throw Error();
+        buttons.forEach((star,i)=>{
+          star.classList.toggle('selected',i<rating);
+          star.setAttribute('aria-pressed',String(i===index));
+        });
+        message.textContent='Vielen Dank für Ihre Bewertung.';
+        await refresh();
+      }catch{
+        message.textContent='Die Bewertung konnte nicht gespeichert werden. Bitte erneut versuchen.';
+      }finally{
+        buttons.forEach(star=>{star.disabled=false;});
+      }
+    });
+    return button;
+  });
+  stars.append(...buttons);
+  block.append(heading,summary,stars,message);
+  void refresh();
+  return block;
+}
 function detail(wine){
   const layout=el('article',null,'detail');
   const image=photo(wine,true);
@@ -126,6 +190,7 @@ function detail(wine){
     }
     block.append(el('h2',heading),dl);copy.append(block);
   }
+  copy.append(guestRating(wine));
   layout.append(copy);
   main.replaceChildren(link('← Alle Hofladenweine','/hofladen','back'),layout);
   document.title=title(wine)+' · WINEFUNDAY Hofladen';
