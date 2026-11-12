@@ -1,8 +1,8 @@
 {
-  "report": "2026-10-30T17:30",
+  "report": "2026-11-06T17:30",
   "coverage": [
-    "2026-10-01",
-    "2026-12-31"
+    "2026-11-01",
+    "2027-01-31"
   ],
   "events": [
     {
@@ -506,14 +506,24 @@
       "id": "e5c87c9555387f1d"
     },
     {
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "occasion": "Torte",
+      "room": "Restaurant",
+      "time": "10:15-14:15",
+      "pax": 17,
+      "sourceDate": "07.11",
+      "id": "245a15a4000b9346"
+    },
+    {
       "start": "2026-11-11",
       "end": "2026-11-11",
       "occasion": "Familienfeier",
       "room": "MFB",
       "time": "12:00-15:00",
-      "pax": 60,
+      "pax": 45,
       "sourceDate": "11.11",
-      "id": "fd9e688ff2214093"
+      "id": "aad0bb0415b597b7"
     },
     {
       "start": "2026-11-11",
@@ -523,17 +533,47 @@
       "time": "12:00-16:00",
       "pax": 30,
       "sourceDate": "11.11",
-      "id": "20b11d926dc90908"
+      "id": "6ea319b1ef97bd23"
     },
     {
       "start": "2026-11-11",
       "end": "2026-11-11",
       "occasion": "InnerWheel Meeting",
       "room": "Wittelsbacher Stube",
-      "time": "18:30-21:00",
-      "pax": 24,
+      "time": "19:00-22:30",
+      "pax": 32,
       "sourceDate": "11.11",
-      "id": "64890145ee147b06"
+      "id": "d3d719fbad6a58d5"
+    },
+    {
+      "start": "2026-11-12",
+      "end": "2026-11-16",
+      "occasion": "The Family Circle",
+      "room": "Rinderstall, Tenne",
+      "time": "09:00-22:00",
+      "pax": 1,
+      "sourceDate": "12.-16.11",
+      "id": "963e24ac7fb2e5aa"
+    },
+    {
+      "start": "2026-11-12",
+      "end": "2026-11-16",
+      "occasion": "The Family Circle",
+      "room": "Rinderstall, Tenne",
+      "time": "10:00-17:00",
+      "pax": 750,
+      "sourceDate": "12.-16.11",
+      "id": "05613667c65a1471"
+    },
+    {
+      "start": "2026-11-12",
+      "end": "2026-11-16",
+      "occasion": "The Family Circle",
+      "room": "Rinderstall, Tenne",
+      "time": "10:00-18:00",
+      "pax": 750,
+      "sourceDate": "12.-16.11",
+      "id": "ef74fd51fe403434"
     },
     {
       "start": "2026-11-12",
@@ -543,17 +583,7 @@
       "time": "19:00-23:00",
       "pax": 25,
       "sourceDate": "12.11",
-      "id": "501b362d20d84084"
-    },
-    {
-      "start": "2026-11-13",
-      "end": "2026-11-15",
-      "occasion": "The Family Circle",
-      "room": "Rinderstall, Tenne",
-      "time": "09:00-22:00",
-      "pax": 100,
-      "sourceDate": "13.-15.11",
-      "id": "516a48783d8bb767"
+      "id": "080c290d90777c30"
     },
     {
       "start": "2026-11-13",
@@ -563,7 +593,7 @@
       "time": "15:30-18:15",
       "pax": 20,
       "sourceDate": "13.11",
-      "id": "2b7fa35ff7520bc3"
+      "id": "3236491a9ed20e56"
     },
     {
       "start": "2026-11-13",
@@ -573,7 +603,7 @@
       "time": "16:00-23:00",
       "pax": 200,
       "sourceDate": "13.11",
-      "id": "b9f76f48c50ccb03"
+      "id": "e92a8fd29f30b2a6"
     },
     {
       "start": "2026-11-14",
@@ -583,17 +613,7 @@
       "time": "16:30-01:00",
       "pax": 29,
       "sourceDate": "14.11",
-      "id": "3585697ea40b6a0c"
-    },
-    {
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "occasion": "Party",
-      "room": "Firlefanz",
-      "time": "19:00-02:00",
-      "pax": 100,
-      "sourceDate": "14.11",
-      "id": "d82370ffef835c1c"
+      "id": "835896f1cec16464"
     },
     {
       "start": "2026-11-19",
@@ -603,7 +623,7 @@
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "19.11",
-      "id": "c1d21c89863b56f1"
+      "id": "0e7d2f751d43e60a"
     },
     {
       "start": "2026-11-20",
@@ -613,17 +633,17 @@
       "time": "09:30-14:00",
       "pax": 4,
       "sourceDate": "20.11",
-      "id": "b35aa4db5d621ba5"
+      "id": "c7f13b38d1bcbcc5"
     },
     {
       "start": "2026-11-20",
-      "end": "2026-11-22",
+      "end": "2026-11-20",
       "occasion": "D´Kramerei",
       "room": "Rinderstall, Tenne",
       "time": "19:00-23:00",
       "pax": 150,
-      "sourceDate": "20.-22.11",
-      "id": "51985628d5419916"
+      "sourceDate": "20.11",
+      "id": "ee77635a9a56ca51"
     },
     {
       "start": "2026-11-21",
@@ -633,7 +653,7 @@
       "time": "13:00-16:00",
       "pax": 26,
       "sourceDate": "21.11",
-      "id": "2ce6928a31128640"
+      "id": "08db68226bef2cfd"
     },
     {
       "start": "2026-11-21",
@@ -643,17 +663,27 @@
       "time": "16:00-03:00",
       "pax": 70,
       "sourceDate": "21.11",
-      "id": "6e53e5e823f69cdd"
+      "id": "3b04fad05e754047"
     },
     {
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "occasion": "Party",
-      "room": "Firlefanz",
-      "time": "19:00-02:00",
-      "pax": 100,
-      "sourceDate": "21.11",
-      "id": "873de4a9f3d38cf6"
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "occasion": "109 € Weihnachtsfeier",
+      "room": "Eisstockbahn, Räucherhäusl",
+      "time": "18:00-23:00",
+      "pax": 20,
+      "sourceDate": "22.11",
+      "id": "ef097da075e98646"
+    },
+    {
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "occasion": "Räucherhäusl",
+      "room": "Räucherhäusl",
+      "time": "16:00-24:00",
+      "pax": 30,
+      "sourceDate": "25.11",
+      "id": "0ef884febb3f7bea"
     },
     {
       "start": "2026-11-25",
@@ -663,7 +693,7 @@
       "time": "18:00-22:30",
       "pax": 50,
       "sourceDate": "25.11",
-      "id": "1ac9030ab8cda230"
+      "id": "8390606df32e6e25"
     },
     {
       "start": "2026-11-26",
@@ -673,7 +703,7 @@
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "26.11",
-      "id": "d566ae43a1a73b52"
+      "id": "6b06da19c7db984b"
     },
     {
       "start": "2026-11-27",
@@ -683,7 +713,7 @@
       "time": "12:00-17:00",
       "pax": 30,
       "sourceDate": "27.11",
-      "id": "1854ce5d56e83119"
+      "id": "675e1ee895f1e10e"
     },
     {
       "start": "2026-11-27",
@@ -693,7 +723,7 @@
       "time": "17:00-24:00",
       "pax": 25,
       "sourceDate": "27.11",
-      "id": "c4437b9a2afa33f0"
+      "id": "f3b979549064eb13"
     },
     {
       "start": "2026-11-28",
@@ -703,7 +733,17 @@
       "time": "12:00-16:00",
       "pax": 55,
       "sourceDate": "28.11",
-      "id": "053b95568a78bae1"
+      "id": "8e18bf42f0962df4"
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "occasion": "Abendessen",
+      "room": "Eisstockbahn, Restaurant",
+      "time": "12:00-16:00",
+      "pax": 30,
+      "sourceDate": "28.11",
+      "id": "d466a98c22340785"
     },
     {
       "start": "2026-11-30",
@@ -713,7 +753,7 @@
       "time": "12:30-14:30",
       "pax": 25,
       "sourceDate": "30.11",
-      "id": "979193fc9a3feb95"
+      "id": "9c852e4e7686163a"
     },
     {
       "start": "2026-11-30",
@@ -723,7 +763,7 @@
       "time": "14:00-17:00",
       "pax": 1,
       "sourceDate": "30.11",
-      "id": "063fc4c74a9562e0"
+      "id": "a35f860b5d6ed4fd"
     },
     {
       "start": "2026-12-01",
@@ -733,7 +773,7 @@
       "time": "16:00-23:00",
       "pax": 40,
       "sourceDate": "01.12",
-      "id": "80be03bda08e377d"
+      "id": "e698591aaf1567e6"
     },
     {
       "start": "2026-12-02",
@@ -743,7 +783,7 @@
       "time": "12:30-14:30",
       "pax": 25,
       "sourceDate": "02.12",
-      "id": "3ade798f1d88a29a"
+      "id": "eb9ccbc1e0e8916a"
     },
     {
       "start": "2026-12-02",
@@ -753,7 +793,7 @@
       "time": "13:00-23:00",
       "pax": 7,
       "sourceDate": "02.12",
-      "id": "b53ca18e03886646"
+      "id": "ee0575ce1fbf9848"
     },
     {
       "start": "2026-12-02",
@@ -763,7 +803,7 @@
       "time": "18:00-23:00",
       "pax": 20,
       "sourceDate": "02.12",
-      "id": "d858561c64ad3cd9"
+      "id": "31880149c8364b21"
     },
     {
       "start": "2026-12-02",
@@ -773,7 +813,7 @@
       "time": "18:30-21:00",
       "pax": 24,
       "sourceDate": "02.12",
-      "id": "92576fbd4a2a70e7"
+      "id": "9afd938a867d9317"
     },
     {
       "start": "2026-12-03",
@@ -783,7 +823,7 @@
       "time": "13:00-15:30",
       "pax": 15,
       "sourceDate": "03.12",
-      "id": "61176d0f96d96f46"
+      "id": "58239e5e0a76ae19"
     },
     {
       "start": "2026-12-03",
@@ -793,7 +833,7 @@
       "time": "17:00-24:00",
       "pax": 15,
       "sourceDate": "03.12",
-      "id": "7b657d9701af5968"
+      "id": "e9ed5520937a0c53"
     },
     {
       "start": "2026-12-04",
@@ -803,7 +843,7 @@
       "time": "11:00-16:00",
       "pax": 14,
       "sourceDate": "04.12",
-      "id": "675fa02d457e4f92"
+      "id": "9b49ece396cac176"
     },
     {
       "start": "2026-12-04",
@@ -813,7 +853,7 @@
       "time": "13:00-18:00",
       "pax": 30,
       "sourceDate": "04.12",
-      "id": "2374bbfed3d18566"
+      "id": "a7287c4e2d90140e"
     },
     {
       "start": "2026-12-04",
@@ -823,7 +863,7 @@
       "time": "14:00-21:00",
       "pax": 28,
       "sourceDate": "04.12",
-      "id": "77b155904b8c52ef"
+      "id": "8e7b85ffb68a3a72"
     },
     {
       "start": "2026-12-04",
@@ -833,7 +873,7 @@
       "time": "15:30-22:00",
       "pax": 10,
       "sourceDate": "04.12",
-      "id": "382814beeab4632d"
+      "id": "322d0cfa49fa9848"
     },
     {
       "start": "2026-12-04",
@@ -843,7 +883,7 @@
       "time": "16:45-21:45",
       "pax": 12,
       "sourceDate": "04.12",
-      "id": "160d607f8e143847"
+      "id": "983d02e5c9e48327"
     },
     {
       "start": "2026-12-04",
@@ -853,7 +893,7 @@
       "time": "18:00-23:00",
       "pax": 12,
       "sourceDate": "04.12",
-      "id": "9ed6574490ac4e86"
+      "id": "ea1cc702ea1a39a7"
     },
     {
       "start": "2026-12-05",
@@ -863,27 +903,37 @@
       "time": "13:00-18:00",
       "pax": 26,
       "sourceDate": "05.12",
-      "id": "a91e815db7dc6ea2"
-    },
-    {
-      "start": "2026-12-05",
-      "end": "2026-12-05",
-      "occasion": "Geburtstag",
-      "room": "Restaurant",
-      "time": "14:30-18:00",
-      "pax": 13,
-      "sourceDate": "05.12",
-      "id": "6d356a0a875e6152"
+      "id": "bd41384ddeff7620"
     },
     {
       "start": "2026-12-07",
       "end": "2026-12-07",
-      "occasion": "109 € Weihnachtsfeier",
+      "occasion": "Weihnachtsfeier",
       "room": "Eisstockbahn, Wittelsbacher Stube",
       "time": "17:00-23:00",
       "pax": 25,
       "sourceDate": "07.12",
-      "id": "8f0e810091623a0c"
+      "id": "c9d4f021bee81088"
+    },
+    {
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "occasion": "Weihnachtsfeier",
+      "room": "Festsaal",
+      "time": "18:00-24:00",
+      "pax": 60,
+      "sourceDate": "07.12",
+      "id": "48a94e8312d69ac6"
+    },
+    {
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "occasion": "Eisstockbahn",
+      "room": "Eisstockbahn, Restaurant",
+      "time": "17:30-18:30",
+      "pax": 8,
+      "sourceDate": "08.12",
+      "id": "0d09b0628debfad4"
     },
     {
       "start": "2026-12-10",
@@ -893,7 +943,7 @@
       "time": "17:00-23:00",
       "pax": 20,
       "sourceDate": "10.12",
-      "id": "b8f2dd65ba3cceb4"
+      "id": "d4a813e9e13eae05"
     },
     {
       "start": "2026-12-10",
@@ -903,7 +953,7 @@
       "time": "18:00-01:00",
       "pax": 100,
       "sourceDate": "10.12",
-      "id": "5c957a2ff72ba31f"
+      "id": "04a610b249a79ef0"
     },
     {
       "start": "2026-12-10",
@@ -913,7 +963,7 @@
       "time": "18:00-23:00",
       "pax": 9,
       "sourceDate": "10.12",
-      "id": "542b9503a03b57ad"
+      "id": "4fb8534dad3fcc05"
     },
     {
       "start": "2026-12-10",
@@ -923,7 +973,7 @@
       "time": "19:00-23:00",
       "pax": 25,
       "sourceDate": "10.12",
-      "id": "8ec9a2032b1a30c6"
+      "id": "7b563346a4d2d4c9"
     },
     {
       "start": "2026-12-11",
@@ -933,7 +983,17 @@
       "time": "17:00-23:00",
       "pax": 10,
       "sourceDate": "11.12",
-      "id": "2ffcc4f8b8f72595"
+      "id": "972b11f29ca411fe"
+    },
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "occasion": "Geburtstag",
+      "room": "Firlefanz",
+      "time": "19:00-02:00",
+      "pax": 40,
+      "sourceDate": "11.12",
+      "id": "787e0153f96e6c0c"
     },
     {
       "start": "2026-12-12",
@@ -943,7 +1003,7 @@
       "time": "13:00-24:00",
       "pax": 19,
       "sourceDate": "12.12",
-      "id": "04ae1b02752603a1"
+      "id": "1337ee5b40c85192"
     },
     {
       "start": "2026-12-13",
@@ -953,7 +1013,7 @@
       "time": "12:00-18:00",
       "pax": 35,
       "sourceDate": "13.12",
-      "id": "55f52f59c022d783"
+      "id": "5be68c9e204e8937"
     },
     {
       "start": "2026-12-15",
@@ -963,7 +1023,7 @@
       "time": "18:00-23:00",
       "pax": 22,
       "sourceDate": "15.12",
-      "id": "1b60f4564d71e76a"
+      "id": "13d5ce4f0a7eb7e0"
     },
     {
       "start": "2026-12-16",
@@ -973,7 +1033,7 @@
       "time": "17:00-23:00",
       "pax": 20,
       "sourceDate": "16.12",
-      "id": "d88ae3e4e934414e"
+      "id": "1a2105e91ae5e5ca"
     },
     {
       "start": "2026-12-17",
@@ -981,9 +1041,9 @@
       "occasion": "Räucherhäusl",
       "room": "Eisstockbahn, Räucherhäusl",
       "time": "15:45-22:30",
-      "pax": 23,
+      "pax": 21,
       "sourceDate": "17.12",
-      "id": "896fdc25f15ac706"
+      "id": "545f6ae4383aee31"
     },
     {
       "start": "2026-12-17",
@@ -993,7 +1053,7 @@
       "time": "17:00-23:00",
       "pax": 60,
       "sourceDate": "17.12",
-      "id": "8ad6e6b2f84d7bfd"
+      "id": "e5036affabb1ab8e"
     },
     {
       "start": "2026-12-17",
@@ -1003,7 +1063,7 @@
       "time": "18:00-23:30",
       "pax": 40,
       "sourceDate": "17.12",
-      "id": "28b1335b220618f3"
+      "id": "933372603919ea27"
     },
     {
       "start": "2026-12-18",
@@ -1013,7 +1073,7 @@
       "time": "08:00-16:00",
       "pax": 1,
       "sourceDate": "18.-20.12",
-      "id": "2fa65376c3eb5104"
+      "id": "1bacf0e85bd7abba"
     },
     {
       "start": "2026-12-18",
@@ -1023,37 +1083,17 @@
       "time": "12:00-18:00",
       "pax": 500,
       "sourceDate": "18.-20.12",
-      "id": "9b5f1ef26a1da3ef"
-    },
-    {
-      "start": "2026-12-18",
-      "end": "2026-12-18",
-      "occasion": "109 € Weihnachtsfeier",
-      "room": "Wittelsbacher Stube",
-      "time": "18:00-23:00",
-      "pax": 40,
-      "sourceDate": "18.12",
-      "id": "5a95262f6f42ddce"
+      "id": "2d501a7c264b58f1"
     },
     {
       "start": "2026-12-19",
       "end": "2026-12-19",
       "occasion": "Außer Haus",
       "room": "Außer Haus",
-      "time": "16:00-22:00",
-      "pax": 35,
+      "time": "16:00-23:30",
+      "pax": 31,
       "sourceDate": "19.12",
-      "id": "0d86d8070d942e7e"
-    },
-    {
-      "start": "2026-12-19",
-      "end": "2026-12-19",
-      "occasion": "30. Geburtstag | Miami V...",
-      "room": "Außer Haus",
-      "time": "17:30-24:00",
-      "pax": 30,
-      "sourceDate": "19.12",
-      "id": "8e93fb0129036699"
+      "id": "b65f02f01114768f"
     },
     {
       "start": "2026-12-19",
@@ -1063,17 +1103,27 @@
       "time": "19:00-02:00",
       "pax": 100,
       "sourceDate": "19.12",
-      "id": "ccd8539b3ccb3561"
+      "id": "0dce82f52761c26d"
+    },
+    {
+      "start": "2026-12-22",
+      "end": "2026-12-22",
+      "occasion": "Weihnachtsfeier",
+      "room": "Eisstockbahn, Salettl, Terrasse Salettl",
+      "time": "18:00-02:00",
+      "pax": 120,
+      "sourceDate": "22.12",
+      "id": "6111d2f179daeb6f"
     },
     {
       "start": "2026-12-23",
       "end": "2026-12-23",
       "occasion": "Party",
-      "room": "Firlefanz",
+      "room": "Rinderstall",
       "time": "19:00-02:00",
-      "pax": 100,
+      "pax": 600,
       "sourceDate": "23.12",
-      "id": "713cbddb50b4d980"
+      "id": "3fd9e9ed7eed5531"
     },
     {
       "start": "2026-12-25",
@@ -1083,7 +1133,7 @@
       "time": "08:00-22:00",
       "pax": 300,
       "sourceDate": "25.-27.12",
-      "id": "b06901d5d04e1001"
+      "id": "3d65e68112b33c52"
     },
     {
       "start": "2026-12-25",
@@ -1093,7 +1143,7 @@
       "time": "15:00-17:00",
       "pax": 6,
       "sourceDate": "25.12",
-      "id": "4d7e00f584971f05"
+      "id": "908a6210c869491f"
     },
     {
       "start": "2026-12-26",
@@ -1103,7 +1153,7 @@
       "time": "17:30-19:30",
       "pax": 20,
       "sourceDate": "26.12",
-      "id": "0d6716c2edf9683d"
+      "id": "53ebce8c0a678429"
     },
     {
       "start": "2026-12-27",
@@ -1113,7 +1163,7 @@
       "time": "14:00-22:00",
       "pax": 30,
       "sourceDate": "27.12",
-      "id": "ec26c7d6e6bbcb71"
+      "id": "c062789a3e9d5bb7"
     },
     {
       "start": "2026-12-28",
@@ -1123,9 +1173,169 @@
       "time": "16:00-19:00",
       "pax": 50,
       "sourceDate": "28.12",
-      "id": "39513fa6ea5833ec"
+      "id": "74dcb21672d9de94"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "occasion": "Räucherhäusl",
+      "room": "Räucherhäusl",
+      "time": "18:00-03:00",
+      "pax": 21,
+      "sourceDate": "31.12",
+      "id": "aea0ed5528b3e0b1"
+    },
+    {
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "occasion": "Tagung",
+      "room": "Wittelsbacher Stube",
+      "time": "13:00-15:00",
+      "pax": 25,
+      "sourceDate": "07.01",
+      "id": "257548b3b71bb63b"
+    },
+    {
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "occasion": "Eisstockbahn",
+      "room": "Eisstockbahn, Restaurant",
+      "time": "13:00-14:30",
+      "pax": 20,
+      "sourceDate": "09.01",
+      "id": "8682310082ef988a"
+    },
+    {
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "occasion": "Geburtstagsfeier",
+      "room": "Räucherhäusl",
+      "time": "18:00-22:00",
+      "pax": 28,
+      "sourceDate": "11.01",
+      "id": "ea391d2db2fbb661"
+    },
+    {
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "occasion": "Lunch",
+      "room": "Restaurant",
+      "time": "13:00-15:00",
+      "pax": 9,
+      "sourceDate": "13.01",
+      "id": "f7e46eeb29c986bd"
+    },
+    {
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "occasion": "Tagung",
+      "room": "Wittelsbacher Stube",
+      "time": "19:00-23:00",
+      "pax": 25,
+      "sourceDate": "14.01",
+      "id": "f50418c772b61420"
+    },
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-15",
+      "occasion": "Hochzeit",
+      "room": "Räucherhäusl",
+      "time": "12:00-01:00",
+      "pax": 30,
+      "sourceDate": "15.01",
+      "id": "a7763e2d550b5162"
+    },
+    {
+      "start": "2027-01-16",
+      "end": "2027-01-17",
+      "occasion": "Neujahrsempfang der CSU-...",
+      "room": "Rinderstall, Tenne",
+      "time": "07:00-15:00",
+      "pax": 900,
+      "sourceDate": "16.-17.01",
+      "id": "b7764407d4fb0a4f"
+    },
+    {
+      "start": "2027-01-17",
+      "end": "2027-01-17",
+      "occasion": "Taufe&Geburtstag",
+      "room": "Wittelsbacher Stube",
+      "time": "14:00-19:00",
+      "pax": 35,
+      "sourceDate": "17.01",
+      "id": "6174670f22e325e9"
+    },
+    {
+      "start": "2027-01-19",
+      "end": "2027-01-23",
+      "occasion": "Tagung",
+      "room": "Innenhof, Kastaniengarten, Rinderst all, Tenne",
+      "time": "08:00-18:00",
+      "pax": 1,
+      "sourceDate": "19.-23.01",
+      "id": "f1b2a8394a51b66d"
+    },
+    {
+      "start": "2027-01-19",
+      "end": "2027-01-23",
+      "occasion": "Tagung",
+      "room": "Innenhof, Kastaniengarten, Rinderst all, Tenne",
+      "time": "09:00-04:00",
+      "pax": 320,
+      "sourceDate": "19.-23.01",
+      "id": "77d38010a417c247"
+    },
+    {
+      "start": "2027-01-21",
+      "end": "2027-01-21",
+      "occasion": "Tagung",
+      "room": "Wittelsbacher Stube",
+      "time": "19:00-23:00",
+      "pax": 25,
+      "sourceDate": "21.01",
+      "id": "b100c19111603663"
+    },
+    {
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "occasion": "Brunch",
+      "room": "Salettl, Terrasse Salettl",
+      "time": "11:00-16:00",
+      "pax": 70,
+      "sourceDate": "23.01",
+      "id": "c6ac1ae5fb755d45"
+    },
+    {
+      "start": "2027-01-27",
+      "end": "2027-01-30",
+      "occasion": "Familienfeier",
+      "room": "Rinderstall, Tenne",
+      "time": "09:00-03:00",
+      "pax": 300,
+      "sourceDate": "27.-30.01",
+      "id": "f04fb79c04541d0c"
+    },
+    {
+      "start": "2027-01-28",
+      "end": "2027-01-28",
+      "occasion": "Tagung",
+      "room": "Wittelsbacher Stube",
+      "time": "19:00-23:00",
+      "pax": 25,
+      "sourceDate": "28.01",
+      "id": "fe7bc18009a96cf6"
+    },
+    {
+      "start": "2027-01-30",
+      "end": "2027-01-31",
+      "occasion": "Flohmarkt",
+      "room": "Rinderstall, Tenne",
+      "time": "08:00-20:00",
+      "pax": 180,
+      "sourceDate": "30.-31.01",
+      "id": "1fe4d63d4b59244b"
     }
   ],
-  "source": "Forecast KW45.pdf",
+  "source": "Forecast KW46.pdf",
   "schema": 2
 }
