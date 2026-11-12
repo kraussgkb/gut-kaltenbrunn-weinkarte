@@ -21,7 +21,15 @@ function link(text,url,cls){
   return a;
 }
 function price(wine){return euros.format(wine.price_cents/100)+' pro Flasche';}
-function photo(wine){
+function signature(){
+  const wrapper=el('div',null,'signature');
+  const mark=el('img');
+  mark.src='/Weinbilder/unterschrift.png';
+  mark.alt='Unterschrift Dominik Krauß';
+  wrapper.append(mark,el('small','Sommelier & Betriebsleiter · Gut Kaltenbrunn'));
+  return wrapper;
+}
+function photo(wine,detail=false){
   if(!wine.image)return null;
   const frame=el('figure',null,'photo');
   const img=el('img');
@@ -29,10 +37,22 @@ function photo(wine){
   img.alt='Flasche '+wine.name;
   img.addEventListener('error',()=>frame.remove(),{once:true});
   frame.append(img);
+  if(wine.image.endsWith('/RI143-1-21-a1dc4472-1ad9-4760-87ac-4eff4a05a1cd.png')){
+    frame.classList.add('reimitz-cutout');
+    if(!detail){
+      const mark=el('img',null,'bottle-mark');
+      mark.src='/hofladen/winefunday-original.png';
+      mark.alt='';
+      frame.append(mark);
+    }
+  }
   return frame;
 }
 function title(wine){return [wine.name,wine.year].filter(Boolean).join(' · ');}
 function list(wines){
+  const intro=el('section',null,'intro');
+  intro.append(el('h2','Besondere Weine für zu Hause'),el('p','Für unseren Hofladen habe ich Weine ausgewählt, die ich Ihnen auch für zu Hause ans Herz lege. Für den nächsten Abend mit Freunden, ein gutes Essen oder einfach ein Glas, auf das Sie sich freuen.'),signature());
+  status.before(intro);
   status.textContent=wines.length?'Flaschenpreise für den Einkauf im Hofladen.':'Derzeit sind keine Hofladenweine gelistet.';
   const grid=el('div',null,'grid');
   for(const wine of wines){
@@ -54,11 +74,17 @@ function section(parent,name,body,cls){
 }
 function detail(wine){
   const layout=el('article',null,'detail');
-  const image=photo(wine);
+  const image=photo(wine,true);
   layout.append(image||el('div'));
   const copy=el('div');
   copy.append(el('p',[wine.producer,wine.region].filter(Boolean).join(' · '),'muted'),el('h1',title(wine)),el('p',price(wine),'price'));
-  if(wine.note)copy.append(el('p',wine.note));
+  if(wine.note){
+    const note=el('section',null,'personal-note');
+    note.append(el('h2','Meine Notiz zum Wein'),el('p',wine.note),signature());
+    copy.append(note);
+  }else{
+    copy.append(signature());
+  }
   if(wine.sensory!==wine.note)section(copy,'Sensorik',wine.sensory);
   if(wine.assessment)section(copy,'WINEFUNDAY INSIGHTS',[wine.assessment.character,wine.assessment.description].filter(Boolean).join(' — '),'insights');
   section(copy,'Zum Essen',wine.pairing);

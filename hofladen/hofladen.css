@@ -5,3 +5,14 @@ main{max-width:1060px;margin:auto;padding:clamp(30px,6vw,72px) max(20px,4vw) 72p
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,245px),1fr));gap:18px;margin-top:28px}.card{display:flex;flex-direction:column;background:#fffdf8;border:1px solid var(--line);border-radius:14px;overflow:hidden;color:inherit;text-decoration:none}.card:hover h2{text-decoration:underline}.card-copy{padding:20px}.photo{background:#f5eee4;display:grid;place-items:center;margin:0;overflow:hidden}.card .photo{height:245px}.photo img{display:block;width:100%;height:100%;max-height:510px;object-fit:contain}.price{font-size:1.4rem;color:var(--wine);font-weight:700}.detail{display:grid;grid-template-columns:minmax(220px,.85fr) minmax(0,1.4fr);gap:clamp(24px,5vw,55px);align-items:start}.detail .photo{border-radius:14px;max-height:510px}.detail .photo img{aspect-ratio:2/3}.detail section{border-top:1px solid var(--line);margin-top:20px;padding-top:16px}
 dl{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;margin:0}dl div{padding:9px 0;border-bottom:1px solid var(--line)}dt{font-size:.84rem;color:var(--muted)}dd{margin:4px 0 0}.insights{background:#f1e6de;border-radius:10px;padding:16px;border:0!important}
 @media(max-width:640px){.detail{grid-template-columns:1fr}.detail .photo{max-width:260px;width:100%;margin-inline:auto}.detail .photo img{max-height:350px}header span{text-align:right}dl{gap:0 12px}}
+
+header img{width:82px;height:82px}
+.intro,.personal-note{max-width:640px;background:#f3eae0;padding:20px 24px;border-radius:12px;margin:22px 0 16px}
+.intro p{max-width:53ch}.signature{margin-top:12px}.signature img{display:block;width:155px;height:auto}.signature small{color:var(--muted)}
+.card .photo{position:relative;height:270px;grid-template-rows:minmax(0,1fr);padding:10px}
+.card .photo>img:first-child{min-height:0;max-width:100%;max-height:100%;width:auto;height:100%}
+.photo img.bottle-mark{position:absolute;right:13px;bottom:13px;width:46px;height:46px}
+.detail .photo{border-radius:0;background:none;max-height:none;overflow:visible}
+.detail .photo img{width:100%;height:auto;max-height:510px;object-fit:contain;aspect-ratio:auto}
+.reimitz-cutout>img:first-child{clip-path:polygon(44.5% 4.2%,46% 3.55%,49% 3.35%,52% 3.42%,55% 3.85%,56% 4.65%,56.1% 5.5%,56.5% 6.15%,56.3% 7.6%,56.2% 10%,56.45% 21%,56.55% 24%,57.05% 26%,58.2% 27.2%,61% 28.8%,63% 30.4%,64.45% 32.3%,65.45% 34.4%,65.82% 37%,66% 89%,65.65% 91%,65% 92.1%,63.8% 92.95%,61.65% 93.45%,57% 93.8%,51% 93.95%,44% 93.8%,39% 93.45%,36.5% 92.95%,35.25% 92.15%,34.4% 91%,34.05% 89%,33.9% 37%,34.3% 34.8%,35.3% 32.55%,36.7% 30.75%,38.75% 29%,41.65% 27.2%,42.8% 26%,43.25% 24%,43.4% 21%,43.45% 10%,43.35% 7.7%,43.4% 6.35%,43.85% 5.55%,44% 4.75%)}
+@media(max-width:640px){.detail .photo img{max-height:350px}}
