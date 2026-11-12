@@ -71,6 +71,13 @@ function list(wines){
     grid.append(card);
   }
   main.append(grid);
+  const footer=el('footer',null,'hofladen-social');
+  footer.append(
+    el('h2','Mehr aus unserer Weinwelt'),
+    el('p','Möchten Sie wissen, was sich rund um den Wein auf Gut Kaltenbrunn tut? Auf Instagram teile ich Empfehlungen, Entdeckungen und Einblicke aus unserem Weinkeller.'),
+    link('WINEFUNDAY auf Instagram','https://www.instagram.com/winefundaysocialclub/')
+  );
+  main.after(footer);
 }
 function section(parent,name,body,cls){
   if(!body)return;

@@ -16,3 +16,6 @@ header img{width:82px;height:82px}
 .detail .photo img{width:100%;height:auto;max-height:510px;object-fit:contain;aspect-ratio:auto}
 .reimitz-cutout>img:first-child{clip-path:polygon(44.5% 4.2%,46% 3.55%,49% 3.35%,52% 3.42%,55% 3.85%,56% 4.65%,56.1% 5.5%,56.5% 6.15%,56.3% 7.6%,56.2% 10%,56.45% 21%,56.55% 24%,57.05% 26%,58.2% 27.2%,61% 28.8%,63% 30.4%,64.45% 32.3%,65.45% 34.4%,65.82% 37%,66% 89%,65.65% 91%,65% 92.1%,63.8% 92.95%,61.65% 93.45%,57% 93.8%,51% 93.95%,44% 93.8%,39% 93.45%,36.5% 92.95%,35.25% 92.15%,34.4% 91%,34.05% 89%,33.9% 37%,34.3% 34.8%,35.3% 32.55%,36.7% 30.75%,38.75% 29%,41.65% 27.2%,42.8% 26%,43.25% 24%,43.4% 21%,43.45% 10%,43.35% 7.7%,43.4% 6.35%,43.85% 5.55%,44% 4.75%)}
 @media(max-width:640px){.detail .photo img{max-height:350px}}
+
+.hofladen-social{max-width:1060px;margin:0 auto;padding:24px max(20px,4vw) 52px;border-top:1px solid var(--line)}
+.hofladen-social p{max-width:56ch}.hofladen-social a{display:inline-block;padding-block:8px;font-weight:650}
