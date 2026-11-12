@@ -123,5 +123,55 @@
       "source": "/hofladen-katalog.json",
       "destination": "https://ohyrmkopbjgevgzucila.supabase.co/functions/v1/weinkeller/api/hofladen-catalog"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/hofladen",
+      "has": [
+        {
+          "type": "query",
+          "key": "wein",
+          "value": "RW514-1-22"
+        }
+      ],
+      "destination": "/hofladen?wein=RW514-1-23",
+      "permanent": false
+    },
+    {
+      "source": "/hofladen/",
+      "has": [
+        {
+          "type": "query",
+          "key": "wein",
+          "value": "RW514-1-22"
+        }
+      ],
+      "destination": "/hofladen?wein=RW514-1-23",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "RW514-1-22"
+        }
+      ],
+      "destination": "/?id=RW514-1-23",
+      "permanent": false
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "RW514-1-22"
+        }
+      ],
+      "destination": "/?id=RW514-1-23",
+      "permanent": false
+    }
   ]
 }
