@@ -4,7 +4,7 @@ const status=document.getElementById('status');
 const selected=new URLSearchParams(location.search).get('wein');
 const euros=new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR'});
 const fields={
-  'Weindaten':{country:'Land',region:'Region',town:'Ort',category:'Weinart',grapes:'Rebsorten',size:'Flaschengröße',taste:'Geschmack',alcohol:'Alkohol (% vol)',sugar:'Restzucker (g/l)',acid:'Säure (g/l)',allergens:'Allergene',organic:'Produktion'},
+  'Weindaten':{country:'Land',region:'Region',town:'Ort',category:'Weinart',grapes:'Rebsorten',size:'Flaschengröße',taste:'Geschmack',alcohol:'Alkohol',sugar:'Restzucker (g/l)',acid:'Säure (g/l)',allergens:'Allergene',organic:'Produktion'},
   'Ausbau und Herkunft':{aging:'Ausbau',vinification:'Vinifikation',barrel:'Fass',soil:'Boden',altitude:'Höhenlage',orientation:'Ausrichtung',yield:'Ertrag',maturity:'Trinkreife',potential:'Lagerpotenzial'},
   'Servieren':{temperature:'Trinktemperatur',glass_name:'Glas',decant:'Dekantieren'},
   'Bewertungen':{awards:'Auszeichnungen',parker:'Robert Parker',falstaff:'Falstaff',spectator:'Wine Spectator',decanter:'Decanter'}
@@ -21,6 +21,22 @@ function link(text,url,cls){
   return a;
 }
 function price(wine){return euros.format(wine.price_cents/100)+' pro Flasche';}
+const germanNumber=new Intl.NumberFormat('de-DE',{maximumFractionDigits:3,useGrouping:false});
+function displayValue(key,value){
+  if(value==null||value==='')return '';
+  const text=String(value).trim();
+  if(key==='alcohol'){
+    const match=text.match(/^(\d+(?:[.,]\d+)?)\s*(?:%\s*(?:vol\.?)?)?$/i);
+    return match?germanNumber.format(Number(match[1].replace(',','.')))+' % vol.':value;
+  }
+  if(key==='size'){
+    const match=text.match(/^(?:Fl\.?\s*)?(\d+(?:[.,]\d+)?)\s*(ml|cl|l)$/i);
+    if(!match)return value;
+    const scale={ml:1000,cl:100,l:1}[match[2].toLowerCase()];
+    return germanNumber.format(Number(match[1].replace(',','.'))/scale)+' l';
+  }
+  return value;
+}
 function signature(){
   const wrapper=el('div',null,'signature');
   const mark=el('img');
@@ -66,7 +82,7 @@ function list(wines){
     const image=photo(wine);
     if(image)card.append(image);
     const copy=el('div',null,'card-copy');
-    copy.append(el('h2',title(wine)),el('p',[wine.producer,wine.region,wine.size].filter(Boolean).join(' · '),'muted'),el('p',price(wine),'price'));
+    copy.append(el('h2',title(wine)),el('p',[wine.producer,wine.region,displayValue('size',wine.size)].filter(Boolean).join(' · '),'muted'),el('p',price(wine),'price'));
     card.append(copy);
     grid.append(card);
   }
@@ -107,7 +123,7 @@ function detail(wine){
     if(!rows.length)continue;
     const block=el('section'), dl=el('dl');
     for(const [key,label] of rows){
-      const row=el('div');row.append(el('dt',label),el('dd',wine[key]));dl.append(row);
+      const row=el('div');row.append(el('dt',label),el('dd',displayValue(key,wine[key])));dl.append(row);
     }
     block.append(el('h2',heading),dl);copy.append(block);
   }
