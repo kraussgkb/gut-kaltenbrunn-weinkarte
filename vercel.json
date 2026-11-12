@@ -87,6 +87,15 @@
           "value": "noindex, nofollow"
         }
       ]
+    },
+    {
+      "source": "/hofladen-katalog.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -105,6 +114,14 @@
     {
       "source": "/dienstplaene/naechste-woche",
       "destination": "/dienstplaene/naechste-woche.html"
+    },
+    {
+      "source": "/hofladen",
+      "destination": "/hofladen/index.html"
+    },
+    {
+      "source": "/hofladen-katalog.json",
+      "destination": "https://ohyrmkopbjgevgzucila.supabase.co/functions/v1/weinkeller/api/hofladen-catalog"
     }
   ]
 }
