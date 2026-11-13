@@ -49,24 +49,18 @@ function photo(wine,detail=false){
   if(!wine.image)return null;
   const frame=el('figure',null,'photo');
   const img=el('img');
-  const source=decodeURIComponent(wine.image);
-  const knownCutout=source.endsWith('/RI143-1-21-a1dc4472-1ad9-4760-87ac-4eff4a05a1cd.png')
-    ?'reimitz-cutout':source.endsWith('/WÖ421-1-24.webp')?'kollwentz-cutout':'';
-  let tryCutout=!knownCutout;
   img.alt='Flasche '+wine.name;
-  const mark=el('img',null,'bottle-mark');
-  mark.src='/hofladen/winefunday-original.png';
-  mark.alt='';
-  const showMark=()=>{if(!detail&&!frame.contains(mark))frame.append(mark);};
-  img.addEventListener('load',()=>{if(knownCutout||tryCutout)showMark();});
-  img.addEventListener('error',()=>{
-    if(!tryCutout){frame.remove();return;}
-    tryCutout=false;
-    img.src=wine.image;
-  });
-  img.src=tryCutout?'/hofladen/flaschen/'+encodeURIComponent(wine.id)+'.webp?bild='+encodeURIComponent(wine.image):wine.image;
   frame.append(img);
-  if(knownCutout)frame.classList.add(knownCutout);
+  img.addEventListener('error',()=>frame.remove(),{once:true});
+  if(!detail){
+    img.addEventListener('load',()=>{
+      const mark=el('img',null,'bottle-mark');
+      mark.src='/hofladen/winefunday-original.png';
+      mark.alt='';
+      frame.append(mark);
+    },{once:true});
+  }
+  img.src='/hofladen/flaschen/'+encodeURIComponent(wine.id)+'.webp?bild='+encodeURIComponent(wine.image);
   return frame;
 }
 function title(wine){return [wine.name,wine.year].filter(Boolean).join(' · ');}
