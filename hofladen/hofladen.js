@@ -172,7 +172,8 @@ function detail(wine){
     copy.append(signature());
   }
   if(wine.sensory!==wine.note)section(copy,'Sensorik',wine.sensory);
-  if(wine.assessment)section(copy,'WINEFUNDAY INSIGHTS',[wine.assessment.character,wine.assessment.description].filter(Boolean).join(' — '),'insights');
+  // The Zinfandel assessment repeats the tasting note and food pairing.
+  if(wine.assessment && wine.id!=='RW514-1-23')section(copy,'WINEFUNDAY INSIGHTS',[wine.assessment.character,wine.assessment.description].filter(Boolean).join(' — '),'insights');
   section(copy,'Zum Essen',wine.pairing);
   section(copy,'Geschichte',wine.story);
   for(const [heading,keys] of Object.entries(fields)){
