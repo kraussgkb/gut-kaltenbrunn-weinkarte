@@ -131,6 +131,54 @@
         {
           "type": "query",
           "key": "wein",
+          "value": "RW506-1-20"
+        }
+      ],
+      "destination": "/hofladen?wein=RW506-1-18",
+      "permanent": false
+    },
+    {
+      "source": "/hofladen/",
+      "has": [
+        {
+          "type": "query",
+          "key": "wein",
+          "value": "RW506-1-20"
+        }
+      ],
+      "destination": "/hofladen?wein=RW506-1-18",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "RW506-1-20"
+        }
+      ],
+      "destination": "/?id=RW506-1-18",
+      "permanent": false
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "RW506-1-20"
+        }
+      ],
+      "destination": "/?id=RW506-1-18",
+      "permanent": false
+    },
+    {
+      "source": "/hofladen",
+      "has": [
+        {
+          "type": "query",
+          "key": "wein",
           "value": "RW514-1-22"
         }
       ],
