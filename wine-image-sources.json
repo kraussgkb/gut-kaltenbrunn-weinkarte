@@ -2583,5 +2583,15 @@
     "sourceImage": "https://media.cdnws.com/_i/47855/11891/1444/94/gruaud-larose-1982-a-bt0370-2026-09-29-1.jpeg",
     "verification": "Jahrgang und Flaschengröße der zugehörigen Produktseite geprüft; Originalfoto visuell mit Wein und Etikett abgeglichen. Nur Freistellung, proportionale Skalierung und Platzierung auf unverändertem Masterhintergrund mit Original-Wasserzeichen. Keine Etikettenänderung oder KI-Ergänzung.",
     "verifiedOn": "2026-10-09"
+  },
+  "RI160-1-25": {
+    "producer": "Castello di Verduno",
+    "wine": "Basadone Verduno Pelaverga DOC",
+    "vintage": "2025",
+    "size": "0,75 l",
+    "sourcePage": "https://www.winefunday.de/?id=RI160-1-25",
+    "sourceImage": "https://www.winefunday.de/weinkeller/flaschen/neuwein-d9ae5afa-a563-4485-9f3a-348a491095f9.png",
+    "verification": "Vorhandenes Originalfoto aus dem Artikelprofil. Vollständige freigestellte Flasche, Etikett mit Basadone, Verduno und 2025 visuell geprüft. Verlustfreie WebP-Konvertierung. Rundes Original-WINEFUNDAY-Logo wird durch die bestehende Hofladen-Darstellung eingeblendet.",
+    "verifiedOn": "2026-11-20"
   }
 }

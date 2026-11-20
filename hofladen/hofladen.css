@@ -29,3 +29,6 @@ header img{width:82px;height:82px}
 .guest-rating-stars button:focus-visible{outline:2px solid #522332;outline-offset:3px}
 .guest-rating-stars button:disabled{cursor:wait}
 .guest-rating-message{min-height:1.5em;margin-top:8px}
+
+.detail .photo.hofladen-bottle-mark{position:relative}
+.detail .photo.hofladen-bottle-mark img.bottle-mark{position:absolute;right:13px;bottom:13px;width:46px;height:46px}

@@ -48,11 +48,12 @@ function signature(){
 function photo(wine,detail=false){
   if(!wine.image)return null;
   const frame=el('figure',null,'photo');
+  if(detail && wine.id==='RI160-1-25')frame.classList.add('hofladen-bottle-mark');
   const img=el('img');
   img.alt='Flasche '+wine.name;
   frame.append(img);
   img.addEventListener('error',()=>frame.remove(),{once:true});
-  if(!detail){
+  if(!detail || wine.id==='RI160-1-25'){
     img.addEventListener('load',()=>{
       const mark=el('img',null,'bottle-mark');
       mark.src='/hofladen/winefunday-original.png';
