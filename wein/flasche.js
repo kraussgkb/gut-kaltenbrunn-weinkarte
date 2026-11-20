@@ -71,18 +71,6 @@ function showBottle(restaurant, hofladen, title) {
 }
 
 async function showWine() {
-  if (article === 'WD563-1-21') {
-    const link = byId('local-slide');
-    const dialog = byId('wine-slide');
-    link.hidden = false;
-    link.addEventListener('click', (event) => {
-      if (typeof dialog.showModal !== 'function' || event.ctrlKey || event.metaKey ||
-          event.shiftKey || event.altKey) return;
-      event.preventDefault();
-      byId('wine-slide-image').src = link.href;
-      dialog.showModal();
-    });
-  }
   const title = byId('wine-name');
   const validArticle = article && /^[\p{L}\p{N}][\p{L}\p{N}\p{M}.-]{0,63}$/u.test(article);
   const [restaurant, hofladen, instagram] = validArticle ? await Promise.all([
