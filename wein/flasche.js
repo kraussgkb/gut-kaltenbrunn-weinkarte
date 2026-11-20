@@ -3,6 +3,13 @@
 const article = new URLSearchParams(location.search).get('id')?.normalize('NFC');
 const euro = new Intl.NumberFormat('de-DE', {style:'currency', currency:'EUR'});
 const byId = (id) => document.getElementById(id);
+const bottleCutouts = new Map([
+  ['WD542-1-25', 'schloss-riesling'],
+  ['WI501-1-21', 'afix'],
+  ['WÖ433-1-19', 'wechselberg-spiegel'],
+  ['WD564-1-23', 'kastanienbusch'],
+  ['WD563-1-21', 'monte-vacano'],
+]);
 
 async function readJson(path) {
   try {
@@ -46,18 +53,21 @@ function showLink(id, href) {
 }
 
 function showBottle(restaurant, hofladen, title) {
-  const knownCutout = restaurant && window.restaurantBottleCutout?.(restaurant);
-  const catalogCutout = hofladen?.image && '/hofladen/flaschen/' +
-    encodeURIComponent(article) + '.webp?bild=' + encodeURIComponent(hofladen.image);
+  const slug = bottleCutouts.get(article);
+  const candidates = [
+    slug && '/wein/flaschen/' + slug + '.webp',
+    restaurant && window.restaurantBottleCutout?.(restaurant),
+    hofladen?.image && '/hofladen/flaschen/' + encodeURIComponent(article) +
+      '.webp?bild=' + encodeURIComponent(hofladen.image),
+  ].filter(Boolean);
   const image = byId('bottle');
+  image.alt = 'Flasche ' + title;
   image.onload = () => { image.hidden = false; };
   image.onerror = () => {
-    if (knownCutout && catalogCutout && image.getAttribute('src') === knownCutout) {
-      image.src = catalogCutout;
-    }
+    const next = candidates.shift();
+    if (next) image.src = next;
   };
-  image.alt = 'Flasche ' + title;
-  if (knownCutout || catalogCutout) image.src = knownCutout || catalogCutout;
+  if (candidates.length) image.src = candidates.shift();
 }
 
 async function showWine() {
@@ -92,7 +102,11 @@ async function showWine() {
     if (typeof instagram.subtitle === 'string') {
       showText('instagram-subtitle', instagram.subtitle.trim());
     }
-    showLink('instagram', instagram.url);
+    const instagramUrl = new URL(instagram.url);
+    if (instagramUrl.pathname.startsWith('/p/') && Number.isSafeInteger(instagram.slide) && instagram.slide > 0) {
+      instagramUrl.searchParams.set('img_index', String(instagram.slide));
+    }
+    showLink('instagram', instagramUrl.href);
   }
   if (hofladen) {
     showText('shop-price', euro.format(hofladen.price_cents / 100) + ' pro Flasche · vor Ort');

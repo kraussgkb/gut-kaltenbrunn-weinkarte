@@ -6,26 +6,31 @@
   "WD542-1-25": {
     "name": "Maximin Grünhaus Schloss Riesling",
     "url": "https://www.instagram.com/p/Df92bD6DRhV/",
-    "subtitle": "Schloss Riesling im Vergleich · Folie 2 von 7"
+    "subtitle": "Schloss Riesling im Vergleich · Folie 2 von 7",
+    "slide": 2
   },
   "WI501-1-21": {
     "name": "Jermann Afix Riesling Venezia Giulia IGT",
     "url": "https://www.instagram.com/p/Df92bD6DRhV/",
-    "subtitle": "Italien im Blindglas · Folie 3 von 7"
+    "subtitle": "Italien im Blindglas · Folie 3 von 7",
+    "slide": 3
   },
   "WÖ433-1-19": {
     "name": "Johann Topf Ried Wechselberg Spiegel 1ÖTW",
     "url": "https://www.instagram.com/p/Df92bD6DRhV/",
-    "subtitle": "So schmeckt Reife · Folie 4 von 7"
+    "subtitle": "So schmeckt Reife · Folie 4 von 7",
+    "slide": 4
   },
   "WD564-1-23": {
     "name": "Ökonomierat Rebholz Kastanienbusch Riesling GG",
     "url": "https://www.instagram.com/p/Df92bD6DRhV/",
-    "subtitle": "Riesling mit Schwarztee-Note · Folie 5 von 7"
+    "subtitle": "Riesling mit Schwarztee-Note · Folie 5 von 7",
+    "slide": 5
   },
   "WD563-1-21": {
     "name": "Robert Weil Monte Vacano Riesling",
     "url": "https://www.instagram.com/p/Df92bD6DRhV/",
-    "subtitle": "Dasselbe Glas nach zehn Minuten · Folie 6 von 7"
+    "subtitle": "Dasselbe Glas nach zehn Minuten · Folie 6 von 7",
+    "slide": 6
   }
 }
