@@ -88,7 +88,12 @@ async function showWine() {
 
   const encoded = encodeURIComponent(article);
   if (restaurant) showLink('restaurant', '/index.html?id=' + encoded);
-  if (instagram) showLink('instagram', instagram.url);
+  if (instagram) {
+    if (typeof instagram.subtitle === 'string') {
+      showText('instagram-subtitle', instagram.subtitle.trim());
+    }
+    showLink('instagram', instagram.url);
+  }
   if (hofladen) {
     showText('shop-price', euro.format(hofladen.price_cents / 100) + ' pro Flasche · vor Ort');
     showLink('hofladen', '/hofladen?wein=' + encoded);
