@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Wein entdecken · WINEFUNDAY</title>
 <script defer src="/restaurant-bottle-cutouts.js?v=1"></script>
-<script defer src="/wein/flasche.js?v=4"></script>
+<script defer src="/wein/flasche.js?v=5"></script>
 <style>
   :root { color-scheme: light; --paper:#f8f4eb; --ink:#291d19; --wine:#602b37; --green:#004438; --line:#d9cdbc; --muted:#654f44; }
   *, *::before, *::after { box-sizing:border-box; }
@@ -52,6 +52,12 @@
     a { min-height:3.12rem; padding-block:.36rem; }
     nav { gap:.34rem; }
   }
+  a.slide-link { display:flex; justify-content:center; min-height:2.75rem; background:transparent; font-size:.9rem; font-weight:650; }
+  dialog { width:min(calc(100% - 1rem),34rem); max-height:calc(100dvh - 1rem); padding:.6rem; border:1px solid var(--line); border-radius:.55rem; background:var(--paper); color:var(--ink); }
+  dialog::backdrop { background:#291d19bf; }
+  dialog form { text-align:right; margin-bottom:.35rem; }
+  dialog button { padding:.55rem .75rem; font:inherit; color:inherit; border:1px solid var(--line); border-radius:.4rem; background:var(--paper); cursor:pointer; }
+  dialog img { display:block; width:100%; max-height:calc(100dvh - 5rem); object-fit:contain; }
   svg { width:1.32rem; height:1.32rem; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
 </style>
 </head>
@@ -74,6 +80,7 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><circle cx="12" cy="12" r="3.7"/><path d="M17 7h.01"/></svg>
       <span><strong>Wein auf Instagram entdecken</strong><small id="instagram-subtitle">Zum Beitrag oder Highlight des Weins</small></span>
     </a>
+    <a id="local-slide" class="slide-link" href="/wein/folien/monte-vacano.webp" hidden>Weinfolie hier ansehen</a>
     <a id="hofladen" class="shop" hidden>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1.5 12h-17L5 8Z"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
       <span><strong>Wein im Hofladen kaufen</strong><small id="shop-price"></small></span>
@@ -81,5 +88,9 @@
     <a id="catalog" class="primary" href="/" hidden>Zur Weinkarte</a>
   </nav>
 </main>
+<dialog id="wine-slide" aria-label="Weinfolie Monte Vacano">
+  <form method="dialog"><button>Schließen</button></form>
+  <img id="wine-slide-image" alt="Monte Vacano Riesling von Robert Weil, Rheingau 2021. Dicht, kühl und lang. Zuerst auf Zitrus und Minze achten. Nach zehn Minuten auf Textur und Nachhall.">
+</dialog>
 </body>
 </html>
