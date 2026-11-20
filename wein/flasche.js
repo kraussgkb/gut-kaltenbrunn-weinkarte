@@ -1,21 +1,35 @@
 'use strict';
 
-const instagramLinks = new Map([
-  ['RI143-1-21', 'https://www.instagram.com/stories/highlights/17881226421565692/'],
-]);
 const article = new URLSearchParams(location.search).get('id')?.normalize('NFC');
 const euro = new Intl.NumberFormat('de-DE', {style:'currency', currency:'EUR'});
 const byId = (id) => document.getElementById(id);
 
-async function findWine(path, select) {
+async function readJson(path) {
   try {
-    const response = await fetch(path, {signal:AbortSignal.timeout(4500)});
-    if (!response.ok) return null;
-    const wines = select(await response.json());
-    return wines.find((wine) => wine.id === article) ?? null;
+    const response = await fetch(path, {
+      cache:'no-store',
+      signal:AbortSignal.timeout(4500),
+    });
+    return response.ok ? await response.json() : null;
   } catch {
     return null;
   }
+}
+
+async function findWine(path, entries, isAvailable) {
+  const wines = entries(await readJson(path));
+  if (!Array.isArray(wines)) return null;
+  return wines.find((wine) => wine?.id === article && isAvailable(wine)) ?? null;
+}
+
+async function findInstagramWine() {
+  const records = await readJson('/wein/instagram-weine.json');
+  if (!records || !Object.hasOwn(records, article)) return null;
+  const entry = records[article];
+  if (typeof entry?.name !== 'string' || !entry.name.trim()) return null;
+  if (typeof entry.url !== 'string' ||
+      !/^https:\/\/www\.instagram\.com\/(?:p\/[A-Za-z0-9_-]+|reel\/[A-Za-z0-9_-]+|stories\/highlights\/[0-9]+)\/$/.test(entry.url)) return null;
+  return entry;
 }
 
 function showText(id, message) {
@@ -49,12 +63,15 @@ function showBottle(restaurant, hofladen, title) {
 async function showWine() {
   const title = byId('wine-name');
   const validArticle = article && /^[\p{L}\p{N}][\p{L}\p{N}\p{M}.-]{0,63}$/u.test(article);
-  const [restaurant, hofladen] = validArticle ? await Promise.all([
-    findWine('/wines.json', (data) => data.filter((wine) => (wine.active === true || String(wine.active).toLowerCase() === 'ja') && wine.price != null && wine.price !== '')),
-    findWine('/hofladen-katalog.json', (data) => data.wines.filter((wine) => Number.isSafeInteger(wine.price_cents) && wine.price_cents > 0)),
-  ]) : [null, null];
+  const [restaurant, hofladen, instagram] = validArticle ? await Promise.all([
+    findWine('/wines.json', (data) => data,
+      (wine) => (wine.active === true || String(wine.active).toLowerCase() === 'ja') && wine.price != null && wine.price !== ''),
+    findWine('/hofladen-katalog.json', (data) => data?.wines,
+      (wine) => Number.isSafeInteger(wine.price_cents) && wine.price_cents > 0),
+    findInstagramWine(),
+  ]) : [null, null, null];
 
-  const wine = restaurant || hofladen;
+  const wine = restaurant || hofladen || instagram;
   if (!wine) {
     title.textContent = 'Weinprofil derzeit nicht verfügbar';
     byId('catalog').hidden = false;
@@ -71,8 +88,7 @@ async function showWine() {
 
   const encoded = encodeURIComponent(article);
   if (restaurant) showLink('restaurant', '/index.html?id=' + encoded);
-  const instagram = instagramLinks.get(article);
-  if (instagram) showLink('instagram', instagram);
+  if (instagram) showLink('instagram', instagram.url);
   if (hofladen) {
     showText('shop-price', euro.format(hofladen.price_cents / 100) + ' pro Flasche · vor Ort');
     showLink('hofladen', '/hofladen?wein=' + encoded);
