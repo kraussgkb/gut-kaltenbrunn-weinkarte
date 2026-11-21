@@ -9,6 +9,9 @@ const bottleCutouts = new Map([
   ['WÖ433-1-19', 'wechselberg-spiegel'],
   ['WD564-1-23', 'kastanienbusch'],
   ['WD563-1-21', 'monte-vacano'],
+  ['RI160-1-25', 'basadone-2025.svg'],
+  ['RI120-1-22', 'contugo-2022.svg'],
+  ['RI207-1-22', 'guidalberto-2022.svg'],
 ]);
 
 async function readJson(path) {
@@ -55,7 +58,7 @@ function showLink(id, href) {
 function showBottle(restaurant, hofladen, title) {
   const slug = bottleCutouts.get(article);
   const candidates = [
-    slug && '/wein/flaschen/' + slug + '.webp',
+    slug && '/wein/flaschen/' + (slug.endsWith('.svg') ? slug : slug + '.webp'),
     restaurant && window.restaurantBottleCutout?.(restaurant),
     hofladen?.image && '/hofladen/flaschen/' + encodeURIComponent(article) +
       '.webp?bild=' + encodeURIComponent(hofladen.image),
@@ -115,3 +118,4 @@ async function showWine() {
 }
 
 showWine();
+
