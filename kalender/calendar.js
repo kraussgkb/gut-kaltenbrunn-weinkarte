@@ -3,7 +3,8 @@ const $=id=>document.getElementById(id);
 const monthFmt=new Intl.DateTimeFormat('de-DE',{month:'long',year:'numeric'});
 const dayFmt=new Intl.DateTimeFormat('de-DE',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
 const shortFmt=new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
-const berlinToday=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const currentBerlinDate=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+let berlinToday=currentBerlinDate();
 function localDate(s){const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d,12);}
 function iso(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
 let data,view=localDate(berlinToday),selected=null;
@@ -39,11 +40,12 @@ function openDay(key){
 }
 $('prev').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()-1,1,12);render();});
 $('next').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()+1,1,12);render();});
-$('today').addEventListener('click',()=>{view=localDate(berlinToday);render();openDay(berlinToday);});
+$('today').addEventListener('click',()=>{berlinToday=currentBerlinDate();view=localDate(berlinToday);render();openDay(berlinToday);});
 $('close').addEventListener('click',()=>$('details').close());
 $('details').addEventListener('click',e=>{if(e.target===$('details')){const r=$('details').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('details').close();}});
 async function refresh(initial=false){
- try{const response=await fetch('/kalender/events.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const fresh=await response.json();if(fresh.schema!==2||!Array.isArray(fresh.events)||!fresh.coverage)throw Error('Ungültiger Forecast');data=fresh;
+ berlinToday=currentBerlinDate();
+ try{const response=await fetch('/kalender/events.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const fresh=await response.json();if(fresh.schema!==2||!Array.isArray(fresh.events)||!fresh.coverage)throw Error('Ungültiger Forecast');data=fresh;for(const id of ['prev','next','today'])$(id).disabled=false;
  $('stand').classList.remove('error');$('stand').textContent=`Forecast-Stand: ${shortFmt.format(localDate(data.report.slice(0,10)))} · ${data.report.slice(11,16)} Uhr`;
  if(initial&&(berlinToday<data.coverage[0]||berlinToday>data.coverage[1]))view=localDate(data.coverage[0]);render();if($('details').open&&selected)openDay(selected);
  }catch(error){$('stand').classList.add('error');$('stand').textContent=data?'Aktualisierung nicht möglich. Angezeigt wird der zuletzt geladene Stand.':'Der Forecast konnte nicht geladen werden. Bitte die Seite erneut öffnen.';if(!data){$('prev').disabled=true;$('next').disabled=true;$('today').disabled=true;}}
