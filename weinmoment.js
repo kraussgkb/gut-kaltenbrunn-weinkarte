@@ -2,7 +2,7 @@
  const id=new URLSearchParams(location.search).get('id');if(!id||location.pathname.startsWith('/weinkeller/'))return;
  if(new URLSearchParams(location.search).get('from')==='weinkeller'){
   const css=document.createElement('style');css.textContent='.detail-nav,.site-footer,.winefunday-social-block,.rating-box,.order-dock,.wf-moment{display:none!important}.cellar-profile-back{display:block;margin:16px auto;padding:12px 18px;max-width:1180px;color:#004438;font-weight:bold}';document.head.append(css);
-  const back=document.createElement('a');back.className='cellar-profile-back';back.href='/weinkeller/index.html?id='+encodeURIComponent(id);back.textContent='← Zurück zum Weinkeller';document.body.prepend(back);
+  const back=document.createElement('a');back.className='cellar-profile-back';back.href='/weinkeller/index.html?restore=1&id='+encodeURIComponent(id);back.textContent='← Zurück zum Weinkeller';document.body.prepend(back);
   function restrictLinks(){document.querySelectorAll('a[href]').forEach(a=>{if(a===back)return;const u=new URL(a.href,location.href);if(u.origin===location.origin&&!u.pathname.startsWith('/weinkeller/')&&!u.searchParams.get('id'))a.hidden=true;});document.querySelectorAll('[class*="order-dock"],#orderDock').forEach(e=>e.hidden=true);}
   new MutationObserver(restrictLinks).observe(document.body,{childList:true,subtree:true});restrictLinks();
   document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||a===back)return;const u=new URL(a.href,location.href);if(u.origin===location.origin&&!u.pathname.startsWith('/weinkeller/')){if(!u.searchParams.get('id')){e.preventDefault();return;}u.searchParams.set('from','weinkeller');a.href=u.href;}},true);
